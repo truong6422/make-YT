@@ -1,0 +1,80 @@
+# Cấu hình chung của bộ dựng người que (nq).
+# Đường dẫn tương đối tính từ thư mục gốc repo.
+
+kho_mau: kho-mau          # kho ảnh / âm thanh / font dùng chung
+du_an: du-an              # mỗi video một thư mục du-an/<ten>/kich-ban.json
+
+video:
+  rong: 1920              # bề rộng khung (px)
+  cao: 1080               # chiều cao khung (px); mọi kích thước được nhân theo cao/1080
+  fps: 30                 # số khung mỗi giây
+  ma_hoa: h264_nvenc      # h264_nvenc (GPU NVIDIA, tự lùi về libx264 nếu không có) | libx264
+  chat_luong: 21          # NVENC: -cq ; libx264: -crf (nhỏ hơn = đẹp hơn, nặng hơn)
+  zoom_cham_muc: 0.05     # biên độ mặc định của may_quay zoom-cham (5%/cảnh, docs/02) — dung_hinh đọc nếu có hỗ trợ
+
+tts:
+  che_do: truc-tiep       # truc-tiep: nạp giọng ngay trong lệnh (không cần mở cửa sổ máy chủ) | may-chu: gọi `nq may-chu`
+  dia_chi: http://127.0.0.1:8765
+  dong_co: kokoro         # kokoro | piper | gia-lap (tiếng bíp để thử luồng)
+  thiet_bi: cuda          # cuda | cpu
+  tu_dien: tu-dien-doc.yaml   # từ viết -> cách đọc (chỉ ảnh hưởng giọng, không đổi phụ đề)
+  kokoro:
+    giong: am_michael     # giọng Kokoro (am_* = nam Mỹ, af_* = nữ Mỹ, bm_*/bf_* = Anh)
+    # Trước khi chốt giọng cho kênh, NGHE THỬ (đổi giọng ở đây, `nq dung <du-an> --nhap --canh c01`):
+    #   af_heart  — nữ Mỹ, tác giả chấm A (tốt nhất của Kokoro)
+    #   am_fenrir, am_puck — nam Mỹ, C+ (ngang am_michael)
+    # Tránh am_adam (F+), am_santa (D-). Xem docs/03-GIONG-DOC-NHAC-GIAY-PHEP.md.
+    # Đổi giọng thì các cảnh tự đọc lại (khoá băm có tên giọng) — nhớ TẮT và BẬT LẠI `nq may-chu`.
+    toc_do: 1.0
+    ma_ngon_ngu: a        # a = American English, b = British English
+  piper:
+    # Chỉ dùng giọng Piper được phép thương mại (docs/03 mục 1.3): en_US-norman-medium (nam, public domain),
+    # en_US-ljspeech-high (nữ). KHÔNG dùng ryan / lessac / amy / hfc_* (phi thương mại / không rõ giấy phép).
+    mo_hinh: mo-hinh/piper/en_US-norman-medium.onnx
+    toc_do: 1.0
+  # Nghỉ chèn SAU mỗi mẩu lời theo dấu câu (giây; trung vị 5 video tham khảo, docs/02 mục 0).
+  # Lời cảnh được tách mẩu ở dấu câu, đọc từng mẩu rồi ghép; mẩu < 3 từ gộp với mẩu kế.
+  # Cảnh ghi đè được: "nghi": {"cham": 0.6}. Tai nghe dài hơn ~0,06s (lặng giữ lại hai đầu mẩu).
+  nghi:
+    phay: 0.2             # , ; :
+    cham: 0.42            # .
+    hoi: 0.55             # ? !
+    ngat: 0.5             # … và gạch dài —
+    doan: 0.8             # xuống dòng trong "loi"
+  # Tốc độ riêng một cảnh: "toc_do": 0.8–1.3 trong cảnh (ghi đè toc_do của động cơ ở trên).
+
+am_thanh:
+  tan_so: 48000           # tần số lấy mẫu của bản trộn
+  nhac_nen_am_luong: 0.07 # âm lượng nhạc nền mặc định (≈ −23 dB; kịch bản ghi đè bằng nhac_nen.am_luong)
+  giam_nhac_khi_noi: true # sidechaincompress: nhạc giảm thêm ~3–6 dB khi có lời (ngưỡng/tỉ lệ trong am_thanh.py)
+  dem_truoc: 0.15         # giây từ lúc hình đổi đến lúc lời bắt đầu (mặc định của dem_truoc, cảnh có lời)
+  nghi_giua_canh: 0.35    # giây nghỉ sau lời mỗi cảnh (mặc định của dem_sau)
+  nghi_cuoi_phan: 0.9     # dem_sau mặc định khi cảnh kế có "phan" khác (đổi phần)
+
+phu_de:
+  bat: true               # đốt phụ đề vào hình (tệp .srt vẫn luôn được xuất)
+  co_chu: 52              # cỡ chữ theo khung cao 1080
+  mau: "#FFFFFF"
+  mau_vien: "#111111"
+  vien: 6                 # độ dày viền chữ (px theo khung 1080)
+  so_tu_toi_da: 8         # mỗi cụm phụ đề tối đa bấy nhiêu từ
+  vi_tri_y: 0.92          # tâm khối phụ đề theo chiều cao khung (0..1)
+  font: kho-mau/font/Inter-Bold.ttf
+  font_du_phong: C:/Windows/Fonts/arialbd.ttf
+
+chuyen_canh_mac_dinh:     # dùng khi cảnh không ghi chuyen_canh
+  kieu: cat
+  thoi_luong: 0.3
+
+may_quay_mac_dinh: zoom-cham   # dùng khi cảnh không ghi may_quay
+
+# phan_tich:               # tuỳ chọn cho `nq phan-tich`
+#   whisper: small         # cỡ mô hình faster-whisper (tiny | base | small | medium); GTX 1650 4GB: small
+
+kiem_nhip:                # ngưỡng của `nq kiem-nhip` (nguoique/kiem_nhip.py)
+  canh_khong_doi_toi_da: 8.0   # giây: cảnh dài hơn mà không có tre / het / dong_tac / mốc máy quay -> báo
+  dau_video_giay: 60.0         # đoạn đầu video xét riêng...
+  dau_video_tb_toi_da: 3.5     # ...độ dài cảnh trung bình tối đa (giây)
+  tong_phut: [8, 15]           # tổng thời lượng mục tiêu (phút)
+  tu_moi_phut: [150, 175]      # tốc độ đọc mục tiêu (từ / phút, tính cả nghỉ trong cảnh)
+  toi_den_cach_toi_da: 120.0   # giây: quá lâu không có chuyển cảnh toi-den -> báo

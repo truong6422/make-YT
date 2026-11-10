@@ -1,0 +1,34 @@
+{
+  "_mo_ta": "Trích nghiên cứu: nền văn phòng, chuyên gia (kính tròn, nơ) bên phải quay vào giữa chỉ tay, thẻ vàng 'Tác giả, năm' hiện mờ, kết quả chính gõ chữ xanh. Nháy đen vào cảnh vì đổi phần. CHỈ dùng nghiên cứu có thật, đã đối chiếu bài gốc (docs/05 mục 4).",
+  "_dung_khi": "Câu đầu phần nghien-cuu (ai, năm nào), câu kết quả chính. Các câu kể thí nghiệm tiếp theo dùng khuôn khác (hai-lua-chon, con-so-lon) để đổi hình.",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "câu dẫn nghiên cứu", "vi_du": "In 1979, Daniel Kahneman and Amos Tversky tested how people choose between risky bets."},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc năm / tên (vd. nineteen seventy-nine)", "vi_du": "In nineteen seventy-nine, Daniel Kahneman and Amos Tversky tested how people choose between risky bets."},
+    "tac_gia": {"bat_buoc": true, "mo_ta": "họ tác giả, ngắn (vd. KAHNEMAN & TVERSKY)", "vi_du": "KAHNEMAN & TVERSKY"},
+    "nam": {"bat_buoc": true, "mo_ta": "năm công bố", "vi_du": 1979},
+    "ket_qua": {"mac_dinh": "", "mo_ta": "kết quả chính 2–4 từ IN HOA; \"\" = không"},
+    "nhan_vat": {"mac_dinh": "nhan-vat/chuyen-gia__tu-tin__chi-tay.png", "mo_ta": "ảnh người dẫn nghiên cứu"},
+    "nen": {"mac_dinh": "phong-nen/van-phong.png", "mo_ta": "màu / ảnh nền"},
+    "tre_ket_qua": {"mac_dinh": 3.0, "mo_ta": "giây kết quả bắt đầu gõ"},
+    "phan": {"mac_dinh": "nghien-cuu", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "toc_do": 0.95,
+    "may_quay": {"kieu": "zoom-cham", "muc": 0.05},
+    "chuyen_canh": {"kieu": "toi-den", "thoi_luong": 0.25},
+    "lop": [
+      {"anh": "{{nhan_vat}}", "vi_tri": [0.76, 0.9], "neo": "day", "co": 0.6, "hieu_ung": "truot-trai", "tre": 0.0,
+       "lien_tuc": "tho", "lat": true}
+    ],
+    "chu": [
+      {"noi_dung": "{{tac_gia}}, {{nam}}", "vi_tri": [0.36, 0.22], "co": 58, "mau": "#1A1A1A", "nen": "#FFF3C4",
+       "rong_toi_da": 0.55, "hieu_ung": "mo-dan", "tre": 0.3},
+      {"noi_dung": "{{ket_qua}}", "vi_tri": [0.36, 0.46], "co": 80, "mau": "#2E7D5B", "rong_toi_da": 0.55,
+       "hieu_ung": "go-chu", "tre": "{{tre_ket_qua}}", "am_thanh": {"tep": "am-thanh/tick.wav", "am_luong": 0.35}}
+    ]
+  }
+}

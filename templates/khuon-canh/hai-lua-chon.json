@@ -1,0 +1,41 @@
+{
+  "_mo_ta": "Hai lựa chọn, chia đôi màn hình trái / phải: vạch chia giữa, lựa chọn A (trái, nhãn xanh) vào trước, B (phải, nhãn đỏ) vào sau, Max lưỡng lự ở giữa đáy. Máy quay đứng yên để đọc nhãn. Ngoại lệ được 2 chữ trong một cảnh (hai nhãn đối nhau).",
+  "_dung_khi": "Câu hỏi 'which one would you pick?', bài toán lựa chọn của nghiên cứu (chắc chắn $50 hay tung đồng xu lấy $100), mời người xem đoán trước khi nói kết quả.",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "câu đặt hai lựa chọn", "vi_du": "Option one: a sure fifty dollars. Option two: a coin flip for one hundred."},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc nếu có số"},
+    "nhan_a": {"bat_buoc": true, "mo_ta": "nhãn bên trái, 1–3 từ IN HOA", "vi_du": "SURE $50"},
+    "nhan_b": {"bat_buoc": true, "mo_ta": "nhãn bên phải, 1–3 từ IN HOA", "vi_du": "50% FOR $100"},
+    "anh_a": {"mac_dinh": "dao-cu/tien.png", "mo_ta": "hình lựa chọn A; \"\" = không"},
+    "anh_b": {"mac_dinh": "dao-cu/dong-xu.png", "mo_ta": "hình lựa chọn B; \"\" = không"},
+    "bieu_cam": {"mac_dinh": "boi-roi", "mo_ta": "mã biểu cảm Max ở giữa"},
+    "tu_the": {"mac_dinh": "dung", "mo_ta": "mã tư thế Max"},
+    "nen": {"mac_dinh": "#F5F1E8", "mo_ta": "màu / ảnh nền"},
+    "tre_a": {"mac_dinh": 0.3, "mo_ta": "giây hiện lựa chọn A"},
+    "tre_b": {"mac_dinh": 2.0, "mo_ta": "giây hiện lựa chọn B (≈ lúc đọc tới vế B)"},
+    "phan": {"mac_dinh": "giai-thich", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "may_quay": "dung-yen",
+    "chuyen_canh": {"kieu": "cat", "thoi_luong": 0},
+    "lop": [
+      {"anh": "dao-cu/vach-chia.png", "vi_tri": [0.5, 0.42], "co": 0.62, "hieu_ung": "mo-dan", "tre": 0.0},
+      {"anh": "{{anh_a}}", "vi_tri": [0.25, 0.46], "co": 0.22, "hieu_ung": "truot-phai", "tre": "{{tre_a}}",
+       "lien_tuc": "tho", "am_thanh": {"tep": "am-thanh/whoosh.wav", "am_luong": 0.4}},
+      {"anh": "{{anh_b}}", "vi_tri": [0.75, 0.46], "co": 0.22, "hieu_ung": "truot-trai", "tre": "{{tre_b}}",
+       "lien_tuc": "tho", "am_thanh": {"tep": "am-thanh/whoosh.wav", "am_luong": 0.4}},
+      {"anh": "nhan-vat/max__{{bieu_cam}}__{{tu_the}}.png", "vi_tri": [0.5, 0.92], "neo": "day", "co": 0.32,
+       "hieu_ung": "khong", "lien_tuc": "lac"}
+    ],
+    "chu": [
+      {"noi_dung": "{{nhan_a}}", "vi_tri": [0.25, 0.18], "co": 72, "mau": "#2E7D5B", "rong_toi_da": 0.42,
+       "hieu_ung": "bat-len", "tre": "{{tre_a}}", "am_thanh": {"tep": "am-thanh/tick.wav", "am_luong": 0.35}},
+      {"noi_dung": "{{nhan_b}}", "vi_tri": [0.75, 0.18], "co": 72, "mau": "#D64545", "rong_toi_da": 0.42,
+       "hieu_ung": "bat-len", "tre": "{{tre_b}}", "am_thanh": {"tep": "am-thanh/tick.wav", "am_luong": 0.35}}
+    ]
+  }
+}

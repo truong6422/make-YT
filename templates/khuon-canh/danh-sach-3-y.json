@@ -1,0 +1,41 @@
+{
+  "_mo_ta": "Danh sách 3 ý bật lần lượt (1. 2. 3.) bên phải, Max suy nghĩ bên trái, máy quay đứng yên (nhiều chữ). Một cảnh dài 6–9 s — đặt mỗi 'tre_y' đúng lúc ý đó được đọc để trong cảnh có thay đổi mỗi ~3 s (docs/02 mục 2).",
+  "_dung_khi": "Liệt kê 3 dấu hiệu / 3 lý do / 3 bước; mở đầu phần cach-tranh ('three things you can do today'). Chỉ có 2 ý → ghi đè \"chu\" của cảnh, hoặc dùng hai-lua-chon.",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "lời đọc cả 3 ý (có thể 2–3 câu ngắn)", "vi_du": "Three signs: you check prices every hour, you hate selling at a loss, and you hold too long."},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc nếu có số"},
+    "y_1": {"bat_buoc": true, "mo_ta": "ý 1, 1–4 từ IN HOA", "vi_du": "CHECK EVERY HOUR"},
+    "y_2": {"bat_buoc": true, "mo_ta": "ý 2", "vi_du": "HATE SELLING LOW"},
+    "y_3": {"bat_buoc": true, "mo_ta": "ý 3", "vi_du": "HOLD TOO LONG"},
+    "tieu_de": {"mac_dinh": "", "mo_ta": "tiêu đề nhỏ trên danh sách (vd. 3 SIGNS); \"\" = không"},
+    "bieu_cam": {"mac_dinh": "suy-nghi", "mo_ta": "mã biểu cảm Max"},
+    "tu_the": {"mac_dinh": "dung", "mo_ta": "mã tư thế Max"},
+    "nen": {"mac_dinh": "#F5F1E8", "mo_ta": "màu / ảnh nền"},
+    "mau_y": {"mac_dinh": "#1A1A1A", "mo_ta": "màu chữ các ý"},
+    "tre_1": {"mac_dinh": 0.8, "mo_ta": "giây ý 1 hiện"},
+    "tre_2": {"mac_dinh": 2.8, "mo_ta": "giây ý 2 hiện"},
+    "tre_3": {"mac_dinh": 4.8, "mo_ta": "giây ý 3 hiện"},
+    "phan": {"mac_dinh": "cach-tranh", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "may_quay": "dung-yen",
+    "chuyen_canh": {"kieu": "cat", "thoi_luong": 0},
+    "lop": [
+      {"anh": "nhan-vat/max__{{bieu_cam}}__{{tu_the}}.png", "vi_tri": [0.2, 0.9], "neo": "day", "co": 0.58,
+       "hieu_ung": "khong", "lien_tuc": "tho"}
+    ],
+    "chu": [
+      {"noi_dung": "{{tieu_de}}", "vi_tri": [0.62, 0.16], "co": 64, "mau": "#D64545", "hieu_ung": "mo-dan", "tre": 0.0},
+      {"noi_dung": "1. {{y_1}}", "vi_tri": [0.62, 0.32], "co": 70, "mau": "{{mau_y}}", "rong_toi_da": 0.62,
+       "hieu_ung": "truot-trai", "tre": "{{tre_1}}", "am_thanh": {"tep": "am-thanh/pop.wav", "am_luong": 0.35}},
+      {"noi_dung": "2. {{y_2}}", "vi_tri": [0.62, 0.5], "co": 70, "mau": "{{mau_y}}", "rong_toi_da": 0.62,
+       "hieu_ung": "truot-trai", "tre": "{{tre_2}}", "am_thanh": {"tep": "am-thanh/pop.wav", "am_luong": 0.35}},
+      {"noi_dung": "3. {{y_3}}", "vi_tri": [0.62, 0.68], "co": 70, "mau": "{{mau_y}}", "rong_toi_da": 0.62,
+       "hieu_ung": "truot-trai", "tre": "{{tre_3}}", "am_thanh": {"tep": "am-thanh/pop.wav", "am_luong": 0.35}}
+    ]
+  }
+}

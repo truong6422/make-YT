@@ -1,0 +1,35 @@
+{
+  "_mo_ta": "Ví dụ đời thường với Max: Max to (cảnh toàn) ở bàn máy tính hoặc cầm điện thoại trong phòng, một đạo cụ bật lên bên phải, máy quay đẩy chậm. Mặc định không chữ (≤ 1 cảnh có chữ trong 3 cảnh liền). Khuôn 'ngựa thồ' của phần vi-du: nhiều cảnh liền thì đổi bieu_cam / tu_the / dao_cu / may_quay mỗi cảnh.",
+  "_dung_khi": "Kể chuyện Max: mở app, xem giá, do dự, quyết định. Đổi tu_the giữa \"ngoi-may-tinh\" và \"cam-dien-thoai\"; 3–5 cảnh liền một bối cảnh thì đổi khung toàn → trung → cận (ghi đè \"lop\" với co lớn hơn).",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "một câu kể chuyện, 6–14 từ", "vi_du": "Max opens his trading app before breakfast. Again."},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc nếu có số"},
+    "bieu_cam": {"mac_dinh": "suy-nghi", "mo_ta": "mã biểu cảm Max"},
+    "tu_the": {"mac_dinh": "ngoi-may-tinh", "mo_ta": "ngoi-may-tinh | cam-dien-thoai | dung | di-bo | om-dau | chi-tay"},
+    "dao_cu": {"mac_dinh": "", "mo_ta": "đạo cụ minh hoạ (vd. dao-cu/dong-ho.png); \"\" = không"},
+    "chu": {"mac_dinh": "", "mo_ta": "chữ khoá; \"\" = không"},
+    "nen": {"mac_dinh": "phong-nen/phong.png", "mo_ta": "nền (phong-nen/phong.png, van-phong.png, phong-ngu.png, duong-pho.png…)"},
+    "may_quay": {"mac_dinh": "zoom-cham", "mo_ta": "kiểu máy quay (zoom-cham, zoom-ra, lia-trai, lia-phai…)"},
+    "vi_tri_x": {"mac_dinh": 0.38, "mo_ta": "vị trí ngang của Max (0..1)"},
+    "lien_tuc": {"mac_dinh": "tho", "mo_ta": "cử động khi đứng: tho | run (sợ) | nhun (vui) | lac (lưỡng lự)"},
+    "tre_dao_cu": {"mac_dinh": 1.0, "mo_ta": "giây đạo cụ bật"},
+    "phan": {"mac_dinh": "vi-du", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "may_quay": "{{may_quay}}",
+    "chuyen_canh": {"kieu": "cat", "thoi_luong": 0},
+    "lop": [
+      {"anh": "nhan-vat/max__{{bieu_cam}}__{{tu_the}}.png", "vi_tri": ["{{vi_tri_x}}", 0.92], "neo": "day",
+       "co": 0.7, "hieu_ung": "khong", "lien_tuc": "{{lien_tuc}}"},
+      {"anh": "{{dao_cu}}", "vi_tri": [0.8, 0.4], "co": 0.18, "hieu_ung": "bat-len", "tre": "{{tre_dao_cu}}",
+       "lien_tuc": "tho", "am_thanh": {"tep": "am-thanh/pop.wav", "am_luong": 0.35}}
+    ],
+    "chu": [
+      {"noi_dung": "{{chu}}", "vi_tri": [0.78, 0.18], "co": 84, "mau": "#D64545", "hieu_ung": "bat-len", "tre": 1.2}
+    ]
+  }
+}

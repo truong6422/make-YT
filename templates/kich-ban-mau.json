@@ -1,0 +1,262 @@
+{
+  "tieu_de": "Why You Sell Winners Too Early and Hold Losers Too Long",
+  "ngon_ngu": "en",
+  "nhac_nen": {"tep": "nhac-nen/curious-light.mp3", "am_luong": 0.07},
+  "thumbnail": {
+    "nen": "#FFD54F",
+    "chu": "YOU SELL *TOO EARLY*?",
+    "nhan_vat": [{"anh": "nhan-vat/max__soc__dung.png", "vi_tri": [0.76, 0.56], "co": 0.85}],
+    "mui_ten": {"tu": [0.5, 0.78], "den": [0.64, 0.62], "mau": "#E53935"}
+  },
+  "canh": [
+    {
+      "id": "c01",
+      "phan": "hook",
+      "loi": "Imagine you own two stocks. One is up. One is down. You need cash today. Which one do you sell?",
+      "nen": "#FFFFFF",
+      "may_quay": "zoom-cham",
+      "chuyen_canh": {"kieu": "mo-dan", "thoi_luong": 0.5},
+      "lop": [
+        {"anh": "nhan-vat/max__boi-roi__dung.png", "vi_tri": [0.5, 0.86], "neo": "day", "co": 0.2,
+         "hieu_ung": "bat-len", "tre": 0.0, "lien_tuc": "tho", "am_thanh": "am-thanh/pop.wav"},
+        {"anh": "dao-cu/co-phieu-xanh.png", "vi_tri": [0.2, 0.42], "co": 0.14,
+         "hieu_ung": "truot-phai", "tre": 1.2, "lien_tuc": "nhun", "am_thanh": "am-thanh/whoosh.wav"},
+        {"anh": "dao-cu/co-phieu-do.png", "vi_tri": [0.8, 0.42], "co": 0.14,
+         "hieu_ung": "truot-trai", "tre": 2.0, "lien_tuc": "nhun", "am_thanh": "am-thanh/whoosh.wav"}
+      ],
+      "chu": [
+        {"noi_dung": "WHICH ONE?", "vi_tri": [0.5, 0.14], "co": 110, "mau": "#111111",
+         "hieu_ung": "go-chu", "tre": 4.6, "am_thanh": "am-thanh/tick.wav"}
+      ]
+    },
+    {
+      "id": "c02",
+      "phan": "hook",
+      "loi": "Most people sell the winner. And that choice has a name.",
+      "nen": "#FFFFFF",
+      "may_quay": {"kieu": "dam", "muc": 0.12},
+      "chuyen_canh": {"kieu": "nhay-trang", "thoi_luong": 0.25},
+      "lop": [
+        {"nhan_vat": "max", "vi_tri": [0.25, 0.86], "neo": "day", "co": 0.24, "bieu_cam": "tu-tin",
+         "tu_the": "dung", "hieu_ung": "bat-len", "tre": 0.0, "am_thanh": "am-thanh/pop.wav",
+         "dong_tac": [{"tu_the": "chi-tay-phai", "luc": 1.6, "thoi_luong": 0.7, "easing": "ra"}]}
+      ],
+      "chu": [
+        {"noi_dung": "THE DISPOSITION EFFECT", "vi_tri": [0.66, 0.42], "co": 104, "mau": "#E53935",
+         "rong_toi_da": 0.5, "hieu_ung": "bat-len", "tre": 1.8, "lien_tuc": "tho", "am_thanh": "am-thanh/ding.wav"}
+      ]
+    },
+    {
+      "id": "c03",
+      "phan": "boi-canh",
+      "loi": "Economists Hersh Shefrin and Meir Statman described it in 1985. Investors tend to sell winners too early, and ride losers too long.",
+      "loi_doc": "Economists Hersh Shefrin and Meir Statman described it in nineteen eighty-five. Investors tend to sell winners too early, and ride losers too long.",
+      "nen": "#FFFFFF",
+      "may_quay": "lia-phai",
+      "chuyen_canh": {"kieu": "truot-trai", "thoi_luong": 0.4},
+      "lop": [
+        {"anh": "nhan-vat/chuyen-gia__tu-tin__chi-tay.png", "vi_tri": [0.78, 0.86], "neo": "day", "co": 0.2,
+         "hieu_ung": "truot-trai", "tre": 0.0, "lat": true}
+      ],
+      "chu": [
+        {"noi_dung": "SHEFRIN & STATMAN, 1985", "vi_tri": [0.36, 0.2], "co": 60, "mau": "#111111",
+         "nen": "#FFF3C4", "hieu_ung": "mo-dan", "tre": 0.3},
+        {"noi_dung": "SELL WINNERS EARLY", "vi_tri": [0.36, 0.45], "co": 76, "mau": "#2E7D32",
+         "hieu_ung": "go-chu", "tre": 4.2, "am_thanh": "am-thanh/tick.wav"},
+        {"noi_dung": "HOLD LOSERS LONG", "vi_tri": [0.36, 0.62], "co": 76, "mau": "#E53935",
+         "hieu_ung": "go-chu", "tre": 6.0, "am_thanh": "am-thanh/tick.wav"}
+      ]
+    },
+    {
+      "id": "c04",
+      "phan": "giai-thich",
+      "toc_do": 0.95,
+      "loi": "Why do we do this? Part of the answer goes back to 1979, when Daniel Kahneman and Amos Tversky published prospect theory.",
+      "loi_doc": "Why do we do this? Part of the answer goes back to nineteen seventy-nine, when Daniel Kahneman and Amos Tversky published prospect theory.",
+      "nen": "phong-nen/van-phong.png",
+      "may_quay": "zoom-ra",
+      "chuyen_canh": {"kieu": "toi-den", "thoi_luong": 0.5},
+      "lop": [
+        {"anh": "nhan-vat/max__suy-nghi__dung.png", "vi_tri": [0.22, 0.86], "neo": "day", "co": 0.2,
+         "hieu_ung": "mo-dan", "tre": 0.0, "lien_tuc": "lac"},
+        {"anh": "dao-cu/bo-nao.png", "vi_tri": [0.62, 0.48], "co": 0.16,
+         "hieu_ung": "phong-to", "tre": 1.6, "lien_tuc": "tho", "am_thanh": "am-thanh/pop.wav"}
+      ],
+      "chu": [
+        {"noi_dung": "PROSPECT THEORY", "vi_tri": [0.62, 0.18], "co": 96, "mau": "#1E3A8A",
+         "vien": 8, "mau_vien": "#FFFFFF", "hieu_ung": "bat-len", "tre": 5.4, "am_thanh": "am-thanh/ding.wav"}
+      ]
+    },
+    {
+      "id": "c05",
+      "phan": "giai-thich",
+      "loi": "Its key idea: a loss hurts more than a gain of the same size feels good. This is called loss aversion.",
+      "nen": "#FFFFFF",
+      "may_quay": {"kieu": "rung", "muc": 0.004},
+      "chuyen_canh": {"kieu": "zoom-vao", "thoi_luong": 0.4},
+      "lop": [
+        {"anh": "dao-cu/can-lech.png", "vi_tri": [0.45, 0.5], "co": 0.28,
+         "hieu_ung": "roi-xuong", "tre": 0.3, "am_thanh": "am-thanh/pop.wav"},
+        {"anh": "nhan-vat/max__so-hai__dung.png", "vi_tri": [0.84, 0.86], "neo": "day", "co": 0.15,
+         "hieu_ung": "truot-trai", "tre": 1.2, "lien_tuc": "run"}
+      ],
+      "chu": [
+        {"noi_dung": "LOSS AVERSION", "vi_tri": [0.45, 0.13], "co": 110, "mau": "#E53935",
+         "hieu_ung": "go-chu", "tre": 4.8, "am_thanh": "am-thanh/tick.wav"}
+      ]
+    },
+    {
+      "id": "c06",
+      "phan": "giai-thich",
+      "loi": "So selling a winner feels like locking in a win. Selling a loser means admitting the loss is real. Hold it, and it is only a loss on paper.",
+      "nen": "#FFFFFF",
+      "may_quay": "lia-trai",
+      "chuyen_canh": "cat",
+      "lop": [
+        {"anh": "nhan-vat/max__vui__dung.png", "vi_tri": [0.25, 0.86], "neo": "day", "co": 0.18,
+         "hieu_ung": "bat-len", "tre": 0.0, "am_thanh": "am-thanh/pop.wav"},
+        {"anh": "dao-cu/tien.png", "vi_tri": [0.25, 0.32], "co": 0.12,
+         "hieu_ung": "roi-xuong", "tre": 1.0},
+        {"anh": "nhan-vat/max__hoi-han__dung.png", "vi_tri": [0.75, 0.86], "neo": "day", "co": 0.18,
+         "hieu_ung": "bat-len", "tre": 3.0, "lat": true, "am_thanh": "am-thanh/pop.wav"}
+      ],
+      "chu": [
+        {"noi_dung": "LOCK IN A WIN", "vi_tri": [0.25, 0.12], "co": 64, "mau": "#2E7D32",
+         "hieu_ung": "mo-dan", "tre": 0.5},
+        {"noi_dung": "ADMIT A LOSS?", "vi_tri": [0.75, 0.12], "co": 64, "mau": "#E53935",
+         "hieu_ung": "go-chu", "tre": 3.2, "am_thanh": "am-thanh/tick.wav"},
+        {"noi_dung": "\"ONLY ON PAPER\"", "vi_tri": [0.75, 0.3], "co": 52, "mau": "#555555",
+         "nen": "#F1F1F1", "hieu_ung": "truot-len", "tre": 6.6}
+      ]
+    },
+    {
+      "id": "c07",
+      "phan": "nghien-cuu",
+      "loi": "In 1998, Terrance Odean studied the trading records of about ten thousand accounts at a discount brokerage.",
+      "loi_doc": "In nineteen ninety-eight, Terrance Odean studied the trading records of about ten thousand accounts at a discount brokerage.",
+      "nen": "#FFFFFF",
+      "may_quay": "zoom-cham",
+      "chuyen_canh": {"kieu": "truot-len", "thoi_luong": 0.4},
+      "lop": [
+        {"nhan_vat": "chuyen-gia", "vi_tri": [0.2, 0.86], "neo": "day", "co": 0.2, "bieu_cam": "tu-tin",
+         "hieu_ung": "truot-phai", "tre": 0.0, "noi": true,
+         "dong_tac": [{"tu_the": "chi-tay-phai", "luc": 0.8, "thoi_luong": 0.7}]},
+        {"anh": "dao-cu/may-tinh.png", "vi_tri": [0.64, 0.56], "co": 0.26,
+         "hieu_ung": "phong-to", "tre": 0.8, "am_thanh": "am-thanh/pop.wav"}
+      ],
+      "chu": [
+        {"noi_dung": "ODEAN, 1998", "vi_tri": [0.64, 0.14], "co": 80, "mau": "#0D47A1",
+         "nen": "#E3F2FD", "hieu_ung": "bat-len", "tre": 0.3, "am_thanh": "am-thanh/ding.wav"},
+        {"noi_dung": "~10,000 ACCOUNTS", "vi_tri": [0.64, 0.3], "co": 60, "mau": "#111111",
+         "hieu_ung": "go-chu", "tre": 3.6, "am_thanh": "am-thanh/tick.wav"}
+      ],
+      "am_thanh": [{"tep": "am-thanh/whoosh.wav", "tre": 0.0, "am_luong": 0.7}]
+    },
+    {
+      "id": "c08",
+      "phan": "nghien-cuu",
+      "loi": "Investors realized their gains more readily than their losses. And the winners they sold tended to keep beating the losers they kept.",
+      "nen": "#FFFFFF",
+      "may_quay": "dung-yen",
+      "chuyen_canh": {"kieu": "mo-dan", "thoi_luong": 0.3},
+      "lop": [
+        {"anh": "bieu-do/tang.png", "vi_tri": [0.28, 0.48], "co": 0.3,
+         "hieu_ung": "truot-len", "tre": 3.8, "am_thanh": "am-thanh/whoosh.wav"},
+        {"anh": "bieu-do/giam.png", "vi_tri": [0.72, 0.48], "co": 0.3,
+         "hieu_ung": "truot-len", "tre": 5.4, "am_thanh": "am-thanh/whoosh.wav"}
+      ],
+      "chu": [
+        {"noi_dung": "GAINS: SOLD", "vi_tri": [0.5, 0.2], "co": 72, "mau": "#2E7D32",
+         "hieu_ung": "bat-len", "tre": 0.4, "het": 3.6},
+        {"noi_dung": "SOLD", "vi_tri": [0.28, 0.14], "co": 80, "mau": "#2E7D32",
+         "hieu_ung": "bat-len", "tre": 4.0, "am_thanh": "am-thanh/pop.wav"},
+        {"noi_dung": "KEPT", "vi_tri": [0.72, 0.14], "co": 80, "mau": "#E53935",
+         "hieu_ung": "bat-len", "tre": 5.6, "am_thanh": "am-thanh/pop.wav"}
+      ]
+    },
+    {
+      "id": "c09",
+      "phan": "vi-du",
+      "toc_do": 1.05,
+      "nghi": {"cham": 0.55},
+      "loi": "Picture Max. He sells after a small gain and feels great. Then he watches that stock keep climbing. Meanwhile, the one he refused to sell keeps sinking.",
+      "nen": "#FFFFFF",
+      "may_quay": "lia-phai",
+      "chuyen_canh": {"kieu": "truot-trai", "thoi_luong": 0.4},
+      "lop": [
+        {"nhan_vat": "max", "vi_tri": [0.2, 0.86], "neo": "day", "co": 0.18, "bieu_cam": "hao-hung",
+         "tu_the": "gio-hai-tay", "hieu_ung": "bat-len", "tre": 0.0, "am_thanh": "am-thanh/pop.wav",
+         "dong_tac": [{"bieu_cam": "soc", "tu_the": "dung", "luc": 3.5, "thoi_luong": 0.6, "easing": "ra"},
+                      {"bieu_cam": "hoang-loan", "tu_the": "om-dau", "luc": 6.5, "thoi_luong": 0.7, "easing": "nay"}]},
+        {"anh": "bieu-do/tang.png", "vi_tri": [0.52, 0.42], "co": 0.24,
+         "hieu_ung": "phong-to", "tre": 3.5, "am_thanh": "am-thanh/whoosh.wav"},
+        {"anh": "bieu-do/giam-manh.png", "vi_tri": [0.8, 0.42], "co": 0.24,
+         "hieu_ung": "phong-to", "tre": 6.5, "am_thanh": "am-thanh/whoosh.wav"}
+      ],
+      "chu": [
+        {"noi_dung": "SOLD", "vi_tri": [0.52, 0.14], "co": 64, "mau": "#2E7D32",
+         "hieu_ung": "mo-dan", "tre": 3.7},
+        {"noi_dung": "HELD", "vi_tri": [0.8, 0.14], "co": 64, "mau": "#E53935",
+         "hieu_ung": "mo-dan", "tre": 6.7}
+      ]
+    },
+    {
+      "id": "c10",
+      "phan": "cach-tranh",
+      "loi": "How do you fight it? Write your exit rules before you buy. Then, for every position, ask one question: if I didn't own this, would I buy it today?",
+      "nen": "#FFFFFF",
+      "may_quay": "zoom-cham",
+      "chuyen_canh": {"kieu": "mo-dan", "thoi_luong": 0.3},
+      "lop": [
+        {"nhan_vat": "max", "neo": "day", "co": 0.2, "bieu_cam": "tu-tin",
+         "di": {"tu": [-0.08, 0.86], "den": [0.18, 0.86], "luc": 0.0, "thoi_luong": 1.4},
+         "dong_tac": [{"tu_the": "chi-tay-phai", "luc": 1.6, "thoi_luong": 0.7, "easing": "ra"}]},
+        {"anh": "dao-cu/bong-den.png", "vi_tri": [0.18, 0.18], "co": 0.08,
+         "hieu_ung": "bat-len", "tre": 0.6, "lien_tuc": "tho", "am_thanh": "am-thanh/ding.wav"}
+      ],
+      "chu": [
+        {"noi_dung": "1. SET EXIT RULES FIRST", "vi_tri": [0.62, 0.32], "co": 64, "mau": "#111111",
+         "nen": "#FFF3C4", "hieu_ung": "truot-trai", "tre": 1.6, "am_thanh": "am-thanh/whoosh.wav"},
+        {"noi_dung": "2. WOULD I BUY IT TODAY?", "vi_tri": [0.62, 0.52], "co": 64, "mau": "#111111",
+         "nen": "#FFF3C4", "hieu_ung": "truot-trai", "tre": 5.2, "am_thanh": "am-thanh/whoosh.wav"}
+      ]
+    },
+    {
+      "id": "c11",
+      "phan": "tom-tat",
+      "loi": "Your brain wants to feel right, not to be right. Judge each stock by where it could go, not by the price you paid.",
+      "nen": "#FFFFFF",
+      "may_quay": {"kieu": "dam", "muc": 0.08},
+      "chuyen_canh": {"kieu": "toi-den", "thoi_luong": 0.4},
+      "lop": [
+        {"anh": "dao-cu/bo-nao.png", "vi_tri": [0.3, 0.46], "co": 0.2,
+         "hieu_ung": "phong-to", "tre": 0.0, "lien_tuc": "tho"}
+      ],
+      "chu": [
+        {"noi_dung": "FEEL RIGHT", "vi_tri": [0.68, 0.3], "co": 80, "mau": "#9E9E9E",
+         "hieu_ung": "mo-dan", "tre": 0.6},
+        {"noi_dung": "BE RIGHT", "vi_tri": [0.68, 0.5], "co": 104, "mau": "#2E7D32",
+         "hieu_ung": "bat-len", "tre": 1.8, "am_thanh": "am-thanh/ding.wav"}
+      ]
+    },
+    {
+      "id": "c12",
+      "phan": "ket",
+      "loi": "This video is for education only. It is not financial advice. Have you ever held a loser too long? Tell me in the comments.",
+      "dem_sau": 1.5,
+      "nen": "#FFFFFF",
+      "may_quay": "zoom-ra",
+      "chuyen_canh": {"kieu": "mo-dan", "thoi_luong": 0.4},
+      "lop": [
+        {"anh": "nhan-vat/max__nhe-nhom__dung.png", "vi_tri": [0.5, 0.86], "neo": "day", "co": 0.18,
+         "hieu_ung": "bat-len", "tre": 0.0, "lien_tuc": "nhun", "am_thanh": "am-thanh/pop.wav"}
+      ],
+      "chu": [
+        {"noi_dung": "NOT FINANCIAL ADVICE", "vi_tri": [0.5, 0.13], "co": 64, "mau": "#FFFFFF",
+         "nen": "#111111", "hieu_ung": "mo-dan", "tre": 0.2},
+        {"noi_dung": "TELL ME IN THE COMMENTS", "vi_tri": [0.5, 0.3], "co": 56, "mau": "#111111",
+         "hieu_ung": "go-chu", "tre": 4.6, "am_thanh": "am-thanh/tick.wav"}
+      ]
+    }
+  ]
+}

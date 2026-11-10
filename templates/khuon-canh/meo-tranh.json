@@ -1,0 +1,35 @@
+{
+  "_mo_ta": "Mẹo tránh: Max tự tin chỉ tay bên trái, bóng đèn bật lên cạnh đầu (tiếng ding), nhãn 'TIP #n' nhỏ xanh và gạch đầu dòng nội dung mẹo bên phải.",
+  "_dung_khi": "Mỗi cách tránh trong phần cach-tranh (2–4 mẹo, mỗi mẹo 1 cảnh khuôn này + 2–4 cảnh vi-du-doi-thuong / so-sanh-truoc-sau minh hoạ).",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "câu nêu mẹo, cụ thể, làm được ngay", "vi_du": "Tip one: before you sell, wait twenty-four hours."},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc nếu có số"},
+    "nhan": {"mac_dinh": "TIP #1", "mo_ta": "nhãn nhỏ (TIP #1, TIP #2…); \"\" = không"},
+    "meo": {"bat_buoc": true, "mo_ta": "nội dung mẹo 1–4 từ IN HOA", "vi_du": "WAIT 24 HOURS"},
+    "dao_cu": {"mac_dinh": "dao-cu/bong-den.png", "mo_ta": "hình cạnh đầu Max; \"\" = không"},
+    "bieu_cam": {"mac_dinh": "tu-tin", "mo_ta": "mã biểu cảm Max"},
+    "tu_the": {"mac_dinh": "chi-tay", "mo_ta": "mã tư thế Max"},
+    "nen": {"mac_dinh": "#F5F1E8", "mo_ta": "màu / ảnh nền"},
+    "tre_meo": {"mac_dinh": 1.2, "mo_ta": "giây mẹo hiện (≈ lúc đọc nội dung mẹo)"},
+    "phan": {"mac_dinh": "cach-tranh", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "may_quay": {"kieu": "zoom-cham", "muc": 0.04},
+    "chuyen_canh": {"kieu": "cat", "thoi_luong": 0},
+    "lop": [
+      {"anh": "nhan-vat/max__{{bieu_cam}}__{{tu_the}}.png", "vi_tri": [0.22, 0.9], "neo": "day", "co": 0.6,
+       "hieu_ung": "khong", "lien_tuc": "tho"},
+      {"anh": "{{dao_cu}}", "vi_tri": [0.4, 0.24], "co": 0.14, "hieu_ung": "bat-len", "tre": 0.3, "lien_tuc": "tho",
+       "am_thanh": {"tep": "am-thanh/ding.wav", "am_luong": 0.4}}
+    ],
+    "chu": [
+      {"noi_dung": "{{nhan}}", "vi_tri": [0.68, 0.26], "co": 56, "mau": "#2E7D5B", "hieu_ung": "mo-dan", "tre": 0.3},
+      {"noi_dung": "— {{meo}}", "vi_tri": [0.68, 0.44], "co": 84, "mau": "#1A1A1A", "rong_toi_da": 0.55,
+       "hieu_ung": "go-chu", "tre": "{{tre_meo}}", "am_thanh": {"tep": "am-thanh/tick.wav", "am_luong": 0.35}}
+    ]
+  }
+}

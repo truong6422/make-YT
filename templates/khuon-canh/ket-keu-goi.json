@@ -1,0 +1,34 @@
+{
+  "_mo_ta": "Kết + kêu gọi: Max tự tin chỉ tay sang phải về chữ kêu gọi (bật lên), dòng phụ hiện mờ, máy quay kéo ra chậm, trộn mờ vào cảnh (kết dịu). Câu kêu gọi ≤ 6 s (docs/02).",
+  "_dung_khi": "Cảnh cuối video (sau câu đọng lại và cảnh mien-tru). Câu đọng lại / đảo nghĩa trước đó dùng vi-du-doi-thuong hoặc ten-khai-niem.",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "câu kêu gọi ngắn (subscribe / xem video liên quan / bình luận)", "vi_du": "If this helped, subscribe. And tell me: what would you have sold?"},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc"},
+    "chu": {"mac_dinh": "SUBSCRIBE", "mo_ta": "chữ kêu gọi"},
+    "chu_phu": {"mac_dinh": "", "mo_ta": "dòng phụ (vd. NEXT: SUNK COST); \"\" = không"},
+    "bieu_cam": {"mac_dinh": "tu-tin", "mo_ta": "mã biểu cảm Max"},
+    "tu_the": {"mac_dinh": "chi-tay", "mo_ta": "mã tư thế Max"},
+    "nen": {"mac_dinh": "#F5F1E8", "mo_ta": "màu / ảnh nền"},
+    "tre_chu": {"mac_dinh": 0.8, "mo_ta": "giây chữ kêu gọi bật"},
+    "phan": {"mac_dinh": "ket", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "dem_sau": 1.2,
+    "may_quay": {"kieu": "zoom-ra", "muc": 0.05},
+    "chuyen_canh": {"kieu": "mo-dan", "thoi_luong": 0.5},
+    "lop": [
+      {"anh": "nhan-vat/max__{{bieu_cam}}__{{tu_the}}.png", "vi_tri": [0.26, 0.9], "neo": "day", "co": 0.6,
+       "hieu_ung": "khong", "lien_tuc": "tho"}
+    ],
+    "chu": [
+      {"noi_dung": "{{chu}}", "vi_tri": [0.68, 0.36], "co": 100, "mau": "#D64545", "rong_toi_da": 0.55,
+       "hieu_ung": "bat-len", "tre": "{{tre_chu}}", "lien_tuc": "tho", "am_thanh": {"tep": "am-thanh/ding.wav", "am_luong": 0.4}},
+      {"noi_dung": "{{chu_phu}}", "vi_tri": [0.68, 0.56], "co": 52, "mau": "#1A1A1A", "rong_toi_da": 0.55,
+       "hieu_ung": "mo-dan", "tre": 2.0}
+    ]
+  }
+}

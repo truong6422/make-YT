@@ -1,0 +1,26 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Mô hình giọng / phân tích kênh (tải về, nặng)
+mo-hinh/
+phan-tich/
+
+# Sản phẩm dựng của từng dự án (chỉ giữ kich-ban.json và ảnh riêng)
+du-an/*/build/
+du-an/*/*.mp4
+du-an/*/*.srt
+
+# Kho mẫu: ảnh Gemini .png trong _cho-xu-ly/ VẪN đưa vào git (tạo ở máy khác, cần sang máy Acer để tách nền); font tải về thì bỏ
+kho-mau/_cho-xu-ly/*.jpg
+kho-mau/_cho-xu-ly/*.webp
+!kho-mau/_cho-xu-ly/.gitkeep
+kho-mau/font/*.ttf
+
+# Giọng mẫu (thu âm riêng)
+giong-mau/*.wav
+giong-mau/*.mp3

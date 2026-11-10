@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nguoique"
+version = "0.1.0"
+description = "Tự động dựng video hoạt hình người que (tâm lý học, tâm lý đầu tư) cho kênh YouTube tiếng Anh"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pillow>=10.1",
+    "numpy",
+    "pyyaml",
+    "requests",
+]
+
+[project.optional-dependencies]
+may-chu = ["fastapi", "uvicorn"]
+kokoro = ["kokoro", "soundfile"]
+piper = ["piper-tts"]
+phan-tich = ["yt-dlp", "faster-whisper"]
+tat-ca = ["nguoique[may-chu,kokoro,piper,phan-tich]"]
+
+[project.scripts]
+nq = "nguoique.cli:main"
+
+[tool.setuptools]
+packages = ["nguoique"]

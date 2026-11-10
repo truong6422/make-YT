@@ -1,0 +1,34 @@
+{
+  "_mo_ta": "Một con số khổng lồ giữa màn hình (bật lên + tiếng hit), dòng chú thích nhỏ bên dưới, Max sốc nhỏ ở góc trái dưới, máy quay đẩy nhanh. Điểm giữ chân bằng số liệu bất ngờ — số phải có nguồn (hoặc nói rõ là giả định).",
+  "_dung_khi": "Kết quả nghiên cứu bằng số ('about twice as much'), số tiền trong chuyện Max, thống kê gây sốc. ≤ 1 lần / 30 s (có 'dam').",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "câu chứa con số", "vi_du": "Losses felt about twice as strong as gains of the same size."},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc số / ký hiệu (vd. two point two five)"},
+    "con_so": {"bat_buoc": true, "mo_ta": "con số / ký hiệu ngắn (≤ 6 ký tự)", "vi_du": "2x"},
+    "chu_phu": {"mac_dinh": "", "mo_ta": "chú thích 1–4 từ dưới con số; \"\" = không"},
+    "mau_so": {"mac_dinh": "#D64545", "mo_ta": "màu con số"},
+    "bieu_cam": {"mac_dinh": "soc", "mo_ta": "mã biểu cảm Max"},
+    "tu_the": {"mac_dinh": "dung", "mo_ta": "mã tư thế Max"},
+    "nen": {"mac_dinh": "#F5F1E8", "mo_ta": "màu / ảnh nền"},
+    "tre_so": {"mac_dinh": 0.8, "mo_ta": "giây con số bật (≈ lúc đọc số)"},
+    "phan": {"mac_dinh": "nghien-cuu", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "may_quay": {"kieu": "dam", "muc": 0.1},
+    "chuyen_canh": {"kieu": "cat", "thoi_luong": 0},
+    "lop": [
+      {"anh": "nhan-vat/max__{{bieu_cam}}__{{tu_the}}.png", "vi_tri": [0.12, 0.9], "neo": "day", "co": 0.34,
+       "hieu_ung": "khong", "lien_tuc": "run"}
+    ],
+    "chu": [
+      {"noi_dung": "{{con_so}}", "vi_tri": [0.54, 0.4], "co": 280, "mau": "{{mau_so}}", "vien": 0,
+       "hieu_ung": "phong-to", "tre": "{{tre_so}}", "am_thanh": {"tep": "am-thanh/hit-tram.wav", "am_luong": 0.6}},
+      {"noi_dung": "{{chu_phu}}", "vi_tri": [0.54, 0.66], "co": 56, "mau": "#1A1A1A", "rong_toi_da": 0.6,
+       "hieu_ung": "mo-dan", "tre": "{{tre_so}}"}
+    ]
+  }
+}

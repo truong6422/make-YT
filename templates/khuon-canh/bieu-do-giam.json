@@ -1,0 +1,35 @@
+{
+  "_mo_ta": "Biểu đồ sập: nền tối, chớp trắng vào cảnh, máy quay rung nhẹ, biểu đồ lao xuống bật lên cùng tiếng 'hit', Max hoảng ôm đầu run, con số đỏ. Cảnh sốc — tối đa 1 lần / phút (rung + nhay-trang).",
+  "_dung_khi": "Bước ngoặt xấu: cổ phiếu sập, mất tiền, 'tưởng thắng hoá thua'.",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "câu cú sốc", "vi_du": "Then, in one afternoon, it dropped thirty percent."},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc nếu có số"},
+    "chu": {"mac_dinh": "-30%", "mo_ta": "con số / chữ khoá đỏ; \"\" = không"},
+    "bieu_do": {"mac_dinh": "bieu-do/giam-manh.png", "mo_ta": "ảnh biểu đồ (bieu-do/giam-manh.png, giam.png, tang-giam.png)"},
+    "bieu_cam": {"mac_dinh": "hoang-loan", "mo_ta": "mã biểu cảm Max (hoang-loan, so-hai, soc)"},
+    "tu_the": {"mac_dinh": "om-dau", "mo_ta": "mã tư thế Max"},
+    "nen": {"mac_dinh": "#202124", "mo_ta": "màu / ảnh nền (tối cho cảnh thua lỗ)"},
+    "tre_bieu_do": {"mac_dinh": 0.2, "mo_ta": "giây biểu đồ bật"},
+    "tre_chu": {"mac_dinh": 1.4, "mo_ta": "giây con số bật"},
+    "phan": {"mac_dinh": "vi-du", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "toc_do": 1.05,
+    "may_quay": {"kieu": "rung", "muc": 0.004},
+    "chuyen_canh": {"kieu": "nhay-trang", "thoi_luong": 0.18},
+    "lop": [
+      {"anh": "{{bieu_do}}", "vi_tri": [0.66, 0.48], "co": 0.46, "hieu_ung": "bat-len", "tre": "{{tre_bieu_do}}",
+       "am_thanh": {"tep": "am-thanh/hit-tram.wav", "am_luong": 0.7}},
+      {"anh": "nhan-vat/max__{{bieu_cam}}__{{tu_the}}.png", "vi_tri": [0.24, 0.9], "neo": "day", "co": 0.58,
+       "hieu_ung": "khong", "lien_tuc": "run"}
+    ],
+    "chu": [
+      {"noi_dung": "{{chu}}", "vi_tri": [0.74, 0.18], "co": 110, "mau": "#D64545", "hieu_ung": "bat-len",
+       "tre": "{{tre_chu}}"}
+    ]
+  }
+}

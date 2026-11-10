@@ -1,0 +1,38 @@
+{
+  "_mo_ta": "Nội tâm: Max suy nghĩ lắc lư bên trái, bộ não hiện mờ phía trên, hai suy nghĩ đối nhau hiện lần lượt trong hai hộp (xanh = lý trí, đỏ = cảm xúc). Ngoại lệ 2 chữ / cảnh vì là cặp đối.",
+  "_dung_khi": "Giải thích cơ chế ('your brain says… but…'), giằng co trước quyết định, hệ thống 1 vs hệ thống 2. Một suy nghĩ thì để suy_nghi_2 = \"\".",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "câu về hai tiếng nói trong đầu", "vi_du": "Part of him says sell. Another part says wait, it will come back."},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc nếu có số"},
+    "suy_nghi_1": {"bat_buoc": true, "mo_ta": "suy nghĩ 1, 1–3 từ IN HOA (hộp xanh)", "vi_du": "SELL NOW"},
+    "suy_nghi_2": {"mac_dinh": "", "mo_ta": "suy nghĩ 2 (hộp đỏ); \"\" = không", "vi_du": "IT'LL COME BACK"},
+    "dao_cu": {"mac_dinh": "dao-cu/bo-nao.png", "mo_ta": "hình trên đầu (bộ não); \"\" = không"},
+    "bieu_cam": {"mac_dinh": "suy-nghi", "mo_ta": "mã biểu cảm Max (suy-nghi, boi-roi, lo-lang)"},
+    "tu_the": {"mac_dinh": "dung", "mo_ta": "mã tư thế Max"},
+    "nen": {"mac_dinh": "#F5F1E8", "mo_ta": "màu / ảnh nền"},
+    "tre_1": {"mac_dinh": 0.6, "mo_ta": "giây suy nghĩ 1 hiện"},
+    "tre_2": {"mac_dinh": 2.2, "mo_ta": "giây suy nghĩ 2 hiện"},
+    "phan": {"mac_dinh": "giai-thich", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "toc_do": 0.95,
+    "may_quay": {"kieu": "zoom-cham", "muc": 0.05},
+    "chuyen_canh": {"kieu": "cat", "thoi_luong": 0},
+    "lop": [
+      {"anh": "nhan-vat/max__{{bieu_cam}}__{{tu_the}}.png", "vi_tri": [0.26, 0.9], "neo": "day", "co": 0.6,
+       "hieu_ung": "khong", "lien_tuc": "lac"},
+      {"anh": "{{dao_cu}}", "vi_tri": [0.5, 0.24], "co": 0.16, "hieu_ung": "mo-dan", "tre": 0.2, "lien_tuc": "tho",
+       "am_thanh": {"tep": "am-thanh/pop.wav", "am_luong": 0.3}}
+    ],
+    "chu": [
+      {"noi_dung": "{{suy_nghi_1}}", "vi_tri": [0.72, 0.42], "co": 64, "mau": "#2E7D5B", "nen": "#E6F2EA",
+       "rong_toi_da": 0.4, "hieu_ung": "mo-dan", "tre": "{{tre_1}}"},
+      {"noi_dung": "{{suy_nghi_2}}", "vi_tri": [0.72, 0.62], "co": 64, "mau": "#D64545", "nen": "#F8E1E1",
+       "rong_toi_da": 0.4, "hieu_ung": "mo-dan", "tre": "{{tre_2}}"}
+    ]
+  }
+}

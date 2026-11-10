@@ -1,0 +1,33 @@
+{
+  "_mo_ta": "Đặt vấn đề / bối cảnh: Max lo lắng trong phòng, đạo cụ cái giá phải trả (tiền) rơi xuống, máy quay kéo ra chậm. Mặc định nháy đen 0,25 s vì thường là cảnh đầu phần mới (cảnh thứ 2 trở đi ghi đè \"chuyen_canh\": \"cat\").",
+  "_dung_khi": "Phần boi-canh: vì sao chuyện này quan trọng với 'you' (mất tiền, thời gian, quyết định sai); câu báo trước ở ~25–30 s.",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "câu nói rõ cái giá / cái được mất", "vi_du": "Max had saved for three years, and now he was about to make a choice."},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc nếu có số"},
+    "chu": {"mac_dinh": "", "mo_ta": "chữ khoá (mặc định không có — ≤ 1 cảnh có chữ trong 3 cảnh)"},
+    "bieu_cam": {"mac_dinh": "lo-lang", "mo_ta": "mã biểu cảm Max"},
+    "tu_the": {"mac_dinh": "dung", "mo_ta": "mã tư thế Max"},
+    "dao_cu": {"mac_dinh": "dao-cu/tien.png", "mo_ta": "đạo cụ minh hoạ cái giá; \"\" = không"},
+    "nen": {"mac_dinh": "phong-nen/phong.png", "mo_ta": "nền (ảnh phong-nen/... hoặc màu)"},
+    "tre_dao_cu": {"mac_dinh": 1.0, "mo_ta": "giây đạo cụ rơi xuống"},
+    "phan": {"mac_dinh": "boi-canh", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "toc_do": 0.95,
+    "may_quay": {"kieu": "zoom-ra", "muc": 0.05},
+    "chuyen_canh": {"kieu": "toi-den", "thoi_luong": 0.25},
+    "lop": [
+      {"anh": "nhan-vat/max__{{bieu_cam}}__{{tu_the}}.png", "vi_tri": [0.32, 0.9], "neo": "day", "co": 0.6,
+       "hieu_ung": "khong", "lien_tuc": "tho"},
+      {"anh": "{{dao_cu}}", "vi_tri": [0.7, 0.45], "co": 0.18, "hieu_ung": "roi-xuong", "tre": "{{tre_dao_cu}}",
+       "am_thanh": {"tep": "am-thanh/pop.wav", "am_luong": 0.35}}
+    ],
+    "chu": [
+      {"noi_dung": "{{chu}}", "vi_tri": [0.7, 0.2], "co": 88, "mau": "#1A1A1A", "hieu_ung": "go-chu", "tre": 1.4}
+    ]
+  }
+}

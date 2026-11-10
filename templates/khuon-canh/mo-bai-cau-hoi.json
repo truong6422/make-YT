@@ -1,0 +1,35 @@
+{
+  "_mo_ta": "Mở bài bằng câu hỏi / tình huống gây bất ngờ: nền tối, Max sốc run nhẹ bên trái, đạo cụ (dấu hỏi) bật lên bên phải, chữ khoá đỏ, máy quay đẩy nhanh (dam). Cảnh 1–3 của video (hook ≤ 15 s, mỗi cảnh 2,5–3,5 s).",
+  "_dung_khi": "Câu 1–3 của hook; câu hỏi tu từ đổi nhịp giữa video (≤ 1 lần / 30 s vì có 'dam').",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "câu hỏi / xung đột, 6–14 từ", "vi_du": "Why does losing $100 hurt more than winning $100 feels good?"},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc nếu lời có số / ký hiệu"},
+    "chu": {"mac_dinh": "WHY?", "mo_ta": "chữ khoá 1–4 từ IN HOA; \"\" = không chữ"},
+    "bieu_cam": {"mac_dinh": "soc", "mo_ta": "mã biểu cảm Max (docs/04 bảng 3)"},
+    "tu_the": {"mac_dinh": "dung", "mo_ta": "mã tư thế Max (docs/04 bảng 4)"},
+    "dao_cu": {"mac_dinh": "dao-cu/dau-hoi.png", "mo_ta": "đường dẫn đạo cụ; \"\" = không đạo cụ"},
+    "nen": {"mac_dinh": "#202124", "mo_ta": "màu / ảnh nền"},
+    "tre_dao_cu": {"mac_dinh": 0.6, "mo_ta": "giây đạo cụ bật lên"},
+    "tre_chu": {"mac_dinh": 1.2, "mo_ta": "giây chữ khoá bật (≈ lúc từ khoá được đọc)"},
+    "phan": {"mac_dinh": "hook", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "may_quay": {"kieu": "dam", "muc": 0.12},
+    "chuyen_canh": {"kieu": "cat", "thoi_luong": 0},
+    "lop": [
+      {"anh": "nhan-vat/max__{{bieu_cam}}__{{tu_the}}.png", "vi_tri": [0.3, 0.9], "neo": "day", "co": 0.62,
+       "hieu_ung": "khong", "lien_tuc": "run"},
+      {"anh": "{{dao_cu}}", "vi_tri": [0.72, 0.52], "co": 0.22, "hieu_ung": "bat-len", "tre": "{{tre_dao_cu}}",
+       "lien_tuc": "tho", "am_thanh": {"tep": "am-thanh/pop.wav", "am_luong": 0.4}}
+    ],
+    "chu": [
+      {"noi_dung": "{{chu}}", "vi_tri": [0.7, 0.2], "co": 100, "mau": "#D64545", "hieu_ung": "bat-len",
+       "tre": "{{tre_chu}}", "am_thanh": {"tep": "am-thanh/tick.wav", "am_luong": 0.4}}
+    ],
+    "am_thanh": [{"tep": "am-thanh/hit-tram.wav", "tre": 0.0, "am_luong": 0.6}]
+  }
+}

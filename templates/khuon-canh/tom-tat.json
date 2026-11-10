@@ -1,0 +1,40 @@
+{
+  "_mo_ta": "Tóm tắt: nháy đen vào phần mới, máy quay kéo ra, tiêu đề 'QUICK RECAP' trên cùng, 3 từ khoá xếp ngang bật lần lượt, Max nhẹ nhõm nhỏ ở giữa đáy. Một cảnh 6–9 s gói 2–3 ý chính (docs/02: không tóm tắt dài).",
+  "_dung_khi": "Phần tom-tat (1–3 cảnh). Ý thứ 3 trống (\"\") thì bỏ.",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "câu nhắc lại 2–3 ý chính", "vi_du": "So: losses feel bigger, we hold losers too long, and a simple rule can help."},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc nếu có số"},
+    "tieu_de": {"mac_dinh": "QUICK RECAP", "mo_ta": "tiêu đề; \"\" = không"},
+    "y_1": {"bat_buoc": true, "mo_ta": "từ khoá 1 (1–3 từ IN HOA)", "vi_du": "LOSSES FEEL BIGGER"},
+    "y_2": {"bat_buoc": true, "mo_ta": "từ khoá 2", "vi_du": "WE HOLD LOSERS"},
+    "y_3": {"mac_dinh": "", "mo_ta": "từ khoá 3; \"\" = không", "vi_du": "USE A RULE"},
+    "bieu_cam": {"mac_dinh": "nhe-nhom", "mo_ta": "mã biểu cảm Max"},
+    "tu_the": {"mac_dinh": "dung", "mo_ta": "mã tư thế Max"},
+    "nen": {"mac_dinh": "#F5F1E8", "mo_ta": "màu / ảnh nền"},
+    "tre_1": {"mac_dinh": 0.6, "mo_ta": "giây ý 1 bật"},
+    "tre_2": {"mac_dinh": 2.4, "mo_ta": "giây ý 2 bật"},
+    "tre_3": {"mac_dinh": 4.2, "mo_ta": "giây ý 3 bật"},
+    "phan": {"mac_dinh": "tom-tat", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "may_quay": {"kieu": "zoom-ra", "muc": 0.04},
+    "chuyen_canh": {"kieu": "toi-den", "thoi_luong": 0.25},
+    "lop": [
+      {"anh": "nhan-vat/max__{{bieu_cam}}__{{tu_the}}.png", "vi_tri": [0.5, 0.92], "neo": "day", "co": 0.34,
+       "hieu_ung": "khong", "lien_tuc": "tho"}
+    ],
+    "chu": [
+      {"noi_dung": "{{tieu_de}}", "vi_tri": [0.5, 0.16], "co": 72, "mau": "#D64545", "hieu_ung": "mo-dan", "tre": 0.0},
+      {"noi_dung": "{{y_1}}", "vi_tri": [0.2, 0.42], "co": 56, "mau": "#1A1A1A", "nen": "#FFFFFF", "rong_toi_da": 0.28,
+       "hieu_ung": "bat-len", "tre": "{{tre_1}}", "am_thanh": {"tep": "am-thanh/pop.wav", "am_luong": 0.35}},
+      {"noi_dung": "{{y_2}}", "vi_tri": [0.5, 0.42], "co": 56, "mau": "#1A1A1A", "nen": "#FFFFFF", "rong_toi_da": 0.28,
+       "hieu_ung": "bat-len", "tre": "{{tre_2}}", "am_thanh": {"tep": "am-thanh/pop.wav", "am_luong": 0.35}},
+      {"noi_dung": "{{y_3}}", "vi_tri": [0.8, 0.42], "co": 56, "mau": "#2E7D5B", "nen": "#FFFFFF", "rong_toi_da": 0.28,
+       "hieu_ung": "bat-len", "tre": "{{tre_3}}", "am_thanh": {"tep": "am-thanh/pop.wav", "am_luong": 0.35}}
+    ]
+  }
+}

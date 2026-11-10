@@ -1,0 +1,34 @@
+{
+  "_mo_ta": "Tâm lý bầy đàn: đám đông người que hào hứng chạy vào từ trái sang phải, Max nhỏ hơn bên trái lo lắng nhìn theo, máy quay lia phải, tiếng whoosh. Chữ khoá đỏ trên cao.",
+  "_dung_khi": "Herd behavior, FOMO, social proof, bong bóng giá; 'everyone else is buying'. Không để 2 cảnh liền cùng lia-phai.",
+  "_tham_so": {
+    "loi": {"bat_buoc": true, "mo_ta": "câu về đám đông", "vi_du": "Everyone at work was buying the same stock. So Max did too."},
+    "loi_doc": {"mac_dinh": null, "mo_ta": "cách đọc nếu có số"},
+    "chu": {"mac_dinh": "EVERYONE'S BUYING", "mo_ta": "chữ khoá; \"\" = không"},
+    "dam_dong": {"mac_dinh": "nhan-vat/dam-dong__hao-hung__chay.png", "mo_ta": "ảnh đám đông (dam-dong__hao-hung__chay, __hoang-loan__bo-chay, __hao-hung__nhin-len)"},
+    "hieu_ung_dam_dong": {"mac_dinh": "truot-phai", "mo_ta": "truot-phai (chạy sang phải) | truot-trai (bỏ chạy sang trái)"},
+    "bieu_cam": {"mac_dinh": "lo-lang", "mo_ta": "mã biểu cảm Max (lo-lang, tham-lam, boi-roi)"},
+    "tu_the": {"mac_dinh": "dung", "mo_ta": "mã tư thế Max"},
+    "nen": {"mac_dinh": "phong-nen/duong-pho.png", "mo_ta": "màu / ảnh nền"},
+    "tre_chu": {"mac_dinh": 1.6, "mo_ta": "giây chữ khoá bật"},
+    "phan": {"mac_dinh": "vi-du", "mo_ta": "phần video"}
+  },
+  "canh": {
+    "phan": "{{phan}}",
+    "loi": "{{loi}}",
+    "loi_doc": "{{loi_doc}}",
+    "nen": "{{nen}}",
+    "may_quay": {"kieu": "lia-phai", "muc": 0.08},
+    "chuyen_canh": {"kieu": "cat", "thoi_luong": 0},
+    "lop": [
+      {"anh": "{{dam_dong}}", "vi_tri": [0.64, 0.9], "neo": "day", "co": 0.55, "hieu_ung": "{{hieu_ung_dam_dong}}",
+       "tre": 0.0, "lien_tuc": "nhun", "am_thanh": {"tep": "am-thanh/whoosh.wav", "am_luong": 0.5}},
+      {"anh": "nhan-vat/max__{{bieu_cam}}__{{tu_the}}.png", "vi_tri": [0.16, 0.9], "neo": "day", "co": 0.45,
+       "hieu_ung": "khong", "lien_tuc": "lac"}
+    ],
+    "chu": [
+      {"noi_dung": "{{chu}}", "vi_tri": [0.6, 0.18], "co": 88, "mau": "#D64545", "rong_toi_da": 0.7,
+       "hieu_ung": "bat-len", "tre": "{{tre_chu}}", "am_thanh": {"tep": "am-thanh/tick.wav", "am_luong": 0.35}}
+    ]
+  }
+}
