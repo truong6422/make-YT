@@ -26,37 +26,42 @@ Nếu ảnh ra nền hơi xám / có bóng: gửi lại câu *"Same image, but p
 
 Max là nhân vật chính, xuất hiện ở hầu hết cảnh. Phải có **một ảnh gốc** chuẩn rồi mọi ảnh sau đều dựa vào nó.
 
+**Thiết kế đã chốt (2026-11-10)**: tỷ lệ "chibi vừa" của `kho-mau/_mau-nhan-vat/V1-max.png` (đầu ~1/3 thân, mắt to tròn) + kiểu biểu cảm mạnh của `V2-max.png` (miệng há to khi sợ / sốc, má hồng khi xấu hổ). Nhận diện: hoodie cam `#FF7A1A`, một chỏm tóc vểnh đen, quần navy, giày teal `#2EC4B6`; da đào nhạt trung tính; lông mày đen dày; không mũi. Bảng màu: cam / navy / teal / trắng ngà. Lý do và so sánh: `kho-mau/_mau-nhan-vat/README.md`, `docs/doi-thu/`.
+
 ### Bước 2.1 — Tạo bản gốc
 
-Mở cuộc trò chuyện mới, gửi:
+Mở cuộc trò chuyện mới, **đính kèm `V1-max.png` và `V2-max.png`**, gửi:
 
 ```text
-Create a character reference image for a minimalist stick figure named Max.
-Style: flat 2D vector-like line art, uniform thick black outlines (same stroke width everywhere), no shading, no gradients, no shadows, no texture.
-Max has a perfectly round white head with a thick black outline, two small solid black dot eyes, a simple curved line mouth, no hair, no nose, no ears.
-Body: simple single black stick lines for torso, arms and legs, rounded line ends, no hands detail (just line ends), no clothes.
-Pose: standing straight, facing the viewer, arms relaxed at the sides, neutral calm expression.
-Full body visible, centered, with generous empty margin around.
+Use the two attached images as references for ONE final character, Max, an original YouTube psychology mascot.
+Take the BODY PROPORTIONS and face shape from the first image (medium chibi: big head about 1/3 of total body height, soft rounded body, big round white eyes with solid black pupils).
+Take the EXPRESSION STYLE from the second image (strong, readable expressions: wide open mouth when scared or shocked, pink flat blush when embarrassed).
+Max: ordinary young adult about 25-30, ethnically ambiguous, neutral light peach skin, thick expressive black eyebrows, no nose, short black hair with ONE black cowlick tuft sticking up on top, bright orange hoodie (#FF7A1A), plain navy blue pants, simple teal (#2EC4B6) shoes.
+Pose: standing straight, facing the viewer, arms relaxed at the sides, friendly neutral expression.
+ONLY ONE figure. Full body visible, centered, generous empty margin around.
+Flat 2D vector illustration, thick uniform black outlines, flat colors, no gradients, no shading, no shadows, no texture.
 Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark, no border.
 Square 1:1 image.
 ```
 
-Tạo vài lần, chọn bản ưng nhất (đầu tròn đều, nét đều, tỷ lệ đầu / thân dễ nhìn). Lưu thành `kho-mau/_cho-xu-ly/max__goc__dung.png` và **giữ thêm một bản riêng** (vd. `max-goc.png` trên máy) làm ảnh tham chiếu.
+Tạo vài lần, chọn bản ưng nhất (đầu ~1/3 thân, chỏm tóc rõ, nét đều, đúng màu). Lưu thành `kho-mau/_cho-xu-ly/max__goc__dung.png` và **giữ thêm một bản riêng** (vd. `max-goc.png` trên máy) làm ảnh tham chiếu cho mọi ảnh sau.
+
+Chưa tải ảnh lên được (Gemini hỏi đồng ý điều khoản tải ảnh) → người dùng bấm đồng ý một lần; Claude không tự bấm.
 
 ### Bước 2.2 — LUÔN đính kèm ảnh gốc khi tạo ảnh mới của Max
 
-Mỗi biểu cảm / tư thế mới: bấm nút đính kèm (➕ / tải ảnh lên), chọn ảnh gốc Max, rồi gửi prompt theo khuôn dưới. Không đính kèm → Gemini vẽ ra nhân vật khác (đầu méo, nét khác, thêm tóc…).
+Mỗi biểu cảm / tư thế mới: bấm nút đính kèm (➕ / tải ảnh lên), chọn ảnh gốc Max, rồi gửi prompt theo khuôn dưới. Không đính kèm → Gemini vẽ ra nhân vật khác (đổi tỷ lệ đầu, mất chỏm tóc, đổi màu áo…).
 
 Mẹo:
 - Có thể làm nhiều ảnh trong **cùng một cuộc trò chuyện**, nhưng vẫn đính kèm lại ảnh gốc mỗi lần — lâu dần Gemini "trôi" phong cách.
 - Ảnh ra lệch phong cách → bỏ, tạo lại; đừng dùng ảnh lệch làm tham chiếu tiếp.
-- Biểu cảm thể hiện chủ yếu bằng **mắt, miệng, lông mày đơn giản và dáng người** — giữ tối giản.
+- Biểu cảm thể hiện bằng **lông mày, mắt, miệng (há to khi mạnh), má hồng và dáng người** — đẩy biểu cảm rõ, kiểu V2.
 
 ### Khuôn prompt cho Max (thay 2 chỗ `{...}`)
 
 ```text
-Using the attached reference image, draw the SAME character Max: identical round white head with thick black outline, same dot eyes, same uniform thick black stick-line body, same proportions and stroke width. Keep the exact same minimalist flat style.
-Expression: {EXPRESSION}.
+Using the attached reference image, draw the SAME character Max: same medium chibi proportions (head about 1/3 of body), same big round eyes, thick black eyebrows, same black cowlick tuft, same orange hoodie (#FF7A1A), navy pants and teal shoes, same thick uniform black outlines. Keep the exact same flat 2D style. Only one figure.
+Expression: {EXPRESSION}, strong and clearly readable.
 Pose: {POSE}.
 Full body visible, centered, generous empty margin. No shading, no shadows, no gradients.
 Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark.
@@ -106,8 +111,8 @@ Tổ hợp đầy đủ 16 × 6 = 96 ảnh — **không cần làm hết**. Làm
 `max__lo-lang__cam-dien-thoai.png`:
 
 ```text
-Using the attached reference image, draw the SAME character Max: identical round white head with thick black outline, same dot eyes, same uniform thick black stick-line body, same proportions and stroke width. Keep the exact same minimalist flat style.
-Expression: anxious, worried eyebrows, wobbly mouth, one sweat drop on the head.
+Using the attached reference image, draw the SAME character Max: same medium chibi proportions (head about 1/3 of body), same big round eyes, thick black eyebrows, same black cowlick tuft, same orange hoodie (#FF7A1A), navy pants and teal shoes, same thick uniform black outlines. Keep the exact same flat 2D style. Only one figure.
+Expression: anxious, worried eyebrows, wobbly mouth, one sweat drop on the head, strong and clearly readable.
 Pose: standing, holding a smartphone in front of the face, the phone screen shows a simple line chart (no numbers, no text).
 Full body visible, centered, generous empty margin. No shading, no shadows, no gradients.
 Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark.
@@ -120,25 +125,33 @@ Square 1:1 image.
 
 Tạo bản gốc riêng cho từng nhân vật phụ (một lần), rồi cũng đính kèm bản gốc đó khi làm biểu cảm khác. Đính kèm **cả ảnh gốc Max** khi tạo bản gốc nhân vật phụ để cùng phong cách.
 
-**Bạn của Max** — `nhan-vat/ban__<bieu-cam>__<tu-the>.png`
+**Brainy** (bộ não hồng — tiếng nói trong đầu Max, chen vào giải thích thiên kiến) — `nhan-vat/brainy__<bieu-cam>__<tu-the>.png`
 ```text
-Using the attached reference image of Max ONLY as a style reference, create a NEW minimalist stick figure character: Max's friend. Same flat style, same uniform thick black outlines, same round white head shape and stick body proportions. Distinguishing feature: a simple short spiky hair tuft drawn with three black lines on top of the head.
-Expression: friendly smile. Pose: standing, facing the viewer, one hand waving.
-Full body, centered, generous margin. No shading, no shadows.
+Using the attached reference image of Max ONLY as a style reference, create a NEW character: Brainy, a small cute pink brain (soft pink, brain folds drawn with a few thick lines), big round white eyes with solid black pupils, thick expressive black eyebrows, small simple mouth, thin black stick arms and legs with tiny mitten hands. Curious, slightly mischievous. Same flat 2D style, same thick uniform black outlines.
+Expression: {EXPRESSION}, strong and clearly readable. Pose: {standing, facing the viewer | pointing up with an idea | panicking with hands on head | arms crossed}.
+Only one figure. Full body, centered, generous margin. No shading, no shadows.
 Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark. Square 1:1 image.
 ```
 
-**Chuyên gia** — `nhan-vat/chuyen-gia__<bieu-cam>__<tu-the>.png`
+**Dr. Mira** (nhà tâm lý học — mã `chuyen-gia`) — `nhan-vat/chuyen-gia__<bieu-cam>__<tu-the>.png`
 ```text
-Using the attached reference image of Max ONLY as a style reference, create a NEW minimalist stick figure character: an expert / professor. Same flat style, same uniform thick black outlines, same round white head and stick body. Distinguishing features: simple round glasses drawn as two black circles, and a simple bow tie.
-Expression: calm, knowing smile. Pose: standing, holding a simple pointer stick, pointing to the right.
-Full body, centered, generous margin. No shading, no shadows.
+Using the attached reference image of Max ONLY as a style reference, create a NEW character: Dr. Mira, a friendly female psychologist about 40, same medium chibi proportions (head about 1/3 of body), ethnically ambiguous warm medium skin, big round white eyes with black pupils, thick expressive eyebrows, no nose, round black glasses, dark hair in a neat bun, teal cardigan (#2EC4B6) over an off-white top, navy pants, simple shoes. Same flat 2D style, same thick uniform black outlines.
+Expression: {calm, warm knowing smile}. Pose: {standing, holding a small clipboard | standing and pointing to the right, presenting}.
+Only one figure. Full body, centered, generous margin. No shading, no shadows.
+Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark. Square 1:1 image.
+```
+
+**Bạn của Max** — `nhan-vat/ban__<bieu-cam>__<tu-the>.png` (dùng khi câu chuyện cần người thứ hai)
+```text
+Using the attached reference image of Max ONLY as a style reference, create a NEW character: Max's friend Sam, same medium chibi proportions and flat 2D style, ethnically ambiguous warm brown skin, curly dark hair, navy hoodie (#1F2A44) with a small teal stripe, off-white pants. Must look clearly different from Max at a glance.
+Expression: friendly smile. Pose: standing, facing the viewer, one hand waving.
+Only one figure. Full body, centered, generous margin. No shading, no shadows.
 Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark. Square 1:1 image.
 ```
 
 **Đám đông** — `nhan-vat/dam-dong__<bieu-cam>__<tu-the>.png` (vd. `dam-dong__hao-hung__chay.png`)
 ```text
-In the same minimalist flat style as the attached reference image of Max (uniform thick black outlines, round white heads, stick bodies), draw a crowd of 7 simple stick figures, all identical in style but slightly different sizes, grouped together.
+In the same flat 2D medium chibi style as the attached reference image of Max (thick uniform black outlines, big heads, flat colors), draw a crowd of 7 simple background people with varied skin tones and muted clothing (navy, grey, off-white, teal — no orange, orange is reserved for Max), all slightly different sizes, grouped together.
 They are all {excited, running to the right in the same direction | panicked, running away to the left | standing and looking up at the same point}.
 No shading, no shadows. Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark.
 16:9 image.
@@ -231,7 +244,7 @@ No text, no letters, no numbers, no signs with writing, no logos, no watermark. 
    nq tach-nen kho-mau/_cho-xu-ly --ra kho-mau   # tự xếp: dao-cu__x -> dao-cu/, bieu-do__x -> bieu-do/, còn lại -> nhan-vat/
    ```
    Đạo cụ / biểu đồ: đổi `--ra kho-mau/dao-cu` hoặc `--ra kho-mau/bieu-do` (nên để mỗi loại một thư mục con trong `_cho-xu-ly/` rồi chạy theo từng thư mục). Nền cảnh **không tách nền** — chép thẳng vào `kho-mau/phong-nen/`.
-4. Mở vài PNG kết quả kiểm: đầu Max vẫn trắng bên trong, viền không bị gặm. Hỏng → tạo lại ảnh với nền trắng sạch hơn.
+4. Mở vài PNG kết quả kiểm: mắt Max vẫn trắng (không bị thủng thành trong suốt), viền không bị gặm. Hỏng → tạo lại ảnh với nền trắng sạch hơn.
 5. Cập nhật danh mục:
    ```powershell
    nq kho

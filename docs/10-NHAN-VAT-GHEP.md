@@ -137,19 +137,19 @@ Theo quy tắc chung `04-TAO-ANH-GEMINI.md` mục 1 (nền trắng tinh, không 
 
 Đầu (không mặt — mặt là lớp riêng):
 ```text
-Using the attached reference image of Max, draw ONLY his head: the same perfectly round white head with the same thick black outline, completely blank face (no eyes, no mouth, no eyebrows). Head centered, upright, generous empty margin around it (the head fills about half of the image width).
+Using the attached reference image of Max, draw ONLY his head: the same head shape, light peach skin, short black hair with the same black cowlick tuft, same thick black outline, completely blank face (no eyes, no mouth, no eyebrows, no blush). No neck, no hoodie. Head centered, upright, generous empty margin around it (the head fills about half of the image width).
 Flat 2D, no shading, no shadow. Pure white background (#FFFFFF). No text. Square 1:1 image.
 ```
 Tay / chân / thân (một đoạn):
 ```text
-Draw ONE single straight thick black line segment, perfectly vertical, with round caps at both ends, in exactly the same stroke width as the attached Max reference. It is Max's {PART}. Nothing else in the image. Centered, generous margin.
+Using the attached reference image of Max, draw ONLY his {PART}, as a separate cut-out piece for puppet animation: perfectly vertical and straight, same colors, same thick black outline, rounded ends so it can rotate at the joint. Nothing else in the image. Centered, generous margin.
 Pure white background (#FFFFFF). No shading, no text. Tall portrait image 1:3.
 ```
-`{PART}`: `upper arm` / `forearm ending in a small solid round hand dot` / `thigh` / `lower leg` / `torso`.
+`{PART}`: `upper arm in the orange hoodie sleeve` / `forearm in the orange hoodie sleeve ending in a simple peach mitten hand` / `thigh in navy pants` / `lower leg in navy pants ending in a teal shoe seen from the front` / `torso in the orange hoodie, no arms, no head, no legs`.
 
 Mắt theo biểu cảm (cùng khung với đầu, để chồng khít):
 ```text
-Using the attached head image, draw ONLY the facial features for this expression: {EXPRESSION} — eyes and eyebrows only (plus sweat drop / tear if the expression has one), placed exactly where they would sit on that head. Do NOT draw the head circle, do NOT draw a mouth. Same thick black flat line style.
+Using the attached head image, draw ONLY the facial features for this expression: {EXPRESSION} — eyes and eyebrows only (plus sweat drop / tear if the expression has one), placed exactly where they would sit on that head. Do NOT draw the head or hair, do NOT draw a mouth. Big round white eyes with black outline and solid black pupils, thick black eyebrows, flat pink blush only if the expression is embarrassed. Same thick black flat line style.
 Pure white background (#FFFFFF). No text. Same size and framing as the attached head image.
 ```
 Miệng: như trên nhưng `ONLY the mouth: {closed straight line | small open oval | wide open oval with a little red tongue}`; mắt nhắm: `ONLY two closed eyes drawn as short horizontal lines`.
