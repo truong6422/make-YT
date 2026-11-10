@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import bisect
 import math
+import os
 import subprocess
 import sys
 import tempfile
@@ -789,11 +790,24 @@ class BoDung:
         for im, x, y in self.anh_thuong_hieu():
             khung.paste(im, (x, y), im)
 
-    def cac_khung(self):
-        """Sinh bytes rgb24 từng khung theo dòng thời gian."""
+    def _khung_cuoi(self, muc: dict) -> Image.Image | None:
+        """Khung cuối (chưa logo / phụ đề) của một cảnh — để cảnh sau chuyển cảnh từ đó."""
+        bd, kt = float(muc["bat_dau"]), float(muc["ket_thuc"])
+        f0, f1 = int(round(bd * self.fps)), int(round(kt * self.fps))
+        if f1 <= f0:
+            return None
+        return self.ve_canh(muc["canh"], (f1 - 1) / self.fps - bd, kt - bd).copy()
+
+    def cac_khung(self, i0: int = 0, i1: int | None = None):
+        """Sinh bytes rgb24 từng khung theo dòng thời gian (cảnh ds[i0:i1]; mặc định cả video)."""
         fps = self.fps
         truoc: Image.Image | None = None
-        for muc in self.ds:
+        if i0 > 0:  # đoạn giữa video (dựng song song): tự vẽ lại khung cuối của cảnh liền trước
+            for j in range(i0 - 1, -1, -1):
+                truoc = self._khung_cuoi(self.ds[j])
+                if truoc is not None:
+                    break
+        for muc in self.ds[i0:i1]:
             canh = muc["canh"]
             bd, kt = float(muc["bat_dau"]), float(muc["ket_thuc"])
             dai = kt - bd
@@ -847,15 +861,20 @@ class BoDung:
         lenh += ["-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(tep_ra)]
         return lenh
 
-    def _ma_hoa(self, lenh: list[str], tong_khung: int) -> None:
+    def _ma_hoa(self, lenh: list[str], tong_khung: int, khoang: tuple = (0, None), dem=None) -> None:
+        """Đẩy khung vào ffmpeg. dem: multiprocessing.Value chung (dựng song song) — khi có thì không in tiến độ."""
         with tempfile.TemporaryFile() as tep_loi:
             proc = subprocess.Popen(lenh, stdin=subprocess.PIPE, stdout=subprocess.DEVNULL, stderr=tep_loi)
             bat_dau = time.time()
             pt_cu = -1
             i = 0
             try:
-                for i, du_lieu in enumerate(self.cac_khung(), 1):
+                for i, du_lieu in enumerate(self.cac_khung(*khoang), 1):
                     proc.stdin.write(du_lieu)
+                    if dem is not None:
+                        with dem.get_lock():
+                            dem.value += 1
+                        continue
                     pt = int(i * 100 / max(1, tong_khung))
                     if pt != pt_cu:
                         pt_cu = pt
@@ -880,17 +899,120 @@ class BoDung:
                 proc.wait()
                 raise
             ma = proc.wait()
-            sys.stdout.write("\n")
+            if dem is None:
+                sys.stdout.write("\n")
             if ma != 0:
                 tep_loi.seek(0)
                 loi = tep_loi.read().decode("utf-8", "replace").strip()
                 raise LoiMaHoa(f"ffmpeg kết thúc với mã {ma}.\n{loi}")
+
+    # ---- dựng song song: chia cảnh thành đoạn, mỗi tiến trình vẽ + mã hoá một đoạn, rồi ghép (-c copy) ----
+    def so_tien_trinh(self, tong_khung: int) -> int:
+        """video.song_song: "tu-dong" (mặc định) = máy mạnh (>= 16 luồng CPU và >= 24 GB RAM) thì song song,
+        mỗi tiến trình tính ~2 GB RAM, tối đa 8; máy yếu hơn (vd. laptop Aspire 7) chạy tuần tự như cũ.
+        Số >= 1 = ép đúng bấy nhiêu tiến trình (1 = tuần tự)."""
+        muon = (self.ch.get("video") or {}).get("song_song", "tu-dong")
+        try:
+            n = int(muon)
+        except (TypeError, ValueError):
+            n = 0
+        if n <= 0:
+            luong, ram = os.cpu_count() or 2, _ram_gb()
+            n = min(8, luong - 2, int(ram // 3)) if luong >= 16 and ram >= 24 else 1
+        if self.nhap or len(self.ds) < 2 or tong_khung < self.fps * 20:
+            return 1
+        return max(1, min(n, len(self.ds)))
+
+    def chia_doan(self, so_doan: int) -> list[tuple[int, int]]:
+        """Chia ds thành `so_doan` khoảng cảnh liền nhau [i0, i1), số khung gần bằng nhau."""
+        fps = self.fps
+        moc = [int(round(float(m["ket_thuc"]) * fps)) for m in self.ds]
+        tong = moc[-1] if moc else 0
+        doan, i0 = [], 0
+        for k in range(1, so_doan):
+            dich = tong * k / so_doan
+            i1 = max(i0 + 1, bisect.bisect_left(moc, dich) + 1)
+            if i1 >= len(self.ds):
+                break
+            doan.append((i0, i1))
+            i0 = i1
+        doan.append((i0, len(self.ds)))
+        return doan
+
+    def _lenh_doan(self, ffmpeg: str, tep_ra: Path) -> list[str]:
+        """Đoạn hình không tiếng, libx264 (NVENC giới hạn số phiên cùng lúc trên card thường)."""
+        q = str(int((self.ch.get("video") or {}).get("chat_luong", 21)))
+        return [ffmpeg, "-y", "-hide_banner", "-loglevel", "error",
+                "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{self.W}x{self.H}", "-r", str(self.fps), "-i", "-",
+                "-c:v", "libx264", "-preset", "medium", "-crf", q, "-threads", "2", "-pix_fmt", "yuv420p",
+                str(tep_ra)]
+
+    def _chay_song_song(self, ffmpeg: str, tep_am: Path, tep_ra: Path, tong_khung: int, n: int) -> None:
+        import multiprocessing as mp
+        from concurrent.futures import ProcessPoolExecutor
+
+        doan = self.chia_doan(n * 2)
+        thu_muc_tam = Path(tempfile.mkdtemp(prefix="nq-doan-", dir=str(tep_ra.parent)))
+        print(f"  Dựng song song: {n} tiến trình, {len(doan)} đoạn.")
+        try:
+            ctx = mp.get_context("spawn")
+            dem = ctx.Value("q", 0)
+            viec = []
+            for k, (i0, i1) in enumerate(doan):
+                tep = thu_muc_tam / f"doan-{k:03d}.mp4"
+                viec.append((self.kb, self.ds, self.ch, str(self.thu_muc_du_an), self.nhap, self.cum,
+                             self.bao_giong, i0, i1, self._lenh_doan(ffmpeg, tep)))
+            bat_dau = time.time()
+            with ProcessPoolExecutor(max_workers=n, mp_context=ctx, initializer=_khoi_tao_doan,
+                                     initargs=(dem,)) as pool:
+                cho = [pool.submit(_dung_doan, v) for v in viec]
+                pt_cu = -1
+                while not all(f.done() for f in cho):
+                    time.sleep(0.5)
+                    i = dem.value
+                    pt = int(i * 100 / max(1, tong_khung))
+                    if pt != pt_cu:
+                        pt_cu = pt
+                        toc = i / max(1e-6, time.time() - bat_dau)
+                        sys.stdout.write(f"\r  Dựng hình: {pt:3d}% ({i}/{tong_khung} khung, {toc:.1f} khung/s)   ")
+                        sys.stdout.flush()
+                for f in cho:
+                    f.result()  # ném lỗi của tiến trình con (nếu có)
+            sys.stdout.write("\n")
+            ds_tep = thu_muc_tam / "ds.txt"
+            ds_tep.write_text("".join(f"file '{(thu_muc_tam / f'doan-{k:03d}.mp4').as_posix()}'\n"
+                                      for k in range(len(doan))), encoding="utf-8")
+            lenh = [ffmpeg, "-y", "-hide_banner", "-loglevel", "error", "-f", "concat", "-safe", "0",
+                    "-i", str(ds_tep), "-i", str(tep_am), "-map", "0:v", "-map", "1:a", "-c:v", "copy",
+                    "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", str(tep_ra)]
+            kq = subprocess.run(lenh, capture_output=True)
+            if kq.returncode != 0:
+                raise LoiMaHoa("ghép đoạn thất bại.\n" + kq.stderr.decode("utf-8", "replace").strip())
+        finally:
+            for p in thu_muc_tam.glob("*"):
+                try:
+                    p.unlink()
+                except OSError:
+                    pass
+            try:
+                thu_muc_tam.rmdir()
+            except OSError:
+                pass
 
     def chay(self, tep_am: Path, tep_ra: Path) -> Path:
         ffmpeg = can_ffmpeg()
         tep_ra = Path(tep_ra)
         tep_ra.parent.mkdir(parents=True, exist_ok=True)
         tong_khung = int(round(float(self.ds[-1]["ket_thuc"]) * self.fps)) if self.ds else 0
+        n = self.so_tien_trinh(tong_khung)
+        if n > 1:
+            print(f"  Khung {self.W}x{self.H} @ {self.fps}fps, {tong_khung} khung, mã hoá libx264 theo đoạn.")
+            try:
+                self._chay_song_song(ffmpeg, tep_am, tep_ra, tong_khung, n)
+                return tep_ra
+            except LoiMaHoa as e:
+                raise RuntimeError(f"Mã hoá video thất bại: {e}\nCách sửa: đặt video.song_song: 1 trong config.yaml "
+                                   "để dựng tuần tự; cập nhật ffmpeg; kiểm dung lượng ổ đĩa.") from None
         bo_ma = self._bo_ma(ffmpeg)
         print(f"  Khung {self.W}x{self.H} @ {self.fps}fps, {tong_khung} khung, mã hoá {bo_ma}.")
         try:
@@ -908,6 +1030,47 @@ class BoDung:
 
 class LoiMaHoa(RuntimeError):
     pass
+
+
+def _ram_gb() -> float:
+    """Tổng RAM máy (GB), không cần thư viện ngoài; không đọc được thì 0 (-> dựng tuần tự)."""
+    try:
+        if os.name == "nt":
+            import ctypes
+
+            class _Mem(ctypes.Structure):
+                _fields_ = [("dwLength", ctypes.c_ulong), ("dwMemoryLoad", ctypes.c_ulong),
+                            ("ullTotalPhys", ctypes.c_ulonglong), ("ullAvailPhys", ctypes.c_ulonglong),
+                            ("ullTotalPageFile", ctypes.c_ulonglong), ("ullAvailPageFile", ctypes.c_ulonglong),
+                            ("ullTotalVirtual", ctypes.c_ulonglong), ("ullAvailVirtual", ctypes.c_ulonglong),
+                            ("ullAvailExtendedVirtual", ctypes.c_ulonglong)]
+
+            m = _Mem()
+            m.dwLength = ctypes.sizeof(_Mem)
+            if ctypes.windll.kernel32.GlobalMemoryStatusEx(ctypes.byref(m)):
+                return m.ullTotalPhys / 1024 ** 3
+            return 0.0
+        return os.sysconf("SC_PAGE_SIZE") * os.sysconf("SC_PHYS_PAGES") / 1024 ** 3
+    except (OSError, ValueError, AttributeError):
+        return 0.0
+
+
+_DEM_KHUNG = None  # multiprocessing.Value chung, gán trong tiến trình con
+
+
+def _khoi_tao_doan(dem) -> None:
+    global _DEM_KHUNG
+    _DEM_KHUNG = dem
+
+
+def _dung_doan(tham: tuple) -> None:
+    """Tiến trình con: vẽ cảnh ds[i0:i1] và mã hoá ra một đoạn hình không tiếng."""
+    kb, ds, ch, thu_muc, nhap, cum, bao_giong, i0, i1, lenh = tham
+    bd = BoDung(kb, ds, ch, Path(thu_muc), nhap=nhap, phu_de=None, bao_giong=bao_giong)
+    bd.cum = cum  # phụ đề đã sắp xếp sẵn ở tiến trình chính
+    bd._bd_cum = [c[0] for c in cum]
+    tong = int(round((float(ds[i1 - 1]["ket_thuc"]) - float(ds[i0]["bat_dau"])) * bd.fps))
+    bd._ma_hoa(lenh, tong, (i0, i1), _DEM_KHUNG)
 
 
 def dung_video(kb: dict, ds: list[dict], tep_am_thanh: Path, tep_ra: Path, thu_muc_du_an: Path, ch: dict,

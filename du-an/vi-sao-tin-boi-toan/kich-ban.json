@@ -1,0 +1,1891 @@
+{
+ "tieu_de": "Vì sao người thông minh vẫn tin thầy bói",
+ "ngon_ngu": "vi",
+ "nhac_nen": null,
+ "thumbnail": {
+  "nen": "#FFD54F",
+  "chu": "BÀ ẤY *NÓI ĐÚNG*?",
+  "nhan_vat": [
+   {
+    "anh": "nhan-vat/max__soc__dung.png",
+    "vi_tri": [
+     0.76,
+     0.56
+    ],
+    "co": 0.85
+   }
+  ],
+  "mui_ten": {
+   "tu": [
+    0.5,
+    0.78
+   ],
+   "den": [
+    0.64,
+    0.62
+   ],
+   "mau": "#E53935"
+  }
+ },
+ "canh": [
+  {
+   "id": "c001",
+   "khuon": "mo-bai-cau-hoi",
+   "tham_so": {
+    "loi": "Tại sao một người trưởng thành, thông minh, sống ở thời hiện đại, lại đi tin một người lạ cầm bộ bài?",
+    "chu": "TẠI SAO?"
+   }
+  },
+  {
+   "id": "c002",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Max không tin mấy chuyện đó. Ít ra là anh nói vậy.",
+    "bieu_cam": "tu-tin",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "phan": "hook"
+   }
+  },
+  {
+   "id": "c003",
+   "khuon": "con-so-lon",
+   "tham_so": {
+    "loi": "Anh trả 20 đô cho một quẻ bói 5 phút.",
+    "loi_doc": "Anh trả hai mươi đô cho một quẻ bói năm phút.",
+    "con_so": "20 ĐÔ",
+    "chu_phu": "5 PHÚT",
+    "nen": "#202124",
+    "phan": "hook"
+   }
+  },
+  {
+   "id": "c004",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Chỉ một câu trong quẻ bói ấy đã đeo bám anh suốt 3 tháng.",
+    "loi_doc": "Chỉ một câu trong quẻ bói ấy đã đeo bám anh suốt ba tháng.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "lien_tuc": "run",
+    "phan": "hook"
+   }
+  },
+  {
+   "id": "c005",
+   "khuon": "vi-du-doi-thuong",
+   "dem_sau": 0.6,
+   "tham_so": {
+    "loi": "Đến cuối cùng, anh chắc chắn rằng nó đã thành sự thật. Rồi ta sẽ tới đoạn đó.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "may_quay": "zoom-ra",
+    "phan": "hook"
+   }
+  },
+  {
+   "id": "c006",
+   "khuon": "dat-van-de",
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   },
+   "tham_so": {
+    "loi": "Mọi chuyện bắt đầu vào một tối thứ Bảy, ở hội chợ đường phố giữa trung tâm.",
+    "bieu_cam": "vui",
+    "dao_cu": "",
+    "nen": "phong-nen/hoi-cho-dem.png"
+   }
+  },
+  {
+   "id": "c007",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "truot-trai",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Sam, bạn anh, chỉ vào một căn lều nhỏ có tấm biển phát sáng.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "vi_tri_x": 0.3,
+    "phan": "boi-canh"
+   }
+  },
+  {
+   "id": "c008",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Xem bói. Năm phút. Sam bảo vào cho vui.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "dung",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "vi_tri_x": 0.3,
+    "chu": "XEM BÓI",
+    "phan": "boi-canh"
+   }
+  },
+  {
+   "id": "c009",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "Max đảo mắt. Nhưng sâu bên trong, có một chút tò mò.",
+    "suy_nghi_1": "VỚ VẨN",
+    "suy_nghi_2": "...NHƯNG LỠ ĐÂU?",
+    "phan": "boi-canh"
+   }
+  },
+  {
+   "id": "c010",
+   "khuon": "dat-van-de",
+   "tham_so": {
+    "loi": "Và thật lòng mà nói, chút tò mò ấy có trong gần như tất cả chúng ta.",
+    "bieu_cam": "suy-nghi",
+    "dao_cu": ""
+   }
+  },
+  {
+   "id": "c011",
+   "khuon": "con-so-lon",
+   "tham_so": {
+    "loi": "Theo khảo sát của Pew năm 2018, cứ khoảng 3 người Mỹ trưởng thành thì có 1 người nói họ tin vào chiêm tinh.",
+    "loi_doc": "Theo khảo sát của Piu năm hai nghìn không trăm mười tám, cứ khoảng ba người Mỹ trưởng thành thì có một người nói họ tin vào chiêm tinh.",
+    "con_so": "29%",
+    "chu_phu": "TIN VÀO CHIÊM TINH",
+    "phan": "boi-canh"
+   }
+  },
+  {
+   "id": "c012",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Còn rất nhiều người không tin, nhưng vẫn gõ tay vào gỗ. Phòng khi.",
+    "bieu_cam": "dac-y",
+    "tu_the": "dung",
+    "dao_cu": "dao-cu/go-cua.png",
+    "chu": "PHÒNG KHI",
+    "phan": "boi-canh"
+   }
+  },
+  {
+   "id": "c013",
+   "khuon": "vi-du-doi-thuong",
+   "dem_sau": 0.5,
+   "tham_so": {
+    "loi": "Vậy tại sao một bộ não sinh ra để suy luận lại dễ sa vào chuyện này? Hãy đi cùng Max.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "dao_cu": "dao-cu/bo-nao.png",
+    "may_quay": "zoom-cham",
+    "phan": "boi-canh"
+   }
+  },
+  {
+   "id": "c014",
+   "khuon": "vi-du-doi-thuong",
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   },
+   "lop_them": [
+    {
+     "anh": "dao-cu/thay-boi.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.48,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Trong lều, một người phụ nữ xào bộ bài và nhìn chăm chú vào mặt anh.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "dung",
+    "nen": "phong-nen/leu-xem-boi.png",
+    "vi_tri_x": 0.3,
+    "dao_cu": ""
+   }
+  },
+  {
+   "id": "c015",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "dao-cu/thay-boi.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.48,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Bà nói: cậu có thể rất hoà đồng, nhưng đôi khi cậu cần ở một mình.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "phong-nen/leu-xem-boi.png",
+    "vi_tri_x": 0.3,
+    "dao_cu": "dao-cu/la-bai.png"
+   }
+  },
+  {
+   "id": "c016",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "dao-cu/thay-boi.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.48,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Max khựng lại. Đúng là mình rồi.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "phong-nen/leu-xem-boi.png",
+    "vi_tri_x": 0.3,
+    "may_quay": "dam"
+   }
+  },
+  {
+   "id": "c017",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "dao-cu/thay-boi.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.48,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Cậu có những tài năng chưa dùng hết. Lại đúng là mình.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "phong-nen/leu-xem-boi.png",
+    "vi_tri_x": 0.3,
+    "chu": "ĐÚNG QUÁ"
+   }
+  },
+  {
+   "id": "c018",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "dao-cu/thay-boi.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.48,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Đôi khi cậu tự hỏi mình đã chọn đúng chưa. Sao bà ấy biết?",
+    "bieu_cam": "boi-roi",
+    "tu_the": "dung",
+    "nen": "phong-nen/leu-xem-boi.png",
+    "vi_tri_x": 0.3
+   }
+  },
+  {
+   "id": "c019",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "Một giọng nói nhỏ trong đầu anh thì thầm: bà ấy nhìn thấu mình thật.",
+    "suy_nghi_1": "BÀ ẤY BIẾT MÌNH",
+    "bieu_cam": "soc"
+   }
+  },
+  {
+   "id": "c020",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "dao-cu/thay-boi.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.48,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Rồi bà lật lá bài cuối cùng, và nụ cười tắt hẳn.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "vi_tri_x": 0.3,
+    "dao_cu": "dao-cu/la-bai.png",
+    "may_quay": "zoom-cham",
+    "lien_tuc": "run"
+   }
+  },
+  {
+   "id": "c021",
+   "khuon": "mo-bai-cau-hoi",
+   "dem_sau": 0.5,
+   "tham_so": {
+    "loi": "Năm nay hãy cẩn thận. Có chuyện xấu sắp đến với cậu.",
+    "chu": "CHUYỆN XẤU",
+    "bieu_cam": "so-hai",
+    "dao_cu": "",
+    "phan": "vi-du"
+   }
+  },
+  {
+   "id": "c022",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Max cười cho qua. Sam cũng cười. Chỉ là trò hội chợ thôi mà.",
+    "bieu_cam": "vui",
+    "tu_the": "dung",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "vi_tri_x": 0.3,
+    "lien_tuc": "nhun"
+   }
+  },
+  {
+   "id": "c023",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Sam thì được một quẻ vui. Năm nay may mắn, đầy bất ngờ tốt đẹp.",
+    "bieu_cam": "dac-y",
+    "tu_the": "dung",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "vi_tri_x": 0.3,
+    "chu": "NĂM MAY MẮN"
+   }
+  },
+  {
+   "id": "c024",
+   "khuon": "dat-van-de",
+   "tham_so": {
+    "loi": "Hai người về nhà, và Max tự nhủ mình quên chuyện đó rồi.",
+    "bieu_cam": "nhe-nhom",
+    "dao_cu": "",
+    "nen": "phong-nen/phong.png"
+   }
+  },
+  {
+   "id": "c025",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Nhưng anh chưa quên. Câu nói ấy đã dọn vào ở trong đầu anh, và không chịu đi.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/bo-nao.png",
+    "may_quay": "zoom-cham"
+   }
+  },
+  {
+   "id": "c026",
+   "khuon": "vi-du-doi-thuong",
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.2
+   },
+   "tham_so": {
+    "loi": "Sáng thứ Hai, Max đi bộ đi làm như mọi ngày.",
+    "bieu_cam": "vui",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/duong-pho.png",
+    "may_quay": "lia-phai"
+   }
+  },
+  {
+   "id": "c027",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Một chiếc xe bấm còi sau lưng. Anh giật bắn mình, quay phắt lại.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "phong-nen/duong-pho.png",
+    "may_quay": "rung",
+    "lien_tuc": "run"
+   }
+  },
+  {
+   "id": "c028",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Chẳng có gì. Chỉ là xe cộ bình thường. Nhưng tim anh đập thình thịch.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "phong-nen/duong-pho.png"
+   }
+  },
+  {
+   "id": "c029",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "Có chuyện xấu sắp đến. Câu nói tự nó quay lại.",
+    "suy_nghi_1": "CHUYỆN XẤU...",
+    "bieu_cam": "lo-lang"
+   }
+  },
+  {
+   "id": "c030",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Tuần đó, đi đường nào anh cũng ngoái lại nhìn sau lưng.",
+    "bieu_cam": "so-hai",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/duong-pho.png",
+    "may_quay": "lia-trai",
+    "lien_tuc": "run"
+   }
+  },
+  {
+   "id": "c031",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Anh kiểm tra bếp hai lần, kiểm khoá cửa ba lần.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/o-khoa.png"
+   }
+  },
+  {
+   "id": "c032",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Ở công ty, email nào anh cũng đọc lại hai lần mới dám bấm gửi.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/van-phong.png"
+   }
+  },
+  {
+   "id": "c033",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Anh ngủ không ngon, sáng dậy mệt mỏi, rồi làm sai mấy lỗi lặt vặt.",
+    "bieu_cam": "chan",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/van-phong.png",
+    "dao_cu": "dao-cu/coc-ca-phe.png"
+   }
+  },
+  {
+   "id": "c034",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Đồng nghiệp hỏi anh có sao không. Anh bảo: tôi ổn.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/van-phong.png",
+    "chu": "TÔI ỔN"
+   }
+  },
+  {
+   "id": "c035",
+   "khuon": "mo-bai-cau-hoi",
+   "tham_so": {
+    "loi": "Thật lòng đi. Đã bao giờ có một câu nói cứ mắc kẹt trong đầu bạn như vậy chưa?",
+    "chu": "BẠN CŨNG VẬY?",
+    "bieu_cam": "boi-roi",
+    "nen": "#F5F1E8",
+    "dao_cu": "",
+    "phan": "vi-du"
+   }
+  },
+  {
+   "id": "c036",
+   "khuon": "vi-du-doi-thuong",
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.2
+   },
+   "tham_so": {
+    "loi": "Rồi những chuyện nhỏ bắt đầu xảy ra. Cốc cà phê đổ ra bàn.",
+    "bieu_cam": "soc",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/van-phong.png",
+    "dao_cu": "dao-cu/coc-ca-phe.png",
+    "may_quay": "dam"
+   }
+  },
+  {
+   "id": "c037",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "Ý nghĩ đầu tiên của anh không phải là mình vụng tay. Mà là: bắt đầu rồi đây.",
+    "suy_nghi_1": "BẮT ĐẦU RỒI ĐÂY",
+    "bieu_cam": "lo-lang"
+   }
+  },
+  {
+   "id": "c038",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Lỡ chuyến xe buýt? Lại là nó. Trời mưa đúng lúc quên ô? Lại là nó.",
+    "bieu_cam": "so-hai",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/duong-pho.png",
+    "chu": "LẠI LÀ NÓ",
+    "lien_tuc": "run"
+   }
+  },
+  {
+   "id": "c039",
+   "khuon": "vi-du-doi-thuong",
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.2
+   },
+   "tham_so": {
+    "loi": "Tuần thứ ba, Max có một buổi thuyết trình quan trọng trước cả phòng.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "phong-nen/van-phong.png",
+    "dao_cu": "dao-cu/bai-thuyet-trinh.png"
+   }
+  },
+  {
+   "id": "c040",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Cả đêm trước anh nằm trằn trọc. Lỡ chuyện xấu là đây thì sao?",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "dao_cu": "dao-cu/dong-ho.png",
+    "may_quay": "zoom-cham"
+   }
+  },
+  {
+   "id": "c041",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Sáng hôm sau, đầu óc anh mụ mị. Anh quên ý, nói vấp, bấm nhầm trang.",
+    "bieu_cam": "hoang-loan",
+    "tu_the": "chi-tay",
+    "nen": "phong-nen/van-phong.png",
+    "dao_cu": "dao-cu/bai-thuyet-trinh.png",
+    "lien_tuc": "run"
+   }
+  },
+  {
+   "id": "c042",
+   "khuon": "bieu-do-giam",
+   "tham_so": {
+    "loi": "Sếp khẽ nhíu mày. Buổi thuyết trình hỏng thật rồi.",
+    "chu": "HỎNG RỒI",
+    "bieu_do": "dao-cu/bai-thuyet-trinh.png",
+    "bieu_cam": "buon",
+    "tu_the": "dung",
+    "phan": "vi-du"
+   }
+  },
+  {
+   "id": "c043",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Max ngồi lặng ở bàn, và một ý nghĩ đánh vào đầu anh như sét.",
+    "bieu_cam": "hoang-loan",
+    "tu_the": "om-dau",
+    "nen": "#202124",
+    "lien_tuc": "run",
+    "may_quay": "zoom-cham"
+   }
+  },
+  {
+   "id": "c044",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "Bà ấy nói đúng. Chuyện xấu đến thật rồi.",
+    "suy_nghi_1": "BÀ ẤY NÓI ĐÚNG",
+    "bieu_cam": "hoang-loan"
+   }
+  },
+  {
+   "id": "c045",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Anh không còn tò mò nữa. Giờ thì anh tin.",
+    "bieu_cam": "so-hai",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "chu": "GIỜ THÌ ANH TIN"
+   }
+  },
+  {
+   "id": "c046",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Anh còn bắt đầu tự hỏi bà ấy đã nhìn thấy gì khác trong tương lai của mình.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "cam-dien-thoai",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/qua-cau-pha-le.png"
+   }
+  },
+  {
+   "id": "c047",
+   "khuon": "vi-du-doi-thuong",
+   "dem_sau": 0.5,
+   "tham_so": {
+    "loi": "Khoan đã. Hãy tua lại, và xem chuyện gì thực sự đã xảy ra.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/tua-lai.png",
+    "may_quay": "zoom-ra"
+   }
+  },
+  {
+   "id": "c048",
+   "khuon": "vi-du-doi-thuong",
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__vui__dung.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ],
+   "tham_so": {
+    "loi": "Đây là Brainy. Brainy sống trong đầu Max, và Brainy đã ghi chép lại hết.",
+    "loi_doc": "Đây là Brây ni. Brây ni sống trong đầu Max, và Brây ni đã ghi chép lại hết.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c049",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__tu-tin__chi-tay.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ],
+   "tham_so": {
+    "loi": "Ghi chú một: quẻ bói ở hội chợ thật ra chẳng nói về riêng Max.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "chu": "GHI CHÚ #1",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c050",
+   "khuon": "ten-khai-niem",
+   "tham_so": {
+    "loi": "Đó là một mẹo của tâm trí, gọi là hiệu ứng Barnum.",
+    "loi_doc": "Đó là một mẹo của tâm trí, gọi là hiệu ứng Ba num.",
+    "khai_niem": "HIỆU ỨNG BARNUM",
+    "dinh_nghia": "Lời chung chung nghe như nói riêng mình"
+   }
+  },
+  {
+   "id": "c051",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__suy-nghi__dung.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ],
+   "tham_so": {
+    "loi": "Những câu chung đến mức gần như ai cũng khớp, lại khiến ta tưởng được viết riêng cho mình.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c052",
+   "khuon": "hai-lua-chon",
+   "tham_so": {
+    "loi": "Hoà đồng nhưng cần ở một mình. Thử hỏi ai mà chẳng vừa thế này vừa thế kia?",
+    "nhan_a": "HOÀ ĐỒNG",
+    "nhan_b": "CẦN Ở MỘT MÌNH",
+    "bieu_cam": "boi-roi"
+   }
+  },
+  {
+   "id": "c053",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Chính bộ não của bạn tự điền chi tiết vào, và biến lời nói thành chuyện của mình.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/bo-nao.png",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c054",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__tu-tin__chi-tay.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ],
+   "tham_so": {
+    "loi": "Ghi chú hai: lời cảnh báo không đoán trước tương lai. Nó làm thay đổi tương lai.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "chu": "GHI CHÚ #2",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c055",
+   "khuon": "ten-khai-niem",
+   "chuyen_canh": "cat",
+   "tham_so": {
+    "loi": "Cái này gọi là lời tiên tri tự ứng nghiệm.",
+    "khai_niem": "LỜI TIÊN TRI TỰ ỨNG NGHIỆM",
+    "dinh_nghia": "Mong chờ điều gì, góp phần làm nó xảy ra"
+   }
+  },
+  {
+   "id": "c056",
+   "khuon": "so-sanh-truoc-sau",
+   "tham_so": {
+    "loi": "Max lo đến mất ngủ. Và một người thức trắng thì dễ vấp váp khi thuyết trình.",
+    "nhan_truoc": "THỨC TRẮNG",
+    "nhan_sau": "VẤP VÁP",
+    "bieu_cam_truoc": "lo-lang",
+    "tu_the_truoc": "dung",
+    "bieu_cam_sau": "hoang-loan",
+    "tu_the_sau": "chi-tay",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c057",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Cái lo ấy cũng khiến anh luống cuống, nên cốc cà phê mới đổ. Lời bói không làm chuyện đó. Nỗi lo làm.",
+    "bieu_cam": "chan",
+    "tu_the": "dung",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/coc-ca-phe.png",
+    "chu": "NỖI LO LÀM",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c058",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__boi-roi__chi-tay.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ],
+   "tham_so": {
+    "loi": "Ghi chú ba: Max đang tính điểm một cách rất bất công.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "chu": "GHI CHÚ #3",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c059",
+   "khuon": "ten-khai-niem",
+   "chuyen_canh": "cat",
+   "tham_so": {
+    "loi": "Các nhà tâm lý học gọi đó là thiên kiến xác nhận.",
+    "khai_niem": "THIÊN KIẾN XÁC NHẬN",
+    "dinh_nghia": "Ta chỉ để ý điều hợp với niềm tin của mình"
+   }
+  },
+  {
+   "id": "c060",
+   "khuon": "hai-lua-chon",
+   "tham_so": {
+    "loi": "Một buổi thuyết trình hỏng được tính là bằng chứng. Hàng chục ngày bình thường thì chẳng được tính gì.",
+    "nhan_a": "1 NGÀY XUI",
+    "nhan_b": "HÀNG CHỤC NGÀY BÌNH THƯỜNG",
+    "bieu_cam": "suy-nghi"
+   }
+  },
+  {
+   "id": "c061",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Mà vài tuần lại có một chuyện bực mình thì ai cũng gặp. Cuộc sống là vậy.",
+    "bieu_cam": "dac-y",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "chu": "CUỘC SỐNG LÀ VẬY",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c062",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "Nên lời bói chẳng bao giờ có thể sai. Xui xẻo kiểu gì cũng được tính là trúng.",
+    "suy_nghi_1": "XUI GÌ CŨNG",
+    "suy_nghi_2": "= BẰNG CHỨNG",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c063",
+   "khuon": "vi-du-doi-thuong",
+   "dem_sau": 0.4,
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__suy-nghi__dung.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ],
+   "tham_so": {
+    "loi": "Nhưng còn một câu hỏi sâu hơn. Vì sao ngay từ đầu, ta lại muốn tin?",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c064",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Câu trả lời là cảm giác mà bộ não ghét nhất. Không biết.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "chu": "KHÔNG BIẾT",
+    "lien_tuc": "run",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c065",
+   "khuon": "ten-khai-niem",
+   "tham_so": {
+    "loi": "Ta khao khát cảm giác kiểm soát, và một câu trả lời cho ta cảm giác đó.",
+    "khai_niem": "NHU CẦU KIỂM SOÁT",
+    "dinh_nghia": "Có câu trả lời còn hơn không"
+   }
+  },
+  {
+   "id": "c066",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Một lời tiên đoán, kể cả đáng sợ, cũng làm tương lai bớt trống rỗng.",
+    "bieu_cam": "nhe-nhom",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/qua-cau-pha-le.png",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c067",
+   "khuon": "hai-lua-chon",
+   "tham_so": {
+    "loi": "Nó biến chuyện gì cũng có thể xảy ra, thành mình biết chuyện gì sắp đến.",
+    "nhan_a": "CHUYỆN GÌ CŨNG CÓ THỂ",
+    "nhan_b": "MÌNH BIẾT TRƯỚC RỒI",
+    "bieu_cam": "boi-roi"
+   }
+  },
+  {
+   "id": "c068",
+   "khuon": "vi-du-doi-thuong",
+   "dem_sau": 0.4,
+   "tham_so": {
+    "loi": "Và các nhà khoa học đã tận mắt thấy điều này. Kể cả ở loài chim.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/chim-bo-cau.png",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c069",
+   "khuon": "trich-nghien-cuu",
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   },
+   "tham_so": {
+    "loi": "Năm 1948, nhà tâm lý học Skinner thả những con bồ câu đang đói vào lồng.",
+    "loi_doc": "Năm một nghìn chín trăm bốn mươi tám, nhà tâm lý học Skin nơ thả những con bồ câu đang đói vào lồng.",
+    "tac_gia": "SKINNER",
+    "nam": 1948,
+    "ket_qua": "NGHI THỨC NGẪU NHIÊN"
+   },
+   "chu_them": [
+    {
+     "noi_dung": "\"Superstition\" in the pigeon",
+     "vi_tri": [
+      0.36,
+      0.66
+     ],
+     "co": 34,
+     "mau": "#1A1A1A",
+     "nen": "#FFFFFF",
+     "rong_toi_da": 0.6,
+     "hieu_ung": "mo-dan",
+     "tre": 1.2
+    },
+    {
+     "noi_dung": "Journal of Experimental Psychology, 1948",
+     "vi_tri": [
+      0.36,
+      0.74
+     ],
+     "co": 26,
+     "mau": "#555555",
+     "rong_toi_da": 0.6,
+     "hieu_ung": "mo-dan",
+     "tre": 1.4
+    }
+   ]
+  },
+  {
+   "id": "c070",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Thức ăn rơi xuống theo giờ cố định, bất kể chim làm gì.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/chim-bo-cau.png",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c071",
+   "khuon": "mo-bai-cau-hoi",
+   "dem_sau": 0.8,
+   "tham_so": {
+    "loi": "Bạn đoán xem, lũ bồ câu bắt đầu làm gì?",
+    "chu": "ĐOÁN XEM?",
+    "bieu_cam": "suy-nghi",
+    "nen": "#F5F1E8",
+    "dao_cu": "",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c072",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Nhiều con lặp đi lặp lại đúng động tác chúng đang làm lúc thức ăn rơi xuống.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/chim-bo-cau.png",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c073",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Một con xoay vòng tròn. Một con cứ hất đầu liên tục.",
+    "bieu_cam": "vui",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/chim-bo-cau.png",
+    "chu": "XOAY. HẤT ĐẦU.",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c074",
+   "khuon": "ten-khai-niem",
+   "tham_so": {
+    "loi": "Skinner đặt tên bài báo là: Mê tín ở chim bồ câu.",
+    "loi_doc": "Skin nơ đặt tên bài báo là: Mê tín ở chim bồ câu.",
+    "khai_niem": "MÊ TÍN Ở CHIM BỒ CÂU",
+    "dinh_nghia": "",
+    "mau_chu": "#1A1A1A",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c075",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Phần thưởng ngẫu nhiên, cộng với một bộ não thích tìm quy luật, là đủ tạo ra một nghi thức.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/bo-nao.png",
+    "chu": "NGHI THỨC",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c076",
+   "khuon": "trich-nghien-cuu",
+   "chuyen_canh": "cat",
+   "tham_so": {
+    "loi": "Nhà nhân học Bronisław Malinowski từng sống cùng các ngư dân ở quần đảo Trobriand.",
+    "loi_doc": "Nhà nhân học Ma li nốp ski từng sống cùng các ngư dân ở quần đảo Trô bri an.",
+    "tac_gia": "MALINOWSKI",
+    "nam": 1948,
+    "ket_qua": "NGUY HIỂM → NGHI LỄ"
+   },
+   "chu_them": [
+    {
+     "noi_dung": "Magic, Science and Religion",
+     "vi_tri": [
+      0.36,
+      0.66
+     ],
+     "co": 34,
+     "mau": "#1A1A1A",
+     "nen": "#FFFFFF",
+     "rong_toi_da": 0.6,
+     "hieu_ung": "mo-dan",
+     "tre": 1.2
+    },
+    {
+     "noi_dung": "Tuyển tập tiểu luận, 1948",
+     "vi_tri": [
+      0.36,
+      0.74
+     ],
+     "co": 26,
+     "mau": "#555555",
+     "rong_toi_da": 0.6,
+     "hieu_ung": "mo-dan",
+     "tre": 1.4
+    }
+   ]
+  },
+  {
+   "id": "c077",
+   "khuon": "hai-lua-chon",
+   "tham_so": {
+    "loi": "Ông ghi lại rằng, khi đánh cá trong vùng đầm yên tĩnh, họ chỉ dựa vào tay nghề.",
+    "nhan_a": "ĐẦM YÊN TĨNH",
+    "nhan_b": "BIỂN KHƠI",
+    "anh_a": "dao-cu/thuyen-nho.png",
+    "anh_b": "dao-cu/song-lon.png",
+    "bieu_cam": "suy-nghi",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c078",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Còn khi ra biển khơi nguy hiểm, họ làm rất nhiều nghi lễ cầu an, cầu may.",
+    "bieu_cam": "so-hai",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/song-lon.png",
+    "lien_tuc": "run",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c079",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Càng nguy hiểm, càng ít kiểm soát, thì càng nhiều phép màu.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "chu": "ÍT KIỂM SOÁT, NHIỀU PHÉP MÀU",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c080",
+   "khuon": "trich-nghien-cuu",
+   "chuyen_canh": "cat",
+   "tham_so": {
+    "loi": "Năm 2002, Giora Keinan hỏi các sinh viên một loạt câu hỏi, có lúc bình thường, có lúc căng thẳng.",
+    "loi_doc": "Năm hai nghìn không trăm linh hai, Ghi ô ra Kê nan hỏi các sinh viên một loạt câu hỏi, có lúc bình thường, có lúc căng thẳng.",
+    "tac_gia": "KEINAN",
+    "nam": 2002,
+    "ket_qua": "CĂNG THẲNG → GÕ GỖ"
+   },
+   "chu_them": [
+    {
+     "noi_dung": "The effects of stress and desire for control on superstitious behavior",
+     "vi_tri": [
+      0.36,
+      0.66
+     ],
+     "co": 34,
+     "mau": "#1A1A1A",
+     "nen": "#FFFFFF",
+     "rong_toi_da": 0.6,
+     "hieu_ung": "mo-dan",
+     "tre": 1.2
+    },
+    {
+     "noi_dung": "Personality and Social Psychology Bulletin, 2002",
+     "vi_tri": [
+      0.36,
+      0.74
+     ],
+     "co": 26,
+     "mau": "#555555",
+     "rong_toi_da": 0.6,
+     "hieu_ung": "mo-dan",
+     "tre": 1.4
+    }
+   ]
+  },
+  {
+   "id": "c081",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Càng căng thẳng, họ càng hay gõ tay vào gỗ.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/go-cua.png",
+    "chu": "CỐC CỐC",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c082",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Áp lực đẩy họ tới một nghi thức nhỏ. Giống hệt Max ngoài đường.",
+    "bieu_cam": "so-hai",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/duong-pho.png",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c083",
+   "khuon": "trich-nghien-cuu",
+   "chuyen_canh": "cat",
+   "tham_so": {
+    "loi": "Và năm 1949, nhà tâm lý học Bertram Forer cho sinh viên làm một bài trắc nghiệm tính cách.",
+    "loi_doc": "Và năm một nghìn chín trăm bốn mươi chín, nhà tâm lý học Bơ tram Pho rơ cho sinh viên làm một bài trắc nghiệm tính cách.",
+    "tac_gia": "FORER",
+    "nam": 1949,
+    "ket_qua": "AI CŨNG THẤY ĐÚNG"
+   },
+   "chu_them": [
+    {
+     "noi_dung": "The fallacy of personal validation",
+     "vi_tri": [
+      0.36,
+      0.66
+     ],
+     "co": 34,
+     "mau": "#1A1A1A",
+     "nen": "#FFFFFF",
+     "rong_toi_da": 0.6,
+     "hieu_ung": "mo-dan",
+     "tre": 1.2
+    },
+    {
+     "noi_dung": "Journal of Abnormal and Social Psychology, 1949",
+     "vi_tri": [
+      0.36,
+      0.74
+     ],
+     "co": 26,
+     "mau": "#555555",
+     "rong_toi_da": 0.6,
+     "hieu_ung": "mo-dan",
+     "tre": 1.4
+    }
+   ]
+  },
+  {
+   "id": "c084",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Một tuần sau, mỗi người nhận một bản mô tả riêng, và chấm xem nó đúng đến đâu.",
+    "bieu_cam": "vui",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/to-giay.png",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c085",
+   "khuon": "con-so-lon",
+   "tham_so": {
+    "loi": "Trung bình, họ chấm khoảng 4,3 trên 5. Rất chính xác.",
+    "loi_doc": "Trung bình, họ chấm khoảng bốn phẩy ba trên năm. Rất chính xác.",
+    "con_so": "4,3/5",
+    "chu_phu": "RẤT CHÍNH XÁC",
+    "mau_so": "#2F9E44",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c086",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Cú lật là gì? Tất cả sinh viên đều nhận cùng một đoạn văn.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "chu": "CÙNG MỘT ĐOẠN",
+    "may_quay": "dam",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c087",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Forer chủ yếu chắp nhặt nó từ một cuốn sách tử vi bán ở sạp báo.",
+    "loi_doc": "Pho rơ chủ yếu chắp nhặt nó từ một cuốn sách tử vi bán ở sạp báo.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/sach-chiem-tinh.png",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c088",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__vui__chi-tay.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ],
+   "tham_so": {
+    "loi": "Vậy nên Max không hề ngốc. Bộ não anh chỉ làm đúng những gì bộ não con người vẫn làm.",
+    "bieu_cam": "nhe-nhom",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c089",
+   "khuon": "vi-du-doi-thuong",
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   },
+   "tham_so": {
+    "loi": "Quay lại với Max, tối hôm buổi thuyết trình hỏng.",
+    "bieu_cam": "buon",
+    "tu_the": "cam-dien-thoai",
+    "nen": "phong-nen/phong.png"
+   }
+  },
+  {
+   "id": "c090",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Anh gọi cho Sam, kể rằng lời tiên tri đã thành sự thật.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "cam-dien-thoai",
+    "nen": "phong-nen/phong.png"
+   }
+  },
+  {
+   "id": "c091",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Sam bật cười. Hay nhỉ. Tuần trước tớ cũng thuyết trình hỏng một buổi.",
+    "bieu_cam": "soc",
+    "tu_the": "cam-dien-thoai",
+    "nen": "phong-nen/phong.png",
+    "vi_tri_x": 0.3,
+    "may_quay": "dam"
+   }
+  },
+  {
+   "id": "c092",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Sam. Chính là cái người được bói năm may mắn.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "cam-dien-thoai",
+    "nen": "phong-nen/phong.png",
+    "vi_tri_x": 0.3,
+    "chu": "NĂM MAY MẮN?"
+   }
+  },
+  {
+   "id": "c093",
+   "khuon": "hai-lua-chon",
+   "tham_so": {
+    "loi": "Cùng một tai nạn, hai câu chuyện hoàn toàn khác nhau.",
+    "nhan_a": "MAX: LỜI NGUYỀN",
+    "nhan_b": "SAM: TUẦN XUI",
+    "anh_a": "dao-cu/bai-thuyet-trinh.png",
+    "anh_b": "dao-cu/bai-thuyet-trinh.png",
+    "bieu_cam": "boi-roi",
+    "phan": "vi-du"
+   }
+  },
+  {
+   "id": "c094",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Sam nhún vai rồi quên. Max thì dựng cả một câu chuyện quanh nó.",
+    "bieu_cam": "hoi-han",
+    "tu_the": "dung",
+    "nen": "phong-nen/phong.png",
+    "vi_tri_x": 0.3
+   }
+  },
+  {
+   "id": "c095",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "Lời bói không thay đổi điều đã xảy ra. Nó thay đổi ý nghĩa của điều đó.",
+    "suy_nghi_1": "ĐIỀU XẢY RA",
+    "suy_nghi_2": "Ý NGHĨA CỦA NÓ",
+    "bieu_cam": "suy-nghi",
+    "phan": "vi-du"
+   }
+  },
+  {
+   "id": "c096",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Rồi Max thử làm một việc mới. Anh mở lịch ra.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/lich.png"
+   }
+  },
+  {
+   "id": "c097",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Anh đếm số tuần từ hôm xem bói. Mười hai tuần.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/phong.png",
+    "chu": "12 TUẦN"
+   }
+  },
+  {
+   "id": "c098",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Một buổi thuyết trình hỏng. Hai lần lỡ xe buýt. Một cốc cà phê đổ. Một trận cảm. Hết.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/lich.png"
+   }
+  },
+  {
+   "id": "c099",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Phần còn lại là những ngày bình thường, thêm vài ngày bực mình. Như mọi năm.",
+    "bieu_cam": "nhe-nhom",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/phong.png"
+   }
+  },
+  {
+   "id": "c100",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Còn buổi thuyết trình? Anh làm hỏng nó vì cả đêm trước nằm lo về lời bói.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "phong-nen/van-phong.png",
+    "dao_cu": "dao-cu/bai-thuyet-trinh.png"
+   }
+  },
+  {
+   "id": "c101",
+   "khuon": "so-sanh-truoc-sau",
+   "tham_so": {
+    "loi": "Lời cảnh báo không đoán trước chuyện xấu. Nó góp phần gây ra chuyện xấu.",
+    "nhan_truoc": "LỜI ĐOÁN",
+    "nhan_sau": "NGUYÊN NHÂN",
+    "bieu_cam_truoc": "lo-lang",
+    "tu_the_truoc": "dung",
+    "bieu_cam_sau": "soc",
+    "tu_the_sau": "dung",
+    "phan": "vi-du"
+   }
+  },
+  {
+   "id": "c102",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Lần đầu tiên sau nhiều tuần, đôi vai Max chùng xuống, nhẹ nhõm.",
+    "bieu_cam": "nhe-nhom",
+    "tu_the": "dung",
+    "nen": "phong-nen/phong.png",
+    "may_quay": "zoom-ra"
+   }
+  },
+  {
+   "id": "c103",
+   "khuon": "vi-du-doi-thuong",
+   "dem_sau": 0.4,
+   "tham_so": {
+    "loi": "Vậy lần tới, khi một lời tiên đoán mắc kẹt trong đầu, bạn có thể làm gì?",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/bong-den.png"
+   }
+  },
+  {
+   "id": "c104",
+   "khuon": "danh-sach-3-y",
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   },
+   "tham_so": {
+    "loi": "Đây là ba thói quen đơn giản mà các nghiên cứu gợi ý.",
+    "tieu_de": "3 THÓI QUEN",
+    "y_1": "NHẬN RA LỜI CHUNG CHUNG",
+    "y_2": "ĐẾM CẢ LẦN TRƯỢT",
+    "y_3": "TẬP TRUNG VÀO ĐIỀU KIỂM SOÁT ĐƯỢC",
+    "tre_1": 1.2,
+    "tre_2": 2.0,
+    "tre_3": 2.8
+   }
+  },
+  {
+   "id": "c105",
+   "khuon": "meo-tranh",
+   "tham_so": {
+    "loi": "Thói quen một: để ý những câu mà gần như ai nghe cũng thấy đúng.",
+    "nhan": "THÓI QUEN #1",
+    "meo": "AI CŨNG ĐÚNG?"
+   }
+  },
+  {
+   "id": "c106",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Lúc nhút nhát, lúc hoà đồng? Sắp có thay đổi lớn? Ai mà chẳng vậy.",
+    "bieu_cam": "dac-y",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/la-bai.png",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c107",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "tham_so": {
+    "loi": "Max thử đọc quẻ bói của mình cho Sam nghe. Nó cũng khớp với Sam y hệt.",
+    "bieu_cam": "vui",
+    "tu_the": "chi-tay",
+    "nen": "phong-nen/phong.png",
+    "vi_tri_x": 0.3,
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c108",
+   "khuon": "meo-tranh",
+   "tham_so": {
+    "loi": "Thói quen hai: tính điểm cho công bằng. Đếm cả lần trúng lẫn lần trượt.",
+    "nhan": "THÓI QUEN #2",
+    "meo": "ĐẾM CẢ LẦN TRƯỢT",
+    "dao_cu": "dao-cu/so-tay.png"
+   }
+  },
+  {
+   "id": "c109",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Ghi lời tiên đoán ra giấy kèm ngày tháng, vài tháng sau mở ra kiểm tra.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/so-tay.png",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c110",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Hầu hết lời tiên đoán lặng lẽ trượt. Chỉ là ta chẳng bao giờ quay lại xem.",
+    "bieu_cam": "dac-y",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "chu": "TA CHẲNG BAO GIỜ XEM LẠI",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c111",
+   "khuon": "meo-tranh",
+   "tham_so": {
+    "loi": "Thói quen ba: khi nỗi lo xuất hiện, hãy hỏi mình thực sự kiểm soát được gì.",
+    "nhan": "THÓI QUEN #3",
+    "meo": "MÌNH KIỂM SOÁT ĐƯỢC GÌ?",
+    "dao_cu": "dao-cu/bong-den.png"
+   }
+  },
+  {
+   "id": "c112",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Max không kiểm soát được vận may. Nhưng anh có thể đi ngủ sớm, và chuẩn bị bài kỹ hơn.",
+    "bieu_cam": "tu-tin",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/duong-pho.png",
+    "may_quay": "lia-phai",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c113",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Không biết thì đáng sợ thật. Nhưng một câu trả lời bịa ra không làm nỗi sợ nhỏ đi.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/qua-cau-pha-le.png",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c114",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Nếu bạn thích xem bói, cũng không sao. Hãy coi nó như xem một bộ phim.",
+    "bieu_cam": "vui",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "chu": "CHỈ ĐỂ VUI",
+    "lien_tuc": "nhun",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c115",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Thưởng thức câu chuyện, chỉ đừng giao quyết định của mình cho nó.",
+    "bieu_cam": "tu-tin",
+    "tu_the": "chi-tay",
+    "nen": "#F5F1E8",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c116",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Nhiều truyền thống và tín ngưỡng có ý nghĩa rất lớn với mọi người, và điều đó đáng được tôn trọng.",
+    "bieu_cam": "vui",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "may_quay": "zoom-ra",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c117",
+   "khuon": "vi-du-doi-thuong",
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__vui__dung.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ],
+   "tham_so": {
+    "loi": "Video này nói về cách mọi bộ óc vận hành. Của bạn, của tôi, và của Max.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c118",
+   "khuon": "tom-tat",
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   },
+   "tham_so": {
+    "loi": "Tóm lại: lời chung chung nghe như nói riêng mình, nỗi lo có thể tự tạo ra xui xẻo, và ta chỉ đếm những lần trúng.",
+    "y_1": "CHUNG CHUNG MÀ NGỠ RIÊNG",
+    "y_2": "LO QUÁ HOÁ XUI",
+    "y_3": "CHỈ ĐẾM LẦN TRÚNG"
+   }
+  },
+  {
+   "id": "c119",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Một tháng sau, Max đi ngang qua đúng hội chợ đường phố ấy.",
+    "bieu_cam": "vui",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "may_quay": "lia-phai",
+    "phan": "ket"
+   }
+  },
+  {
+   "id": "c120",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Căn lều vẫn còn đó, tấm biển vẫn phát sáng.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "dao_cu": "dao-cu/la-bai.png",
+    "phan": "ket"
+   }
+  },
+  {
+   "id": "c121",
+   "khuon": "vi-du-doi-thuong",
+   "chuyen_canh": {
+    "kieu": "mo-dan",
+    "thoi_luong": 0.5
+   },
+   "dem_sau": 0.8,
+   "tham_so": {
+    "loi": "Anh mỉm cười, bước tiếp. Và lần này, anh không ngoái lại.",
+    "bieu_cam": "vui",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "may_quay": "zoom-ra",
+    "phan": "ket"
+   }
+  },
+  {
+   "id": "c122",
+   "khuon": "mien-tru",
+   "tham_so": {
+    "loi": "Video này là kiến thức tâm lý học phổ thông, không phải lời khuyên y tế, sức khoẻ tinh thần hay tài chính.",
+    "chu": "CHỈ LÀ TÂM LÝ HỌC",
+    "chu_phu": "Không phải lời khuyên y tế, sức khoẻ tinh thần hay tài chính."
+   }
+  },
+  {
+   "id": "c123",
+   "khuon": "ket-keu-goi",
+   "tham_so": {
+    "loi": "Đã bao giờ có một lời tiên đoán cứ mắc kẹt trong đầu bạn chưa? Kể cho mình nghe ở phần bình luận nhé.",
+    "chu": "ĐĂNG KÝ",
+    "chu_phu": "TIẾP THEO: THIÊN KIẾN XÁC NHẬN"
+   }
+  }
+ ]
+}

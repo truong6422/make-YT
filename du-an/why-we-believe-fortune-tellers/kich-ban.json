@@ -1,0 +1,1739 @@
+{
+ "tieu_de": "Why Smart People Still Believe Fortune Tellers",
+ "ngon_ngu": "en",
+ "nhac_nen": null,
+ "thumbnail": {
+  "nen": "#FFD54F",
+  "chu": "SHE WAS *RIGHT*?",
+  "nhan_vat": [
+   {
+    "anh": "nhan-vat/max__soc__cam-dien-thoai.png",
+    "vi_tri": [
+     0.76,
+     0.56
+    ],
+    "co": 0.85
+   }
+  ],
+  "mui_ten": {
+   "tu": [
+    0.5,
+    0.78
+   ],
+   "den": [
+    0.64,
+    0.62
+   ],
+   "mau": "#E53935"
+  }
+ },
+ "canh": [
+  {
+   "id": "c001",
+   "khuon": "mo-bai-cau-hoi",
+   "tham_so": {
+    "loi": "Why would a smart, modern adult believe a stranger with a deck of cards?",
+    "chu": "WHY?"
+   },
+   "_ghi_chu": "GIỮ CHÂN: mở vòng lặp: vì sao người thông minh vẫn tin (trả lời dần ở giải thích)"
+  },
+  {
+   "id": "c002",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Max didn't believe any of it. At least, that's what he said.",
+    "bieu_cam": "tu-tin",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "phan": "hook"
+   }
+  },
+  {
+   "id": "c003",
+   "khuon": "con-so-lon",
+   "tham_so": {
+    "loi": "He paid twenty dollars for a five-minute reading.",
+    "loi_doc": "He paid twenty dollars for a five minute reading.",
+    "con_so": "$20",
+    "chu_phu": "5 MINUTES",
+    "nen": "#202124",
+    "phan": "hook"
+   }
+  },
+  {
+   "id": "c004",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "One sentence from that reading followed him for three months.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "lien_tuc": "run",
+    "phan": "hook"
+   }
+  },
+  {
+   "id": "c005",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "And by the end, he was sure it had come true. We'll get there.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "may_quay": "zoom-ra",
+    "phan": "hook"
+   },
+   "dem_sau": 0.6,
+   "_ghi_chu": "GIỮ CHÂN: hứa: cuối cùng Max tin là lời bói đã thành sự thật"
+  },
+  {
+   "id": "c006",
+   "khuon": "dat-van-de",
+   "tham_so": {
+    "loi": "It started on a Saturday night, at a street fair downtown.",
+    "bieu_cam": "vui",
+    "dao_cu": "",
+    "nen": "phong-nen/hoi-cho-dem.png"
+   },
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   }
+  },
+  {
+   "id": "c007",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "His friend Sam pointed at a small tent with a glowing sign.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "vi_tri_x": 0.3,
+    "phan": "boi-canh"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "truot-trai",
+     "lien_tuc": "tho"
+    }
+   ]
+  },
+  {
+   "id": "c008",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Fortunes. Five minutes. Sam said it would be a laugh.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "dung",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "vi_tri_x": 0.3,
+    "chu": "FORTUNES",
+    "phan": "boi-canh"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ]
+  },
+  {
+   "id": "c009",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "Max rolled his eyes. But a tiny part of him was curious.",
+    "suy_nghi_1": "NONSENSE",
+    "suy_nghi_2": "...BUT WHAT IF?",
+    "phan": "boi-canh"
+   }
+  },
+  {
+   "id": "c010",
+   "khuon": "dat-van-de",
+   "tham_so": {
+    "loi": "And honestly, that tiny part lives inside almost all of us.",
+    "bieu_cam": "suy-nghi",
+    "dao_cu": ""
+   }
+  },
+  {
+   "id": "c011",
+   "khuon": "con-so-lon",
+   "tham_so": {
+    "loi": "In a 2018 Pew survey, about three in ten American adults said they believe in astrology.",
+    "loi_doc": "In a twenty eighteen Pew survey, about three in ten American adults said they believe in astrology.",
+    "con_so": "29%",
+    "chu_phu": "BELIEVE IN ASTROLOGY",
+    "phan": "boi-canh"
+   }
+  },
+  {
+   "id": "c012",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "And plenty of people who don't believe still knock on wood. Just in case.",
+    "bieu_cam": "dac-y",
+    "tu_the": "dung",
+    "dao_cu": "dao-cu/go-cua.png",
+    "chu": "JUST IN CASE",
+    "phan": "boi-canh"
+   }
+  },
+  {
+   "id": "c013",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "So why does a brain built for logic fall for this? Stay with Max.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "dao_cu": "dao-cu/bo-nao.png",
+    "may_quay": "zoom-cham",
+    "phan": "boi-canh"
+   },
+   "dem_sau": 0.5,
+   "_ghi_chu": "GIỮ CHÂN: câu hỏi lớn của video (~0:50)"
+  },
+  {
+   "id": "c014",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Inside the tent, a woman shuffled a deck of cards and studied his face.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "dung",
+    "nen": "phong-nen/leu-xem-boi.png",
+    "vi_tri_x": 0.3,
+    "dao_cu": ""
+   },
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   },
+   "lop_them": [
+    {
+     "anh": "dao-cu/thay-boi.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.62,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ]
+  },
+  {
+   "id": "c015",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "She said, you can be outgoing, but sometimes you need time alone.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "phong-nen/leu-xem-boi.png",
+    "vi_tri_x": 0.3,
+    "dao_cu": "dao-cu/la-bai.png"
+   },
+   "lop_them": [
+    {
+     "anh": "dao-cu/thay-boi.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.62,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ]
+  },
+  {
+   "id": "c016",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Max froze. That was exactly him.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "phong-nen/leu-xem-boi.png",
+    "vi_tri_x": 0.3,
+    "may_quay": "dam"
+   },
+   "lop_them": [
+    {
+     "anh": "dao-cu/thay-boi.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.62,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ]
+  },
+  {
+   "id": "c017",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "You have talents you haven't fully used yet. Him again.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "phong-nen/leu-xem-boi.png",
+    "vi_tri_x": 0.3,
+    "chu": "SO TRUE"
+   },
+   "lop_them": [
+    {
+     "anh": "dao-cu/thay-boi.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.62,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ]
+  },
+  {
+   "id": "c018",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Sometimes you wonder if you made the right choices. How did she know?",
+    "bieu_cam": "boi-roi",
+    "tu_the": "dung",
+    "nen": "phong-nen/leu-xem-boi.png",
+    "vi_tri_x": 0.3
+   },
+   "lop_them": [
+    {
+     "anh": "dao-cu/thay-boi.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.62,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ]
+  },
+  {
+   "id": "c019",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "A quiet voice in his head whispered: she can really see me.",
+    "suy_nghi_1": "SHE KNOWS ME",
+    "bieu_cam": "soc"
+   }
+  },
+  {
+   "id": "c020",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Then she turned over one last card, and her smile disappeared.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "vi_tri_x": 0.3,
+    "dao_cu": "dao-cu/la-bai.png",
+    "may_quay": "zoom-cham",
+    "lien_tuc": "run"
+   },
+   "lop_them": [
+    {
+     "anh": "dao-cu/thay-boi.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.62,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "_ghi_chu": "GIỮ CHÂN: bước ngoặt: lá bài cuối"
+  },
+  {
+   "id": "c021",
+   "khuon": "mo-bai-cau-hoi",
+   "tham_so": {
+    "loi": "This year, be careful. Something bad is coming for you.",
+    "chu": "SOMETHING BAD",
+    "bieu_cam": "so-hai",
+    "dao_cu": "",
+    "phan": "vi-du"
+   },
+   "dem_sau": 0.5
+  },
+  {
+   "id": "c022",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Max laughed it off. Sam laughed too. It was just a fair.",
+    "bieu_cam": "vui",
+    "tu_the": "dung",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "vi_tri_x": 0.3,
+    "lien_tuc": "nhun"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ]
+  },
+  {
+   "id": "c023",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Sam got a happy reading. A lucky year, full of good surprises.",
+    "bieu_cam": "dac-y",
+    "tu_the": "dung",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "vi_tri_x": 0.3,
+    "chu": "LUCKY YEAR"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ]
+  },
+  {
+   "id": "c024",
+   "khuon": "dat-van-de",
+   "tham_so": {
+    "loi": "They went home, and Max told himself he'd already forgotten it.",
+    "bieu_cam": "nhe-nhom",
+    "dao_cu": "",
+    "nen": "phong-nen/phong.png"
+   }
+  },
+  {
+   "id": "c025",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "He hadn't. The sentence had moved in, and it wasn't leaving.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/bo-nao.png",
+    "may_quay": "zoom-cham"
+   }
+  },
+  {
+   "id": "c026",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Monday morning, Max walked to work, like he always did.",
+    "bieu_cam": "vui",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/duong-pho.png",
+    "may_quay": "lia-phai"
+   },
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.2
+   }
+  },
+  {
+   "id": "c027",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "A car honked behind him. He jumped and spun around.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "phong-nen/duong-pho.png",
+    "may_quay": "rung",
+    "lien_tuc": "run"
+   }
+  },
+  {
+   "id": "c028",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Nothing there. Just traffic. But his heart was pounding.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "phong-nen/duong-pho.png"
+   }
+  },
+  {
+   "id": "c029",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "Something bad is coming. The words came back all by themselves.",
+    "suy_nghi_1": "SOMETHING BAD...",
+    "bieu_cam": "lo-lang"
+   }
+  },
+  {
+   "id": "c030",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "That week, he started checking over his shoulder on every street.",
+    "bieu_cam": "so-hai",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/duong-pho.png",
+    "may_quay": "lia-trai",
+    "lien_tuc": "run"
+   }
+  },
+  {
+   "id": "c031",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "He double-checked the stove. He triple-checked the door lock.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/o-khoa.png"
+   }
+  },
+  {
+   "id": "c032",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "At work, he reread every email twice before he hit send.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/van-phong.png"
+   }
+  },
+  {
+   "id": "c033",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "He slept badly, woke up tired, and made silly little mistakes.",
+    "bieu_cam": "chan",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/van-phong.png",
+    "dao_cu": "dao-cu/coc-ca-phe.png"
+   }
+  },
+  {
+   "id": "c034",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "His coworkers asked if he was okay. He said he was fine.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/van-phong.png",
+    "chu": "I'M FINE"
+   }
+  },
+  {
+   "id": "c035",
+   "khuon": "mo-bai-cau-hoi",
+   "tham_so": {
+    "loi": "Be honest. Has one sentence ever stuck in your head like that?",
+    "chu": "YOU TOO?",
+    "bieu_cam": "boi-roi",
+    "nen": "#F5F1E8",
+    "dao_cu": "",
+    "phan": "vi-du"
+   },
+   "_ghi_chu": "GIỮ CHÂN: câu hỏi thẳng người xem (~2:30)"
+  },
+  {
+   "id": "c036",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Week three. Max was rushing to a meeting, glancing behind him again.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/duong-pho.png",
+    "may_quay": "lia-phai"
+   },
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.2
+   }
+  },
+  {
+   "id": "c037",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "His phone slipped out of his hand and hit the sidewalk.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "phong-nen/duong-pho.png",
+    "dao_cu": "dao-cu/dien-thoai.png",
+    "may_quay": "dam"
+   }
+  },
+  {
+   "id": "c038",
+   "khuon": "bieu-do-giam",
+   "tham_so": {
+    "loi": "Crack. A spiderweb, right across the screen.",
+    "chu": "CRACK!",
+    "bieu_do": "dao-cu/dien-thoai-vo.png",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "phan": "vi-du"
+   }
+  },
+  {
+   "id": "c039",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Max stared at it, and one thought hit him like lightning.",
+    "bieu_cam": "hoang-loan",
+    "tu_the": "om-dau",
+    "nen": "#202124",
+    "lien_tuc": "run",
+    "may_quay": "zoom-cham"
+   }
+  },
+  {
+   "id": "c040",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "She was right. Something bad really did happen.",
+    "suy_nghi_1": "SHE WAS RIGHT",
+    "bieu_cam": "hoang-loan"
+   }
+  },
+  {
+   "id": "c041",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "He wasn't curious anymore. Now, he believed.",
+    "bieu_cam": "so-hai",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "chu": "NOW HE BELIEVED"
+   }
+  },
+  {
+   "id": "c042",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "He even wondered what else she had seen in his future.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "cam-dien-thoai",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/qua-cau-pha-le.png"
+   }
+  },
+  {
+   "id": "c043",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "But wait. Let's rewind, and look at what really happened.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/tua-lai.png",
+    "may_quay": "zoom-ra"
+   },
+   "dem_sau": 0.5,
+   "_ghi_chu": "GIỮ CHÂN: tua lại — sang phần giải thích (~3:40)"
+  },
+  {
+   "id": "c044",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Meet Brainy. Brainy lives in Max's head, and Brainy took notes.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "phan": "giai-thich"
+   },
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__vui__dung.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ]
+  },
+  {
+   "id": "c045",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Note one: that reading at the fair wasn't really about Max.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "chu": "NOTE #1",
+    "phan": "giai-thich"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__tu-tin__chi-tay.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ]
+  },
+  {
+   "id": "c046",
+   "khuon": "ten-khai-niem",
+   "tham_so": {
+    "loi": "It's a trick of the mind called the Barnum effect.",
+    "khai_niem": "THE BARNUM EFFECT",
+    "dinh_nghia": "Vague words feel personal"
+   }
+  },
+  {
+   "id": "c047",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "It's when statements so general they fit almost anyone feel made just for you.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "phan": "giai-thich"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__suy-nghi__dung.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ]
+  },
+  {
+   "id": "c048",
+   "khuon": "hai-lua-chon",
+   "tham_so": {
+    "loi": "Outgoing, but needs time alone. Honestly, who isn't both?",
+    "nhan_a": "OUTGOING",
+    "nhan_b": "NEEDS ALONE TIME",
+    "bieu_cam": "boi-roi"
+   }
+  },
+  {
+   "id": "c049",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Your brain fills in the details and makes the words feel personal.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/bo-nao.png",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c050",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Note two: the warning didn't predict the future. It changed it.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "chu": "NOTE #2",
+    "phan": "giai-thich"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__tu-tin__chi-tay.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ]
+  },
+  {
+   "id": "c051",
+   "khuon": "ten-khai-niem",
+   "tham_so": {
+    "loi": "This is called a self-fulfilling prophecy.",
+    "khai_niem": "SELF-FULFILLING PROPHECY",
+    "dinh_nghia": "Expecting it helps make it happen"
+   },
+   "chuyen_canh": "cat"
+  },
+  {
+   "id": "c052",
+   "khuon": "so-sanh-truoc-sau",
+   "tham_so": {
+    "loi": "Worried Max watched the street behind him, not the phone in his hand.",
+    "nhan_truoc": "LOOKING BACK",
+    "nhan_sau": "DROPPED PHONE",
+    "bieu_cam_truoc": "lo-lang",
+    "tu_the_truoc": "di-bo",
+    "bieu_cam_sau": "soc",
+    "tu_the_sau": "dung",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c053",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "And worry ate his sleep. Tired people make more small mistakes.",
+    "bieu_cam": "chan",
+    "tu_the": "dung",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/dong-ho.png",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c054",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Note three: Max was keeping score in a very unfair way.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "chu": "NOTE #3",
+    "phan": "giai-thich"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__boi-roi__chi-tay.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ]
+  },
+  {
+   "id": "c055",
+   "khuon": "ten-khai-niem",
+   "tham_so": {
+    "loi": "Psychologists call this confirmation bias.",
+    "khai_niem": "CONFIRMATION BIAS",
+    "dinh_nghia": "We notice what fits our belief"
+   },
+   "chuyen_canh": "cat"
+  },
+  {
+   "id": "c056",
+   "khuon": "hai-lua-chon",
+   "tham_so": {
+    "loi": "One broken phone counted as proof. Dozens of normal days counted as nothing.",
+    "nhan_a": "1 BAD DAY",
+    "nhan_b": "DOZENS OF NORMAL DAYS",
+    "bieu_cam": "suy-nghi"
+   }
+  },
+  {
+   "id": "c057",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "And something annoying happens to everyone every few weeks. That's just life.",
+    "bieu_cam": "dac-y",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "chu": "THAT'S LIFE",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c058",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "So the prediction could never really fail. Any bad luck would count.",
+    "suy_nghi_1": "ANY BAD LUCK",
+    "suy_nghi_2": "= PROOF",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c059",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "But there's a deeper question. Why do we want to believe at all?",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "phan": "giai-thich"
+   },
+   "dem_sau": 0.4,
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__suy-nghi__dung.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ],
+   "_ghi_chu": "GIỮ CHÂN: câu hỏi sâu hơn (~5:10)"
+  },
+  {
+   "id": "c060",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "The answer is the one feeling your brain hates most: not knowing.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "chu": "NOT KNOWING",
+    "lien_tuc": "run",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c061",
+   "khuon": "ten-khai-niem",
+   "tham_so": {
+    "loi": "We crave a sense of control, and an answer feels like control.",
+    "khai_niem": "NEED FOR CONTROL",
+    "dinh_nghia": "Any answer beats no answer"
+   }
+  },
+  {
+   "id": "c062",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "A prediction, even a scary one, makes the future feel less blank.",
+    "bieu_cam": "nhe-nhom",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/qua-cau-pha-le.png",
+    "phan": "giai-thich"
+   }
+  },
+  {
+   "id": "c063",
+   "khuon": "hai-lua-chon",
+   "tham_so": {
+    "loi": "It turns anything could happen into, I know what's coming.",
+    "nhan_a": "ANYTHING COULD HAPPEN",
+    "nhan_b": "I KNOW WHAT'S COMING",
+    "bieu_cam": "boi-roi"
+   }
+  },
+  {
+   "id": "c064",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "And scientists have watched this happen. Even in birds.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/chim-bo-cau.png",
+    "phan": "giai-thich"
+   },
+   "dem_sau": 0.4,
+   "_ghi_chu": "GIỮ CHÂN: chuyển sang nghiên cứu (~5:45)"
+  },
+  {
+   "id": "c065",
+   "khuon": "trich-nghien-cuu",
+   "tham_so": {
+    "loi": "In 1948, psychologist B. F. Skinner put hungry pigeons in boxes.",
+    "loi_doc": "In nineteen forty-eight, psychologist B. F. Skinner put hungry pigeons in boxes.",
+    "tac_gia": "SKINNER",
+    "nam": 1948
+   },
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   }
+  },
+  {
+   "id": "c066",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Food dropped in at regular times, no matter what the birds did.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/chim-bo-cau.png",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c067",
+   "khuon": "mo-bai-cau-hoi",
+   "tham_so": {
+    "loi": "What do you think the pigeons started doing?",
+    "chu": "GUESS?",
+    "bieu_cam": "suy-nghi",
+    "nen": "#F5F1E8",
+    "dao_cu": "",
+    "phan": "nghien-cuu"
+   },
+   "dem_sau": 0.8,
+   "_ghi_chu": "GIỮ CHÂN: mời đoán trước kết quả"
+  },
+  {
+   "id": "c068",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Many repeated whatever they happened to be doing when the food arrived.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/chim-bo-cau.png",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c069",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "One turned in circles. Another kept tossing its head.",
+    "bieu_cam": "vui",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/chim-bo-cau.png",
+    "chu": "SPIN. TOSS.",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c070",
+   "khuon": "ten-khai-niem",
+   "tham_so": {
+    "loi": "Skinner called his paper, Superstition in the Pigeon.",
+    "khai_niem": "SUPERSTITION IN THE PIGEON",
+    "dinh_nghia": "",
+    "mau_chu": "#1A1A1A",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c071",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Random rewards plus a pattern-hungry brain can build a ritual.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/bo-nao.png",
+    "chu": "RITUAL",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c072",
+   "khuon": "trich-nghien-cuu",
+   "tham_so": {
+    "loi": "Anthropologist Bronisław Malinowski lived among fishermen in the Trobriand Islands.",
+    "loi_doc": "Anthropologist Bronislaw Malinowski lived among fishermen in the Trobriand Islands.",
+    "tac_gia": "MALINOWSKI",
+    "nam": 1948
+   },
+   "chuyen_canh": "cat"
+  },
+  {
+   "id": "c073",
+   "khuon": "hai-lua-chon",
+   "tham_so": {
+    "loi": "In the calm lagoon, he reported, they fished with skill alone.",
+    "nhan_a": "CALM LAGOON",
+    "nhan_b": "OPEN SEA",
+    "anh_a": "dao-cu/thuyen-nho.png",
+    "anh_b": "dao-cu/song-lon.png",
+    "bieu_cam": "suy-nghi",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c074",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "On the dangerous open sea, they used many rituals for safety and luck.",
+    "bieu_cam": "so-hai",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/song-lon.png",
+    "lien_tuc": "run",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c075",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "More danger and less control meant more magic.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "chu": "LESS CONTROL, MORE MAGIC",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c076",
+   "khuon": "trich-nghien-cuu",
+   "tham_so": {
+    "loi": "In 2002, Giora Keinan asked students questions, some calm and some stressful.",
+    "loi_doc": "In two thousand two, Giora Keinan asked students questions, some calm and some stressful.",
+    "tac_gia": "KEINAN",
+    "nam": 2002
+   },
+   "chuyen_canh": "cat"
+  },
+  {
+   "id": "c077",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "The more stressful the questions, the more often they knocked on wood.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/go-cua.png",
+    "chu": "KNOCK KNOCK",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c078",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Stress pushed them toward a tiny ritual. Just like Max on the street.",
+    "bieu_cam": "so-hai",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/duong-pho.png",
+    "phan": "nghien-cuu"
+   },
+   "_ghi_chu": "GIỮ CHÂN: nối lại với Max"
+  },
+  {
+   "id": "c079",
+   "khuon": "trich-nghien-cuu",
+   "tham_so": {
+    "loi": "And in 1949, psychologist Bertram Forer gave his students a personality test.",
+    "loi_doc": "And in nineteen forty-nine, psychologist Bertram Forer gave his students a personality test.",
+    "tac_gia": "FORER",
+    "nam": 1949
+   },
+   "chuyen_canh": "cat"
+  },
+  {
+   "id": "c080",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "A week later, each student got a personal profile, and rated how accurate it was.",
+    "bieu_cam": "vui",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/to-giay.png",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c081",
+   "khuon": "con-so-lon",
+   "tham_so": {
+    "loi": "On average, they rated it about four point three out of five.",
+    "con_so": "4.3/5",
+    "chu_phu": "VERY ACCURATE",
+    "mau_so": "#2F9E44",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c082",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "The twist? Every single student got the exact same text.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "#202124",
+    "chu": "SAME TEXT",
+    "may_quay": "dam",
+    "phan": "nghien-cuu"
+   },
+   "_ghi_chu": "GIỮ CHÂN: cú lật của nghiên cứu (~7:20)"
+  },
+  {
+   "id": "c083",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Forer had pieced it together mostly from a newsstand astrology book.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/sach-chiem-tinh.png",
+    "phan": "nghien-cuu"
+   }
+  },
+  {
+   "id": "c084",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "So Max wasn't stupid. His brain did exactly what human brains do.",
+    "bieu_cam": "nhe-nhom",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "phan": "nghien-cuu"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__vui__chi-tay.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ]
+  },
+  {
+   "id": "c085",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Back to Max, staring at his cracked screen.",
+    "bieu_cam": "buon",
+    "tu_the": "cam-dien-thoai",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/dien-thoai-vo.png"
+   },
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   }
+  },
+  {
+   "id": "c086",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "That night, he called Sam to tell him the prophecy came true.",
+    "bieu_cam": "lo-lang",
+    "tu_the": "cam-dien-thoai",
+    "nen": "phong-nen/phong.png"
+   }
+  },
+  {
+   "id": "c087",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Sam laughed. Funny. I cracked my phone last week too.",
+    "bieu_cam": "soc",
+    "tu_the": "cam-dien-thoai",
+    "nen": "phong-nen/phong.png",
+    "vi_tri_x": 0.3,
+    "may_quay": "dam"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ],
+   "_ghi_chu": "GIỮ CHÂN: cú lật: Sam cũng vỡ điện thoại"
+  },
+  {
+   "id": "c088",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Sam. The guy with the lucky year.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "cam-dien-thoai",
+    "nen": "phong-nen/phong.png",
+    "vi_tri_x": 0.3,
+    "chu": "LUCKY YEAR?"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ]
+  },
+  {
+   "id": "c089",
+   "khuon": "hai-lua-chon",
+   "tham_so": {
+    "loi": "Same accident. Two completely different stories.",
+    "nhan_a": "MAX: A CURSE",
+    "nhan_b": "SAM: BAD LUCK",
+    "anh_a": "dao-cu/dien-thoai-vo.png",
+    "anh_b": "dao-cu/dien-thoai-vo.png",
+    "bieu_cam": "boi-roi",
+    "phan": "vi-du"
+   }
+  },
+  {
+   "id": "c090",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Sam shrugged and forgot it. Max built a whole story around it.",
+    "bieu_cam": "hoi-han",
+    "tu_the": "dung",
+    "nen": "phong-nen/phong.png",
+    "vi_tri_x": 0.3
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ]
+  },
+  {
+   "id": "c091",
+   "khuon": "noi-tam",
+   "tham_so": {
+    "loi": "The prediction didn't change what happened. It changed what it meant.",
+    "suy_nghi_1": "WHAT HAPPENED",
+    "suy_nghi_2": "WHAT IT MEANT",
+    "bieu_cam": "suy-nghi",
+    "phan": "vi-du"
+   }
+  },
+  {
+   "id": "c092",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Then Max tried something new. He opened his calendar.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/lich.png"
+   }
+  },
+  {
+   "id": "c093",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "He counted the weeks since the reading. Twelve of them.",
+    "loi_doc": "He counted the weeks since the reading. Twelve of them.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/phong.png",
+    "chu": "12 WEEKS"
+   }
+  },
+  {
+   "id": "c094",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "One cracked phone. One missed bus. One bad cold. That was it.",
+    "bieu_cam": "boi-roi",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/lich.png"
+   }
+  },
+  {
+   "id": "c095",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "The rest were ordinary days, with a few annoying ones. Like any year.",
+    "bieu_cam": "nhe-nhom",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/phong.png"
+   }
+  },
+  {
+   "id": "c096",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "And the phone? He dropped it while looking over his shoulder.",
+    "bieu_cam": "soc",
+    "tu_the": "dung",
+    "nen": "phong-nen/duong-pho.png",
+    "dao_cu": "dao-cu/dien-thoai-vo.png"
+   }
+  },
+  {
+   "id": "c097",
+   "khuon": "so-sanh-truoc-sau",
+   "tham_so": {
+    "loi": "The warning didn't predict the accident. It helped cause it.",
+    "nhan_truoc": "PREDICTION",
+    "nhan_sau": "CAUSE",
+    "bieu_cam_truoc": "lo-lang",
+    "tu_the_truoc": "di-bo",
+    "bieu_cam_sau": "soc",
+    "tu_the_sau": "dung",
+    "phan": "vi-du"
+   }
+  },
+  {
+   "id": "c098",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "For the first time in weeks, Max's shoulders relaxed.",
+    "bieu_cam": "nhe-nhom",
+    "tu_the": "dung",
+    "nen": "phong-nen/phong.png",
+    "may_quay": "zoom-ra"
+   }
+  },
+  {
+   "id": "c099",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "So what can you do the next time a prediction gets stuck in your head?",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/bong-den.png"
+   },
+   "dem_sau": 0.4,
+   "_ghi_chu": "GIỮ CHÂN: chuyển sang cách tránh (~9:10)"
+  },
+  {
+   "id": "c100",
+   "khuon": "danh-sach-3-y",
+   "tham_so": {
+    "loi": "Here are three simple habits that researchers' findings point to.",
+    "tieu_de": "3 HABITS",
+    "y_1": "SPOT VAGUE WORDS",
+    "y_2": "COUNT THE MISSES",
+    "y_3": "FOCUS ON CONTROL",
+    "tre_1": 1.2,
+    "tre_2": 2.0,
+    "tre_3": 2.8
+   },
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   }
+  },
+  {
+   "id": "c101",
+   "khuon": "meo-tranh",
+   "tham_so": {
+    "loi": "Habit one: listen for words that would fit almost anyone.",
+    "nhan": "HABIT #1",
+    "meo": "WOULD IT FIT ANYONE?"
+   }
+  },
+  {
+   "id": "c102",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Sometimes shy, sometimes social? Big changes ahead? That's all of us.",
+    "bieu_cam": "dac-y",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/la-bai.png",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c103",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Max tried it. He read his fortune to Sam. It fit Sam perfectly too.",
+    "bieu_cam": "vui",
+    "tu_the": "chi-tay",
+    "nen": "phong-nen/phong.png",
+    "vi_tri_x": 0.3,
+    "phan": "cach-tranh"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/ban__vui__dung.png",
+     "vi_tri": [
+      0.74,
+      0.92
+     ],
+     "neo": "day",
+     "co": 0.6,
+     "hieu_ung": "khong",
+     "lien_tuc": "tho"
+    }
+   ]
+  },
+  {
+   "id": "c104",
+   "khuon": "meo-tranh",
+   "tham_so": {
+    "loi": "Habit two: keep score honestly. Count the hits and the misses.",
+    "nhan": "HABIT #2",
+    "meo": "COUNT THE MISSES",
+    "dao_cu": "dao-cu/so-tay.png"
+   }
+  },
+  {
+   "id": "c105",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Write a prediction down with the date, then check it months later.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "ngoi-may-tinh",
+    "nen": "phong-nen/phong.png",
+    "dao_cu": "dao-cu/so-tay.png",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c106",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Most predictions quietly miss. We just never go back to check.",
+    "bieu_cam": "dac-y",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "chu": "WE NEVER CHECK",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c107",
+   "khuon": "meo-tranh",
+   "tham_so": {
+    "loi": "Habit three: when worry shows up, ask what you can actually control.",
+    "nhan": "HABIT #3",
+    "meo": "WHAT CAN I CONTROL?",
+    "dao_cu": "dao-cu/bong-den.png"
+   }
+  },
+  {
+   "id": "c108",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Max can't control luck. He can watch the road and hold his phone.",
+    "bieu_cam": "tu-tin",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/duong-pho.png",
+    "may_quay": "lia-phai",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c109",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Not knowing feels scary. But a made-up answer doesn't make it smaller.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "dao_cu": "dao-cu/qua-cau-pha-le.png",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c110",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "And if you enjoy fortunes, that's okay. Treat them like a movie.",
+    "bieu_cam": "vui",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "chu": "JUST FOR FUN",
+    "lien_tuc": "nhun",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c111",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Enjoy the story. Just don't hand it your decisions.",
+    "bieu_cam": "tu-tin",
+    "tu_the": "chi-tay",
+    "nen": "#F5F1E8",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c112",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "Many traditions and beliefs mean a lot to people, and that deserves respect.",
+    "bieu_cam": "vui",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "may_quay": "zoom-ra",
+    "phan": "cach-tranh"
+   }
+  },
+  {
+   "id": "c113",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "This is about how every mind works. Yours, mine, and Max's.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "#F5F1E8",
+    "vi_tri_x": 0.3,
+    "phan": "cach-tranh"
+   },
+   "lop_them": [
+    {
+     "anh": "nhan-vat/brainy__vui__dung.png",
+     "vi_tri": [
+      0.8,
+      0.9
+     ],
+     "neo": "day",
+     "co": 0.42,
+     "hieu_ung": "bat-len",
+     "lien_tuc": "nhun"
+    }
+   ]
+  },
+  {
+   "id": "c114",
+   "khuon": "tom-tat",
+   "tham_so": {
+    "loi": "So: vague words feel personal, worry can create bad luck, and we only count the hits.",
+    "y_1": "VAGUE FEELS PERSONAL",
+    "y_2": "WORRY MAKES IT REAL",
+    "y_3": "WE COUNT HITS"
+   },
+   "chuyen_canh": {
+    "kieu": "toi-den",
+    "thoi_luong": 0.25
+   }
+  },
+  {
+   "id": "c115",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "A month later, Max walked past the same street fair.",
+    "bieu_cam": "vui",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "may_quay": "lia-phai",
+    "phan": "ket"
+   }
+  },
+  {
+   "id": "c116",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "The tent was still there, with its glowing sign.",
+    "bieu_cam": "suy-nghi",
+    "tu_the": "dung",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "dao_cu": "dao-cu/la-bai.png",
+    "phan": "ket"
+   }
+  },
+  {
+   "id": "c117",
+   "khuon": "vi-du-doi-thuong",
+   "tham_so": {
+    "loi": "He smiled, kept walking, and this time, he didn't look back.",
+    "bieu_cam": "vui",
+    "tu_the": "di-bo",
+    "nen": "phong-nen/hoi-cho-dem.png",
+    "may_quay": "zoom-ra",
+    "phan": "ket"
+   },
+   "chuyen_canh": {
+    "kieu": "mo-dan",
+    "thoi_luong": 0.5
+   },
+   "dem_sau": 0.8
+  },
+  {
+   "id": "c118",
+   "khuon": "mien-tru",
+   "tham_so": {
+    "loi": "This video is educational psychology, not medical, mental-health or financial advice.",
+    "loi_doc": "This video is educational psychology, not medical, mental health or financial advice.",
+    "chu": "JUST PSYCHOLOGY",
+    "chu_phu": "Not medical, mental-health or financial advice."
+   }
+  },
+  {
+   "id": "c119",
+   "khuon": "ket-keu-goi",
+   "tham_so": {
+    "loi": "Has a prediction ever stuck in your head? Tell me in the comments.",
+    "chu": "SUBSCRIBE",
+    "chu_phu": "NEXT: CONFIRMATION BIAS"
+   }
+  }
+ ]
+}

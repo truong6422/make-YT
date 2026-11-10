@@ -204,3 +204,18 @@ def test_khong_co_hop_khi_khong_khai(ch, tmp_path):
     khung = Image.new("RGB", (W, H), (255, 255, 255))
     bd.ve_phu_de(khung, 5.0)
     assert khung.getpixel((W // 2, H - 20)) == (255, 255, 255)
+
+
+def test_dung_theo_doan_giong_het_tuan_tu(ch, tmp_path):
+    """Dựng song song: ghép khung của từng đoạn (có chuyển cảnh mờ dần ở đầu đoạn) phải trùng khung tuần tự."""
+    kb_vao = kb_toi_gian(so_canh=5, loi=False)
+    for i, c in enumerate(kb_vao["canh"]):
+        c["chuyen_canh"] = {"kieu": "mo-dan" if i % 2 else "toi-den", "thoi_luong": 0.3}
+    bd, kb, ds, _ = _bo_dung(ch, tmp_path, kb_vao)
+    tuan_tu = list(bd.cac_khung())
+    for so_doan in (2, 3, 5):
+        doan = bd.chia_doan(so_doan)
+        assert doan[0][0] == 0 and doan[-1][1] == len(ds)
+        assert all(a[1] == b[0] for a, b in zip(doan, doan[1:]))
+        ghep = [k for i0, i1 in doan for k in bd.cac_khung(i0, i1)]
+        assert ghep == tuan_tu

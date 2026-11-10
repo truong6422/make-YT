@@ -11,6 +11,7 @@ video:
   ma_hoa: h264_nvenc      # h264_nvenc (GPU NVIDIA, tự lùi về libx264 nếu không có) | libx264
   chat_luong: 21          # NVENC: -cq ; libx264: -crf (nhỏ hơn = đẹp hơn, nặng hơn)
   zoom_cham_muc: 0.05     # biên độ mặc định của may_quay zoom-cham (5%/cảnh, docs/02) — dung_hinh đọc nếu có hỗ trợ
+  song_song: tu-dong      # tu-dong: máy >= 16 luồng CPU + 24 GB RAM thì dựng song song (tối đa 8 tiến trình), máy yếu hơn (Aspire 7) tuần tự | số: ép bấy nhiêu tiến trình (1 = tuần tự)
 
 tts:
   che_do: truc-tiep       # truc-tiep: nạp giọng ngay trong lệnh (không cần mở cửa sổ máy chủ) | may-chu: gọi `nq may-chu`
