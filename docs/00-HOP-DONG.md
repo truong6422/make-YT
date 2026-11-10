@@ -1,7 +1,7 @@
 # Hợp đồng chung giữa các phần (mọi agent / người sửa code phải theo)
 
 ## Mục tiêu
-Repo tự động hoá video YouTube hoạt hình **người que** về tâm lý học con người và tâm lý đầu tư / tài chính, cho **người xem nước ngoài (tiếng Anh)**. Hình thức tham khảo kênh `https://www.youtube.com/@thegioikiquai` (học cấu trúc, nhịp, cách dựng — KHÔNG sao chép hình, nhân vật, lời, nhạc của họ).
+Repo tự động hoá video YouTube hoạt hình 2D (nhân vật Max, Brainy) về **tâm lý học con người** (tiền bạc chỉ là một mảng ví dụ; chính sách YouTube: docs/12), cho **người xem nước ngoài (tiếng Anh)**. Hình thức tham khảo kênh `https://www.youtube.com/@thegioikiquai` (học cấu trúc, nhịp, cách dựng — KHÔNG sao chép hình, nhân vật, lời, nhạc của họ).
 
 Chi phí: chỉ tài khoản Claude. Ảnh nhân vật / bố cục tạo tay bằng Gemini bản web (miễn phí) rồi bỏ vào `kho-mau/`. Giọng đọc chạy local. Nhạc / hiệu ứng âm thanh miễn bản quyền (YouTube Audio Library…).
 
@@ -41,8 +41,14 @@ nguoique/
   may_chu.py      (giọng) máy chủ FastAPI
   tai_ve.py       (giọng) tải mô hình / font
   phan_tich.py    (giọng) phân tích video mẫu
+  giao_dien.py    giao diện quản trị `nq giao-dien`: http.server + hàng việc (tiến trình con `python -m nguoique ...`
+                  chạy lần lượt), chỉ nghe 127.0.0.1; CHỈ thư viện chuẩn, không thêm gói
+  giao_dien.html  trang một tệp (HTML/CSS/JS thuần, không CDN), đóng gói qua package-data `*.html`
 templates/kich-ban-mau.json  (lõi)
 du-an/<ten>/kich-ban.json    dự án video; build/ và .mp4 bị gitignore
+du-an/<ten>/kiem-chinh-sach.json  dấu danh sách kiểm chính sách (docs/12 mục 5) do giao diện ghi:
+                             {"muc": {"<mục>": true|false}, "ghi_chu": "...", "luc": <unix>} — đưa vào git
+giao-dien.bat                bấm đúp -> .venv\Scripts\python -m nguoique giao-dien
 kho-mau/  nhan-vat/ phong-nen/ dao-cu/ bieu-do/ nhac-nen/ am-thanh/ font/ _cho-xu-ly/
 docs/     tài liệu (agent "tài liệu" + "phân tích kênh")
 .claude/commands/        lệnh Claude Code: /kich-ban, /phan-tich-kenh
@@ -92,6 +98,7 @@ phan_tich(nguon: str, ch: dict, nguong_canh=0.3, chep_loi=True) -> Path  # trả
 | `nq phan-tich <url\|tep>` | gọi `phan_tich.phan_tich` |
 | `nq hinh-tam [--ghi-de]` | `hinh_tam.tao_bo_hinh_tam(kho_mau(ch), ghi_de)` rồi `kho.lap_danh_muc` (docs/06) |
 | `nq thumbnail <du-an> [--ra]` | `thumbnail.tao_thumbnail(...)` từ khoá gốc `thumbnail` của kich-ban.json (lõi giữ nguyên, không kiểm) -> `du-an/<ten>/thumbnail.png` |
+| `nq giao-dien [--cong 8770] [--khong-mo]` | `giao_dien.chay_giao_dien(cong, mo_trinh_duyet)` -> `http://127.0.0.1:8770`; việc nặng gọi lại chính các lệnh `nq` ở trên; kịch bản DÁN vào trang (POST /api/du-an, kiểm bằng `nap_kich_ban` trước khi ghi, bản cũ -> `kich-ban.json.bak`), giao diện KHÔNG gọi Claude; sửa `config.yaml` thì sao lưu `config.yaml.bak` trước |
 
 ## config.yaml (khoá dùng chung)
 ```yaml

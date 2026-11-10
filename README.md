@@ -15,6 +15,19 @@ Mở **Claude Code** trong thư mục repo trên máy Acer, gõ:
 
 Claude tự viết kịch bản, tách nền ảnh Gemini mới, bù hình tạm, đọc giọng, dựng nháp, sửa lỗi, dựng bản thật và báo đường dẫn MP4 + thumbnail + mô tả YouTube. Các lệnh `nq ...` bên dưới chỉ để tham khảo.
 
+**Hoặc làm bằng giao diện trên trình duyệt:** bấm đúp `giao-dien.bat` ở gốc repo (hoặc nhờ Claude chạy `nq giao-dien`) → mở `http://127.0.0.1:8770`. Cần cài (`/cai-dat`) một lần trước; cửa sổ đen phải để mở trong lúc dùng. Giao diện không gọi Claude: viết kịch bản ở nơi khác (vd. chat với Claude theo `/kich-ban`) rồi **dán** JSON + mô tả vào tab Dự án.
+
+### Giao diện quản trị (`nq giao-dien`)
+
+| Tab | Làm được |
+|---|---|
+| Dự án | Danh sách dự án; **dán kịch bản** JSON (+ mô tả YouTube) để tạo / sửa dự án — máy kiểm JSON và lược đồ trước khi lưu, bản cũ giữ ở `kich-ban.json.bak`; xem lời từng cảnh; dựng nháp / bản thật, kiểm nhịp, thumbnail; xem MP4 + thumbnail, chép mô tả YouTube; đánh dấu danh sách kiểm chính sách ([docs/12](docs/12-CHINH-SACH-YOUTUBE.md) mục 5), lưu ở `du-an/<slug>/kiem-chinh-sach.json` |
+| Kho hình | Kéo thả ảnh Gemini vào `kho-mau/_cho-xu-ly/`; tách nền, bù hình tạm, lập lại danh mục; xem ảnh theo nhóm |
+| Việc đang chạy | Hàng việc chạy lần lượt từng việc (GPU / CPU dùng chung), xem nhật ký, dừng việc |
+| Cài đặt | Kiểm tra máy (ffmpeg, GPU, giọng, font); sửa `config.yaml` (tự sao lưu `config.yaml.bak` trước khi ghi) |
+
+Chỉ nghe `127.0.0.1` (không mở ra mạng ngoài), chỉ dùng thư viện chuẩn Python.
+
 Hợp đồng kỹ thuật chung (lệnh, lược đồ JSON, cấu hình): [`docs/00-HOP-DONG.md`](docs/00-HOP-DONG.md).
 
 ## Chi phí
@@ -130,6 +143,7 @@ Video đầu tiên lâu hơn nhiều vì phải làm kho hình (~2–3 giờ cho
 | `nq thumbnail <du-an> [--ra <tep.png>]` | Thumbnail 1280×720 từ khoá `thumbnail` trong `kich-ban.json` → `du-an/<ten>/thumbnail.png` |
 | `nq tach-nen <tep\|thu-muc> --ra <thu-muc>` | Ảnh nền trắng → PNG nền trong, tự cắt sát, xoá dấu ngôi sao Gemini ở góc. `--ra kho-mau` thì tự xếp theo tiền tố tên (`dao-cu__tien` → `dao-cu/tien.png`, ảnh nhân vật → `nhan-vat/`) |
 | `nq phan-tich <url\|tep>` | Phân tích video mẫu (cảnh, nhịp, lời) |
+| `nq giao-dien [--cong 8770] [--khong-mo]` | Mở giao diện quản trị `http://127.0.0.1:8770` (dự án, kho hình, hàng việc, cài đặt); `--khong-mo` = không tự mở trình duyệt. Bấm đúp `giao-dien.bat` cũng được |
 
 Lệnh Claude Code: `/kich-ban <chủ đề>`, `/phan-tich-kenh <thư mục phan-tich/...>`.
 
@@ -139,6 +153,7 @@ Lệnh Claude Code: `/kich-ban <chủ đề>`, `/phan-tich-kenh <thư mục phan
 config.yaml            cấu hình chung (độ phân giải, giọng, phụ đề, âm thanh)
 tu-dien-doc.yaml       từ viết -> cách đọc (chỉ ảnh hưởng giọng)
 setup.ps1              cài đặt trên máy Acer
+giao-dien.bat          bấm đúp để mở giao diện quản trị (nq giao-dien)
 nguoique/              mã nguồn lệnh nq
 templates/             kịch bản mẫu
 du-an/<ten>/           mỗi video một thư mục: kich-ban.json, mo-ta-youtube.md, build/, .mp4
@@ -160,6 +175,7 @@ docs/                  tài liệu
 | [docs/04-TAO-ANH-GEMINI.md](docs/04-TAO-ANH-GEMINI.md) | Tạo kho hình bằng Gemini web + bộ prompt |
 | [docs/05-VIET-KICH-BAN.md](docs/05-VIET-KICH-BAN.md) | Cách viết kịch bản, 30 chủ đề khởi đầu, checklist |
 | [docs/06-HINH-TAM-VA-THUMBNAIL.md](docs/06-HINH-TAM-VA-THUMBNAIL.md) | Bộ hình tạm (`nq hinh-tam`), thumbnail (`nq thumbnail`) |
+| [docs/12-CHINH-SACH-YOUTUBE.md](docs/12-CHINH-SACH-YOUTUBE.md) | Chính sách kiếm tiền YouTube, chủ đề cần tránh, danh sách kiểm cho mọi kịch bản |
 | [kho-mau/README.md](kho-mau/README.md) | Quy ước kho mẫu |
 | [giong-mau/README.md](giong-mau/README.md) | Ghi chú về giọng mẫu |
 

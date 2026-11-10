@@ -55,7 +55,7 @@
       "may_quay": "lia-phai",
       "chuyen_canh": {"kieu": "truot-trai", "thoi_luong": 0.4},
       "lop": [
-        {"anh": "nhan-vat/chuyen-gia__tu-tin__chi-tay.png", "vi_tri": [0.78, 0.86], "neo": "day", "co": 0.2,
+        {"anh": "nhan-vat/brainy__tu-tin__chi-tay.png", "vi_tri": [0.78, 0.86], "neo": "day", "co": 0.2,
          "hieu_ung": "truot-trai", "tre": 0.0, "lat": true}
       ],
       "chu": [
@@ -138,7 +138,7 @@
       "may_quay": "zoom-cham",
       "chuyen_canh": {"kieu": "truot-len", "thoi_luong": 0.4},
       "lop": [
-        {"nhan_vat": "chuyen-gia", "vi_tri": [0.2, 0.86], "neo": "day", "co": 0.2, "bieu_cam": "tu-tin",
+        {"nhan_vat": "brainy", "vi_tri": [0.2, 0.86], "neo": "day", "co": 0.2, "bieu_cam": "tu-tin",
          "hieu_ung": "truot-phai", "tre": 0.0, "noi": true,
          "dong_tac": [{"tu_the": "chi-tay-phai", "luc": 0.8, "thoi_luong": 0.7}]},
         {"anh": "dao-cu/may-tinh.png", "vi_tri": [0.64, 0.56], "co": 0.26,

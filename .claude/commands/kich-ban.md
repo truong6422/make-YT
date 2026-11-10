@@ -12,11 +12,14 @@ Trả lời người dùng bằng tiếng Việt. Nội dung video (lời, chữ
 1. `docs/00-HOP-DONG.md` — lược đồ `kich-ban.json`, tập giá trị hợp lệ (`hieu_ung`, `lien_tuc`, `neo`, `may_quay`, `chuyen_canh.kieu`, `phan`). Bắt buộc.
 2. `docs/02-KHUON-PHONG-CACH.md` — nếu có: nhịp cảnh, bố cục, màu, hiệu ứng ưa dùng. Số đo ở đây ưu tiên hơn gợi ý ở docs/05.
 3. `docs/05-VIET-KICH-BAN.md` — cấu trúc, độ dài câu, giọng văn, kiểm chứng, miễn trừ, checklist.
-4. `docs/04-TAO-ANH-GEMINI.md` — quy ước tên tệp, mã biểu cảm / tư thế, khuôn prompt.
-5. `kho-mau/danh-muc.md` — nếu có: danh sách tệp đã có trong kho. **Ưu tiên dùng tệp đã có.** Không có tệp này → coi như kho trống.
-6. `templates/kich-ban-mau.json` — nếu có, để theo đúng kiểu khoá / giá trị mặc định.
+4. `docs/12-CHINH-SACH-YOUTUBE.md` — **bắt buộc**: kể chuyện không kê đơn, chủ đề tránh, danh sách kiểm mục 5.
+5. `docs/04-TAO-ANH-GEMINI.md` — quy ước tên tệp, mã biểu cảm / tư thế, khuôn prompt.
+6. `kho-mau/danh-muc.md` — nếu có: danh sách tệp đã có trong kho. **Ưu tiên dùng tệp đã có.** Không có tệp này → coi như kho trống.
+7. `templates/kich-ban-mau.json` — nếu có, để theo đúng kiểu khoá / giá trị mặc định.
 
-Thiếu `$ARGUMENTS` → hỏi người dùng chủ đề rồi dừng.
+8. `du-an/*/kich-ban.json` + `mo-ta-youtube.md` của **3 video gần nhất** (nếu có): tình huống Max, bối cảnh, kiểu hook, tiêu đề — video mới phải khác (docs/12 mục 2).
+
+Thiếu `$ARGUMENTS` → hỏi người dùng chủ đề rồi dừng. Chủ đề thuộc hàng "Không làm chủ đề chính" ở docs/12 mục 3 → báo rủi ro, đề xuất góc / chủ đề khác, chờ người dùng chọn.
 
 ## 2. Đặt slug
 
@@ -24,6 +27,7 @@ Thiếu `$ARGUMENTS` → hỏi người dùng chủ đề rồi dừng.
 
 ## 3. Nghiên cứu nội dung
 
+- Chọn **câu chuyện của Max** trước (tình huống đời thường của người đi làm 25–30 tuổi, có cao trào và cú lật tâm lý), rồi mới chọn nghiên cứu. Ghi một câu "ý riêng của video này" (ví dụ / góc nhìn không có ở video khác).
 - Chọn 1–2 nghiên cứu **có thật** về chủ đề (gợi ý trong docs/05 mục 6). Nêu đúng tác giả, năm, thí nghiệm, kết quả chính. Không chắc chi tiết nào thì không nói chi tiết đó.
 - Không bịa số. Số trong ví dụ của Max là giả định và lời phải nói rõ.
 - Nghiên cứu có tranh cãi / tái lập thất bại → nói rõ trong lời hoặc chọn nghiên cứu khác.
@@ -35,13 +39,13 @@ Thiếu `$ARGUMENTS` → hỏi người dùng chủ đề rồi dừng.
 - Phân bổ thời lượng theo bảng mục 1 docs/05 (hook ~3%, boi-canh ~7%, giai-thich ~20%, vi-du ~25%, nghien-cuu ~18%, cach-tranh ~16%, tom-tat ~6%, ket ~5%). Video dài hơn thì thêm ví dụ / nghiên cứu / cách tránh, không kéo dài hook.
 - **Điểm giữ chân mỗi 60–90 giây** (≤ ~220 từ giữa hai điểm): vòng lặp mở / trả lời, câu hỏi tới người xem, bước ngoặt trong chuyện Max, đổi nhịp hình (`dam`, `rung`, `nhay-trang`, `zoom-vao`, cảnh chữ lớn). Mọi vòng lặp mở phải được trả lời trong video.
 - 1 câu = 1 cảnh, ~6–14 từ. `id` dạng `c001`, `c002`… duy nhất.
-- Mỗi cảnh có ít nhất một thay đổi hình (lớp ảnh, biểu cảm, chữ khoá, máy quay). Max là nhân vật chính; nghiên cứu do `chuyen-gia` dẫn.
+- Mỗi cảnh có ít nhất một thay đổi hình (lớp ảnh, biểu cảm, chữ khoá, máy quay). Max là nhân vật chính, câu chuyện của Max xuyên suốt; **Brainy** (`brainy`) gọi tên hiện tượng và kể nghiên cứu. Không có nhân vật chuyên gia / bác sĩ (mã `chuyen-gia` đã bỏ).
 - `chu`: từ khoá IN HOA 1–4 từ, không chép nguyên câu.
 - Số / ký hiệu / tên riêng khó đọc → `loi_doc`. Cảnh không lời → có `thoi_luong`.
 - Chỉ dùng giá trị hiệu ứng trong tập của docs/00. Toạ độ 0..1.
 - Đường dẫn ảnh theo quy ước docs/04: `nhan-vat/<ten>__<bieu-cam>__<tu-the>.png`, `dao-cu/<ten>.png`, `bieu-do/<ten>.png`, `phong-nen/<ten>.png`. Tệp chưa có vẫn được ghi (máy vẽ khung giữ chỗ) nhưng phải liệt kê ở báo cáo.
-- Kênh là TÂM LÝ HỌC, không phải tư vấn tài chính: giải thích VÌ SAO con người hành xử như vậy, không bảo khán giả nên mua / bán / đầu tư gì, không nêu mã cổ phiếu / coin để khuyến nghị, không dự đoán thị trường. Chuyên gia trong video là nhà tâm lý học.
-- Nói về tiền / đầu tư → phần `ket` có câu miễn trừ "This video is for educational purposes about psychology and is not financial advice."
+- Kênh là TÂM LÝ HỌC, không phải tư vấn tài chính: giải thích VÌ SAO con người hành xử như vậy, không bảo khán giả nên mua / bán / đầu tư gì, không nêu mã cổ phiếu / coin để khuyến nghị, không dự đoán thị trường. Không câu kê đơn sức khoẻ / tinh thần / tài chính ("you should…", "you have [bệnh] if…") — nói "researchers found / suggest", "Max tried…" (docs/12 mục 2).
+- Phần `ket` luôn có câu miễn trừ (lời hoặc chữ trên hình): "This video is educational psychology, not medical, mental-health or financial advice."
 - JSON hợp lệ (không chú thích, không dấu phẩy thừa).
 
 ### Ưu tiên khuôn cảnh
@@ -54,22 +58,24 @@ Thiếu `$ARGUMENTS` → hỏi người dùng chủ đề rồi dừng.
 ## 5. Viết `du-an/<slug>/mo-ta-youtube.md`
 
 Tiếng Anh, gồm:
-1. **3 tiêu đề đề xuất** (≤ 70 ký tự, gây tò mò nhưng đúng nội dung).
-2. **Description**: 2–3 câu mở đầu có từ khoá; dòng miễn trừ "not financial advice" (nếu liên quan đầu tư).
+1. **3 tiêu đề đề xuất** (≤ 70 ký tự, gây tò mò nhưng đúng nội dung; dạng "Why…" / "The … Effect"; không hứa chữa bệnh / làm giàu; khác công thức 3 video gần nhất).
+2. **Description**: 2–3 câu mở đầu có từ khoá; **luôn** có dòng miễn trừ `Educational animation about psychology. Not medical, mental-health or financial advice.` (chủ đề nhạy cảm thêm câu mời tìm chuyên gia / đường dây hỗ trợ — docs/12 mục 4).
 3. **Chapters**: mốc thời gian **ước tính** (giả định ~2,6 từ/giây giọng đọc + nghỉ giữa cảnh), bắt đầu `0:00`; ghi chú tiếng Việt cho người dùng rằng cần chỉnh lại theo video thật.
 4. **Tags**: 10–15 tag.
 5. **Sources**: mọi nghiên cứu đã nhắc — tác giả, năm, tên bài, tạp chí, DOI / đường dẫn nếu biết chắc. Không biết chắc DOI thì không ghi DOI.
 6. **Thumbnail ideas**: 2–3 ý (biểu cảm Max, đạo cụ, ≤ 4 từ chữ lớn).
-7. **Disclosure** (nếu cần): dòng công khai nội dung tổng hợp, vd. "Narration uses an AI-generated voice. Illustrations were created with AI assistance." — kèm ghi chú tiếng Việt rằng người dùng tự quyết bật nhãn "Altered or synthetic content" trên YouTube theo chính sách hiện hành.
+7. **Credits**: `Written & directed by <tên kênh>` · `Narration: AI voice (Kokoro)` · `Illustrations: original characters, made with AI assistance`. Ghi chú tiếng Việt: hoạt hình không bắt buộc bật nhãn "Altered or synthetic content"; khi đăng chọn **"No, it's not made for kids"**.
 8. Nhạc / âm thanh cần ghi công (nếu tệp nhạc trong kho yêu cầu).
 
 ## 6. Tự kiểm
 
-Chạy qua checklist mục 7 của docs/05. Đếm số cảnh và **tổng số từ** của `loi`, ước tổng thời lượng (từ ÷ ~150 từ/phút + ~0,35s/cảnh); ngoài 8–15 phút thì sửa trước khi báo. Liệt kê mốc các điểm giữ chân (ước theo số từ) để kiểm khoảng cách ≤ 90 giây. Soát lại mọi giá trị hiệu ứng có trong tập hợp lệ.
+Chạy qua checklist mục 7 của docs/05 **và danh sách kiểm chính sách docs/12 mục 5** (sửa mọi mục chưa đạt trước khi báo). Đếm số cảnh và **tổng số từ** của `loi`, ước tổng thời lượng (từ ÷ ~150 từ/phút + ~0,35s/cảnh); ngoài 8–15 phút thì sửa trước khi báo. Liệt kê mốc các điểm giữ chân (ước theo số từ) để kiểm khoảng cách ≤ 90 giây. Soát lại mọi giá trị hiệu ứng có trong tập hợp lệ.
 
 ## 7. Báo cáo cho người dùng (tiếng Việt)
 
 - Đường dẫn 2 tệp đã tạo, số cảnh, tổng số từ, thời lượng ước tính, mốc các điểm giữ chân.
+- Câu chuyện của Max (2–3 câu) + "ý riêng của video này".
+- **Kiểm chính sách** (docs/12 mục 5): từng nhóm đạt / có rủi ro gì.
 - Nghiên cứu đã dùng + điểm nào người dùng nên tự kiểm lại.
 - **Ảnh còn thiếu** (so với `kho-mau/danh-muc.md`): bảng gồm tên tệp, số cảnh dùng, và **prompt Gemini tiếng Anh hoàn chỉnh** dựng từ khuôn ở docs/04 (nhắc đính kèm ảnh gốc Max với ảnh nhân vật Max).
 - Âm thanh / nhạc còn thiếu.

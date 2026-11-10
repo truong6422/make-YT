@@ -22,7 +22,7 @@ Tạo ra (PNG nền trong suốt 1024x1024, nét đen dày, đầu tròn trắng
   - biểu cảm: `vui, tham-lam, so-hai, hoang-loan, hoi-han, tu-tin, boi-roi, soc, suy-nghi, buon, gian, nhe-nhom, dac-y, lo-lang, hao-hung, chan`
   - tư thế: `dung` (đứng), `chi-tay` (chỉ sang phải — dùng `"lat": true` để chỉ sang trái), `om-dau`, `ngoi`, `ngoi-may-tinh` (ngồi, bàn + laptop bên phải), `cam-dien-thoai` (điện thoại có biểu đồ, tay phải), `di-bo` (bước sang phải)
 - Nhân vật phụ (kiểu dáng Max + dấu nhận dạng):
-  - `chuyen-gia__<bc>__<tt>.png` (kính tròn + nơ đỏ): biểu cảm `tu-tin, vui, suy-nghi, boi-roi, soc, lo-lang` × tư thế `dung, chi-tay`
+  - `brainy__<bc>__<tt>.png` (đầu hồng có nếp não): biểu cảm `tu-tin, vui, suy-nghi, boi-roi, soc, lo-lang` × tư thế `dung, chi-tay`
   - `ban__<bc>__<tt>.png` (chỏm tóc 3 nét): `vui, tham-lam, so-hai, buon, hoi-han` × `dung, chi-tay`
   - Đám đông 16:9 (1024x576, 7 người): `dam-dong__hao-hung__chay`, `dam-dong__hoang-loan__bo-chay` (chạy sang trái), `dam-dong__soc__nhin-len`
 - `dao-cu/`: `tien, bao-tien, dong-xu, co-phieu-xanh, co-phieu-do, bo-nao, can, can-lech, dong-ho, dong-ho-cat, bong-den, dau-hoi, may-tinh, dien-thoai, mui-ten-len, mui-ten-xuong` (.png)

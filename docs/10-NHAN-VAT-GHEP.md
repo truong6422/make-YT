@@ -18,7 +18,7 @@ kho-mau/nhan-vat-ghep/<ten>/
   mieng/<bieu-cam>.png        (tuỳ chọn) miệng khi im của biểu cảm
   mieng/dong.png  mieng/ha-nho.png  mieng/ha-to.png   miệng khi nói
 ```
-`nq hinh-tam` tạo sẵn người que tạm cho `max`, `chuyen-gia`, `ban` (đủ 16 biểu cảm hiện có + mắt nhắm + 3 miệng). Ảnh Gemini cùng tên thay được từng tệp.
+`nq hinh-tam` tạo sẵn người que tạm cho `max`, `brainy`, `ban` (đủ 16 biểu cảm hiện có + mắt nhắm + 3 miệng). Ảnh Gemini cùng tên thay được từng tệp.
 
 Quy ước (quan trọng khi vẽ / sửa):
 - Trái / phải **theo người xem**. `tay-phai` = tay bên phải khung hình.
@@ -158,4 +158,4 @@ Sau khi tách nền: mở ảnh, đo toạ độ khớp (px) bằng trình xem �
 
 ## 8. Ví dụ trong `templates/kich-ban-mau.json`
 
-c02 (chỉ tay vào chữ khoá), c07 (chuyên gia nói + chỉ tay), c09 (đổi biểu cảm hào hứng → sốc → hoảng loạn ôm đầu), c10 (Max đi bộ vào khung rồi chỉ tay).
+c02 (chỉ tay vào chữ khoá), c07 (Brainy nói + chỉ tay), c09 (đổi biểu cảm hào hứng → sốc → hoảng loạn ôm đầu), c10 (Max đi bộ vào khung rồi chỉ tay).

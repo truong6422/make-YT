@@ -24,3 +24,6 @@ kho-mau/font/*.ttf
 # Giọng mẫu (thu âm riêng)
 giong-mau/*.wav
 giong-mau/*.mp3
+
+# sao lưu config từ giao diện
+*.bak

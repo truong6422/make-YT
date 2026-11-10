@@ -1,5 +1,5 @@
 {
-  "_mo_ta": "Trích nghiên cứu: nền văn phòng, chuyên gia (kính tròn, nơ) bên phải quay vào giữa chỉ tay, thẻ vàng 'Tác giả, năm' hiện mờ, kết quả chính gõ chữ xanh. Nháy đen vào cảnh vì đổi phần. CHỈ dùng nghiên cứu có thật, đã đối chiếu bài gốc (docs/05 mục 4).",
+  "_mo_ta": "Trích nghiên cứu: nền văn phòng, Brainy (bộ não hồng) bên phải quay vào giữa chỉ tay, thẻ vàng 'Tác giả, năm' hiện mờ, kết quả chính gõ chữ xanh. Nháy đen vào cảnh vì đổi phần. CHỈ dùng nghiên cứu có thật, đã đối chiếu bài gốc (docs/05 mục 4).",
   "_dung_khi": "Câu đầu phần nghien-cuu (ai, năm nào), câu kết quả chính. Các câu kể thí nghiệm tiếp theo dùng khuôn khác (hai-lua-chon, con-so-lon) để đổi hình.",
   "_tham_so": {
     "loi": {"bat_buoc": true, "mo_ta": "câu dẫn nghiên cứu", "vi_du": "In 1979, Daniel Kahneman and Amos Tversky tested how people choose between risky bets."},
@@ -7,7 +7,7 @@
     "tac_gia": {"bat_buoc": true, "mo_ta": "họ tác giả, ngắn (vd. KAHNEMAN & TVERSKY)", "vi_du": "KAHNEMAN & TVERSKY"},
     "nam": {"bat_buoc": true, "mo_ta": "năm công bố", "vi_du": 1979},
     "ket_qua": {"mac_dinh": "", "mo_ta": "kết quả chính 2–4 từ IN HOA; \"\" = không"},
-    "nhan_vat": {"mac_dinh": "nhan-vat/chuyen-gia__tu-tin__chi-tay.png", "mo_ta": "ảnh người dẫn nghiên cứu"},
+    "nhan_vat": {"mac_dinh": "nhan-vat/brainy__tu-tin__chi-tay.png", "mo_ta": "ảnh Brainy dẫn nghiên cứu"},
     "nen": {"mac_dinh": "phong-nen/van-phong.png", "mo_ta": "màu / ảnh nền"},
     "tre_ket_qua": {"mac_dinh": 3.0, "mo_ta": "giây kết quả bắt đầu gõ"},
     "phan": {"mac_dinh": "nghien-cuu", "mo_ta": "phần video"}

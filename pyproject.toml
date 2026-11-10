@@ -27,3 +27,6 @@ nq = "nguoique.cli:main"
 
 [tool.setuptools]
 packages = ["nguoique"]
+
+[tool.setuptools.package-data]
+nguoique = ["*.html"]

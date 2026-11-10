@@ -1,8 +1,10 @@
-# 05 — Viết kịch bản (tiếng Anh) cho ngách tâm lý học / tâm lý đầu tư
+# 05 — Viết kịch bản (tiếng Anh) cho kênh tâm lý học
 
-Tài liệu này là chuẩn cho người viết và cho lệnh `/kich-ban`. Lược đồ JSON và tập hiệu ứng: [`00-HOP-DONG.md`](00-HOP-DONG.md). Nhịp, bố cục, màu đo từ kênh tham khảo: [`02-KHUON-PHONG-CACH.md`](02-KHUON-PHONG-CACH.md) — **khi số đo ở docs/02 khác với gợi ý ở đây, theo docs/02**.
+Tài liệu này là chuẩn cho người viết và cho lệnh `/kich-ban`. Lược đồ JSON và tập hiệu ứng: [`00-HOP-DONG.md`](00-HOP-DONG.md). Nhịp, bố cục, màu đo từ kênh tham khảo: [`02-KHUON-PHONG-CACH.md`](02-KHUON-PHONG-CACH.md) — **khi số đo ở docs/02 khác với gợi ý ở đây, theo docs/02**. Chính sách YouTube (bắt buộc, ưu tiên hơn mọi gợi ý ở đây): [`12-CHINH-SACH-YOUTUBE.md`](12-CHINH-SACH-YOUTUBE.md).
 
-Người xem: người nước ngoài nói tiếng Anh, không chuyên tài chính / tâm lý. Mục tiêu: xem xong hiểu một hiện tượng tâm lý, nhận ra nó trong chính mình, biết một cách tránh.
+Người xem: người nước ngoài nói tiếng Anh, không chuyên tài chính / tâm lý. Mục tiêu: theo một câu chuyện của Max, xem xong hiểu một hiện tượng tâm lý, nhận ra nó trong chính mình, biết điều nghiên cứu gợi ý.
+
+**Xương sống = câu chuyện của Max** (người đi làm 25–30 tuổi): mở bằng tình huống, cao trào, cú lật tâm lý, kết quay về tình huống đầu. Brainy (bộ não hồng) "bấm dừng" câu chuyện để gọi tên hiện tượng và kể nghiên cứu. Không có nhân vật chuyên gia / bác sĩ; không câu kê đơn (docs/12 mục 2).
 
 ---
 
@@ -26,14 +28,14 @@ Tỉ lệ áp cho mọi độ dài; cột giữa tính cho video 10 phút (~1.55
 
 | Phần (`phan`) | Tỉ lệ | Video 10 phút | Việc |
 |---|---|---|---|
-| `hook` | ~3% | ≤ 15s, ~40 từ | Một tình huống / câu hỏi / sự thật gây bất ngờ. Không chào hỏi, không giới thiệu kênh. Hứa điều người xem sẽ hiểu + mở một câu hỏi để trả lời sau. |
+| `hook` | ~3% | ≤ 15s, ~40 từ | **Mở vào tình huống của Max** (hoặc câu hỏi / sự thật bất ngờ gắn với tình huống đó). Không chào hỏi, không giới thiệu kênh. Hứa điều người xem sẽ hiểu + mở một câu hỏi để trả lời sau. |
 | `boi-canh` | ~7% | ~45s, ~120 từ | Vì sao chuyện này quan trọng với "you": mất tiền, mất thời gian, quyết định sai. |
-| `giai-thich` | ~20% | ~2 phút, ~310 từ | Gọi tên khái niệm (chữ lớn trên hình), giải thích bằng lời thường, một ý mỗi câu. |
-| `vi-du` | ~25% | ~2,5 phút, ~390 từ | Câu chuyện đời thường với **Max**: Max mua cổ phiếu, đi siêu thị, chọn việc… có diễn biến, có cảm xúc (khớp biểu cảm trong kho). Video dài có thể 2 ví dụ. |
-| `nghien-cuu` | ~18% | ~1,8 phút, ~280 từ | Một hai nghiên cứu **có thật**: ai, năm nào, làm thí nghiệm gì, kết quả chính. Nhân vật `chuyen-gia` dẫn. |
-| `cach-tranh` | ~16% | ~1,6 phút, ~250 từ | 2–4 cách cụ thể, làm được ngay. |
+| `giai-thich` | ~20% | ~2 phút, ~310 từ | Brainy dừng câu chuyện, gọi tên khái niệm (chữ lớn trên hình), giải thích bằng lời thường, một ý mỗi câu. |
+| `vi-du` | ~25% | ~2,5 phút, ~390 từ | Câu chuyện của **Max** tiếp diễn tới cao trào (công việc, siêu thị, buổi hẹn, nhóm chat, hoá đơn…), có cảm xúc khớp biểu cảm trong kho. Video dài có thể thêm nhân vật Sam (`ban`). |
+| `nghien-cuu` | ~18% | ~1,8 phút, ~280 từ | Một hai nghiên cứu **có thật**: ai, năm nào, làm thí nghiệm gì, kết quả chính. **Brainy kể** như một câu chuyện ("researchers found…"). |
+| `cach-tranh` | ~16% | ~1,6 phút, ~250 từ | **Max thử làm khác đi** + 2–4 điều nghiên cứu gợi ý ("researchers suggest…"). Mẹo hành vi thường ngày; không chẩn đoán / điều trị / khuyên tài chính. |
 | `tom-tat` | ~6% | ~35s, ~90 từ | Nhắc lại 2–3 ý chính. |
-| `ket` | ~5% | ~30s, ~70 từ | Một câu đọng lại + kêu gọi (subscribe / xem video liên quan / bình luận câu hỏi). Có câu miễn trừ khi nói về đầu tư. |
+| `ket` | ~5% | ~30s, ~70 từ | Cú lật / câu đọng lại quay về tình huống ở hook + kêu gọi (subscribe / xem video liên quan / bình luận câu hỏi). **Luôn** có câu miễn trừ. |
 
 Video dài hơn 10 phút: phần tăng thêm dồn vào `vi-du`, `nghien-cuu`, `cach-tranh` (thêm ví dụ / nghiên cứu / cách), giữ `hook` ≤ 15s và `boi-canh` ≤ 1 phút.
 
@@ -58,7 +60,7 @@ Khi viết, ghi dấu các điểm này (vd. đoạn lời bắt đầu bằng c
 
 ## 3. Giọng văn
 
-- **Kể chuyện**, ngôi **"you"**: *"You open your app. Your stock is down 20%. What do you do?"*
+- **Kể chuyện** về Max, kéo người xem vào bằng **"you"**: *"Max opens his banking app. His stomach drops. Be honest — have you been here?"*
 - Câu ngắn, từ phổ thông (trình độ ~lớp 8). Thuật ngữ thì giải thích ngay câu sau.
 - Hài nhẹ, tự giễu, không chế giễu người xem.
 - Nhịp: câu ngắn – câu ngắn – câu dài hơn một chút. Dùng câu hỏi tu từ để chuyển ý.
@@ -75,11 +77,13 @@ Khi viết, ghi dấu các điểm này (vd. đoạn lời bắt đầu bằng c
 
 ## 5. Miễn trừ
 
-Video có nói về đầu tư / tiền: thêm vào phần `ket` (lời đọc hoặc chữ trên hình) và đầu mô tả YouTube:
+**Mọi video**: phần `ket` (lời hoặc chữ trên hình) và đầu mô tả YouTube:
 
-> This video is for educational purposes only and is not financial advice. Do your own research or consult a licensed professional before making investment decisions.
+> Educational animation about psychology. Not medical, mental-health or financial advice.
 
-Không khuyên mua / bán mã cổ phiếu, coin cụ thể. Không hứa lợi nhuận.
+Chủ đề sức khoẻ tinh thần (lo âu, trầm cảm, cô đơn…) thêm: *"If you're struggling, please reach out to a qualified professional or a local helpline."*
+
+Không khuyên mua / bán mã cổ phiếu, coin cụ thể. Không hứa lợi nhuận, không hứa chữa khỏi. Chủ đề tiền bạc / đầu tư ở mục 6 kể theo góc **hành vi con người** (vì sao Max làm vậy), không theo góc "nên đầu tư thế nào".
 
 ---
 
@@ -130,10 +134,12 @@ Dự phòng: spotlight effect (Gilovich et al. 2000), home bias (French & Poterb
 - [ ] Hook ≤ 15 giây, không chào hỏi, có lời hứa được trả lời trong video.
 - [ ] Tổng lời 1.200–2.300 từ (8–15 phút; mặc định ~1.550 từ ≈ 10 phút), ~120–220 cảnh; phân bổ phần gần bảng mục 1.
 - [ ] Có điểm giữ chân ít nhất mỗi 60–90 giây (≤ ~220 từ giữa hai điểm); mọi vòng lặp mở đều được trả lời.
-- [ ] Đủ các phần: hook → bối cảnh → giải thích → ví dụ Max → nghiên cứu → cách tránh → tóm tắt → kết.
+- [ ] Đủ các phần: hook (tình huống Max) → bối cảnh → giải thích (Brainy) → câu chuyện Max → nghiên cứu (Brainy kể) → Max làm khác đi → tóm tắt → kết.
 - [ ] Mọi nghiên cứu / số liệu đã đối chiếu bài gốc; ghi nguồn trong `mo-ta-youtube.md`.
 - [ ] Số giả định được nói rõ là giả định.
-- [ ] Có câu miễn trừ "not financial advice" (nếu nói về đầu tư); không khuyên mã cụ thể.
+- [ ] Có câu miễn trừ (mục 5) ở `ket` và mô tả; không khuyên mã cụ thể; không câu kê đơn.
+- [ ] Câu chuyện Max xuyên suốt, có cú lật; khác tình huống / hook / tiêu đề của 3 video gần nhất.
+- [ ] Đã chạy danh sách kiểm chính sách [`12-CHINH-SACH-YOUTUBE.md`](12-CHINH-SACH-YOUTUBE.md) mục 5.
 - [ ] Không chép lời / ý tưởng đặc trưng của kênh khác.
 
 **Câu chữ**

@@ -84,7 +84,7 @@ Kênh tham khảo dài 30–50 phút (truyện). Kênh mới bắt đầu **8–
 | 2 | `boi-canh` | 15–45 s | Lùi về: Max là ai, đang muốn gì. **Câu báo trước ở ~25–30 s**: "He didn't know it yet, but his brain had already made the decision for him." | (đo) câu báo trước ~0:28 |
 | 3 | `vi-du` (diễn biến) | 0:45–3:30 | Chuỗi biến cố leo thang, mỗi 30–45 s một bước xấu hơn | (đo) chuỗi biến cố leo thang |
 | 4 | `giai-thich` | 3:30–5:00 | Gọi tên khái niệm (chữ lớn), giải thích một ý mỗi câu | (đề xuất) |
-| 5 | `nghien-cuu` | 5:00–6:30 | 1–2 nghiên cứu thật, chuyên gia dẫn | (đề xuất) |
+| 5 | `nghien-cuu` | 5:00–6:30 | 1–2 nghiên cứu thật, Brainy kể | (đề xuất) |
 | 6 | `vi-du` (quay lại Max) | 6:30–8:00 | Max gặp lại tình huống, lần này nhận ra | (đề xuất, giữ mạch truyện) |
 | 7 | `cach-tranh` | 8:00–9:30 | 2–4 cách làm ngay | (đề xuất) |
 | 8 | `ket` | 9:30–10:00 | **Một câu hình ảnh / đảo nghĩa** đọng lại; một câu CTA ngắn sau đó (≤ 6 s) + câu miễn trừ đầu tư | (đo) kết bằng câu đảo nghĩa; CTA (đề xuất — kênh tham khảo không có) |
@@ -280,7 +280,7 @@ Xếp theo mức cần thiết.
 6. **Nhân vật nhiều bộ phận xoay khớp (rig cut-out)** — nhân vật = thư mục PNG `than`, `dau`, `tay_trai`, `tay_phai`, mỗi phần có `khop` (điểm xoay) và `goc` theo mốc + easing. Kênh: tay xoay quanh vai 0,6–0,8 s ease-out. Ảnh Gemini cần tách bộ phận (thêm hướng dẫn vào `04-TAO-ANH-GEMINI.md`).
 7. **Thay hình theo mốc trong cảnh** (sprite swap: mắt liếc, biểu cảm đổi giữa câu) — `"doi_anh": [{"t": 1.2, "anh": "nhan-vat/max__hoang-so__dung.png"}]`.
 8. **Chớp mắt tự động** — lớp có `mat_nham` (ảnh mắt nhắm), chớp 0,12–0,15 s, ngẫu nhiên mỗi 2,5–5 s. Kênh không thấy rõ, nhưng giúp người que "sống" khi máy quay chậm.
-9. **Khớp miệng theo biên độ giọng** — cho nhân vật đang nói (chuyên gia): 2–3 hình miệng, chọn theo RMS giọng mỗi 1/12 s. Kênh không khớp miệng (người kể ngoài hình) → **ưu tiên thấp**.
+9. **Khớp miệng theo biên độ giọng** — cho nhân vật đang nói (Brainy): 2–3 hình miệng, chọn theo RMS giọng mỗi 1/12 s. Kênh không khớp miệng (người kể ngoài hình) → **ưu tiên thấp**.
 10. **Bước hình kiểu vẽ tay** — `buoc_hinh: 12` làm lớp/bộ phận chỉ cập nhật 12 lần/s (kênh 10–20 bước/s). Máy quay giữ 30 fps.
 11. **Đi bộ** — chu kỳ 2–4 hình chân + tịnh tiến ngang + nhún nhẹ theo bước; thay cho "lia máy quay đưa nhân vật vào khung" khi cần.
 12. **Hiệu ứng vẽ chồng** — `duong-toc-do` (đường tốc độ toả từ mép, cảnh quát / sốc), `hao-quang` (vầng sáng + tia, cảnh "aha"), `phat-sang` (mắt / vật phát sáng), `mo-hoi` (giọt rơi). Có thể làm bằng ảnh PNG có sẵn + `lien_tuc`, nhưng hiệu ứng thủ tục thì tái dùng tốt hơn.

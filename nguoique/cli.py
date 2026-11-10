@@ -250,6 +250,13 @@ def lenh_phan_tich(args) -> int:
 
 
 # ---------------- kiem-tra ----------------
+def lenh_giao_dien(args) -> int:
+    from .giao_dien import chay_giao_dien
+
+    chay_giao_dien(args.cong, mo_trinh_duyet=not args.khong_mo, cau_hinh=getattr(args, "cau_hinh", None))
+    return 0
+
+
 def _thu_import(ten: str):
     try:
         mod = importlib.import_module(ten)
@@ -399,6 +406,11 @@ def _tao_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(prog="nq", description="Bộ dựng video người que (tâm lý học / tâm lý đầu tư).")
     p.add_argument("--cau-hinh", dest="cau_hinh", default=None, help="tệp cấu hình (mặc định config.yaml ở gốc repo)")
     sub = p.add_subparsers(dest="lenh", metavar="<lệnh>")
+
+    s = sub.add_parser("giao-dien", help="mở giao diện quản trị trên trình duyệt (http://127.0.0.1:8770)")
+    s.add_argument("--cong", type=int, default=8770, help="cổng (mặc định 8770)")
+    s.add_argument("--khong-mo", dest="khong_mo", action="store_true", help="không tự mở trình duyệt")
+    s.set_defaults(ham=lenh_giao_dien)
 
     s = sub.add_parser("kiem-tra", help="kiểm ffmpeg, NVENC, CUDA, gói, font, mô hình, máy chủ giọng")
     s.set_defaults(ham=lenh_kiem_tra)

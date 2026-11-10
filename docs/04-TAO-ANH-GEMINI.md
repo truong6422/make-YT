@@ -125,7 +125,7 @@ Square 1:1 image.
 
 Tạo bản gốc riêng cho từng nhân vật phụ (một lần), rồi cũng đính kèm bản gốc đó khi làm biểu cảm khác. Đính kèm **cả ảnh gốc Max** khi tạo bản gốc nhân vật phụ để cùng phong cách.
 
-**Brainy** (bộ não hồng — tiếng nói trong đầu Max, chen vào giải thích thiên kiến) — `nhan-vat/brainy__<bieu-cam>__<tu-the>.png`
+**Brainy** (bộ não hồng — tiếng nói trong đầu Max, giải thích thiên kiến và kể nghiên cứu; thay vai `chuyen-gia` cũ) — `nhan-vat/brainy__<bieu-cam>__<tu-the>.png`
 ```text
 Using the attached reference image of Max ONLY as a style reference, create a NEW character: Brainy, a small cute pink brain (soft pink, brain folds drawn with a few thick lines), big round white eyes with solid black pupils, thick expressive black eyebrows, small simple mouth, thin black stick arms and legs with tiny mitten hands. Curious, slightly mischievous. Same flat 2D style, same thick uniform black outlines.
 Expression: {EXPRESSION}, strong and clearly readable. Pose: {standing, facing the viewer | pointing up with an idea | panicking with hands on head | arms crossed}.
@@ -133,13 +133,7 @@ Only one figure. Full body, centered, generous margin. No shading, no shadows.
 Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark. Square 1:1 image.
 ```
 
-**Dr. Mira** (nhà tâm lý học — mã `chuyen-gia`) — `nhan-vat/chuyen-gia__<bieu-cam>__<tu-the>.png`
-```text
-Using the attached reference image of Max ONLY as a style reference, create a NEW character: Dr. Mira, a friendly female psychologist about 40, same medium chibi proportions (head about 1/3 of body), ethnically ambiguous warm medium skin, big round white eyes with black pupils, thick expressive eyebrows, no nose, round black glasses, dark hair in a neat bun, teal cardigan (#2EC4B6) over an off-white top, navy pants, simple shoes. Same flat 2D style, same thick uniform black outlines.
-Expression: {calm, warm knowing smile}. Pose: {standing, holding a small clipboard | standing and pointing to the right, presenting}.
-Only one figure. Full body, centered, generous margin. No shading, no shadows.
-Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark. Square 1:1 image.
-```
+**Không có nhân vật "chuyên gia" / "bác sĩ" / "nhà tâm lý học".** Chính sách kiếm tiền YouTube (07/2026) không trả tiền cho nhân vật AI tự nhận là chuyên gia đưa lời khuyên về sức khoẻ, tinh thần, tài chính. Brainy là bộ não hoạt hình — rõ ràng không phải người thật, không tự nhận chuyên môn — nên Brainy kể nghiên cứu. Chi tiết: `docs/12-CHINH-SACH-YOUTUBE.md`.
 
 **Bạn của Max** — `nhan-vat/ban__<bieu-cam>__<tu-the>.png` (dùng khi câu chuyện cần người thứ hai)
 ```text
@@ -271,7 +265,7 @@ No text, no letters, no numbers, no signs with writing, no logos, no watermark. 
 | 12 | `nhan-vat/max__nhe-nhom__dung.png` | |
 | 13 | `nhan-vat/max__suy-nghi__ngoi-may-tinh.png` | |
 | 14 | `nhan-vat/max__hao-hung__dung.png` | |
-| 15 | `nhan-vat/chuyen-gia__tu-tin__chi-tay.png` | cảnh nghiên cứu |
+| 15 | `nhan-vat/brainy__tu-tin__chi-tay.png` | cảnh nghiên cứu |
 | 16 | `nhan-vat/dam-dong__hao-hung__chay.png` | cảnh bầy đàn / FOMO |
 | 17 | `dao-cu/bao-tien.png` | |
 | 18 | `dao-cu/tien.png` | |

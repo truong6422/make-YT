@@ -31,6 +31,7 @@ TRANG = (255, 255, 255, 255)
 XANH_NUOC = (79, 195, 247, 255)
 DO = (229, 57, 53, 255)
 XANH_LA = (67, 160, 71, 255)
+HONG_NAO = (248, 160, 190, 255)  # màu đầu Brainy (bộ não hồng)
 
 TAN_SO_SFX = 48000
 
@@ -86,7 +87,7 @@ TU_THE_NGOI = ("ngoi", "ngoi-may-tinh")
 
 # Nhân vật phụ (docs/04 mục 5): chỉ tạo các tổ hợp hay dùng; cần thêm thì sửa ở đây.
 NHAN_VAT_PHU: dict[str, tuple[tuple[str, ...], tuple[str, ...]]] = {
-    "chuyen-gia": (("tu-tin", "vui", "suy-nghi", "boi-roi", "soc", "lo-lang"), ("dung", "chi-tay")),
+    "brainy": (("tu-tin", "vui", "suy-nghi", "boi-roi", "soc", "lo-lang"), ("dung", "chi-tay")),
     "ban": (("vui", "tham-lam", "so-hai", "buon", "hoi-han"), ("dung", "chi-tay")),
 }
 # Đám đông 16:9: tên tệp -> (biểu cảm, tư thế từng người, lật trái?, hướng nhìn đè)
@@ -242,17 +243,17 @@ def _ve_dien_thoai_cam_tay(d: ImageDraw.ImageDraw) -> None:
     d.ellipse((1310, 870, 1370, 930), fill=DEN)  # bàn tay đè lên mép dưới
 
 
+def _mau_dau(nhan_vat: str) -> tuple[int, int, int, int]:
+    return HONG_NAO if nhan_vat == "brainy" else TRANG
+
+
 def _ve_phu_kien(d: ImageDraw.ImageDraw, nhan_vat: str) -> None:
     """Dấu nhận dạng nhân vật phụ (docs/04 mục 5)."""
-    if nhan_vat == "chuyen-gia":
-        for dau in (-1, 1):  # kính tròn
-            cx, cy, r = HX + dau * 85, HY - 20, 72
-            d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=DEN, width=14)
-        _net(d, [(HX - 13, HY - 24), (HX + 13, HY - 24)], 14)
-        ny = HY + HR + 40  # nơ cổ
+    if nhan_vat == "brainy":  # nếp não: một rãnh giữa + hai cung mỗi bên, trên vùng mắt
+        _net(d, [(HX, HY - HR + 12), (HX, HY - HR * 55 // 100)], 12)
         for dau in (-1, 1):
-            d.polygon([(HX, ny), (HX + dau * 95, ny - 50), (HX + dau * 95, ny + 50)], fill=DO, outline=DEN, width=12)
-        d.ellipse((HX - 26, ny - 26, HX + 26, ny + 26), fill=DO, outline=DEN, width=10)
+            x0, x1 = sorted((HX + dau * HR * 18 // 100, HX + dau * HR * 62 // 100))
+            d.arc((x0, HY - HR * 82 // 100, x1, HY - HR * 42 // 100), 200, 340, fill=DEN, width=12)
     elif nhan_vat == "ban":
         for goc_x, dinh in ((975, (945, 235)), (1024, (1024, 215)), (1073, (1103, 235))):  # chỏm tóc 3 nét
             _net(d, [(goc_x, HY - HR + 8), dinh], 22)
@@ -279,7 +280,7 @@ def _ve_nhan_vat(bieu_cam: str, tu_the: str, nhan_vat: str = "max", nhin=None) -
     _net(d, [(HX, HY + HR - 10), (HX, HONG_Y)])
 
     # Đầu + mặt
-    d.ellipse((HX - HR, HY - HR, HX + HR, HY + HR), fill=TRANG, outline=DEN, width=NET)
+    d.ellipse((HX - HR, HY - HR, HX + HR, HY + HR), fill=_mau_dau(nhan_vat), outline=DEN, width=NET)
     for dau in (-1, 1):
         _mat(d, HX + dau * 85, HY - 20, cau_hinh["mat"], nhin if nhin is not None else cau_hinh["nhin"])
     _may(d, cau_hinh["may"])
@@ -791,7 +792,7 @@ def tao_nhan_vat_ghep_tam(kho: Path, ten: str = "max", ghi_de: bool = False) -> 
     luu("than.png", than)
     # đầu (+ phụ kiện nhân vật phụ): khớp ở cổ, 110px dưới tâm đầu
     anh, d = _vung_dau()
-    d.ellipse((HX - HR, HY - HR, HX + HR, HY + HR), fill=TRANG, outline=DEN, width=NET)
+    d.ellipse((HX - HR, HY - HR, HX + HR, HY + HR), fill=_mau_dau(ten), outline=DEN, width=NET)
     _ve_phu_kien(d, ten)
     luu("dau.png", _cat_dau(anh))
     khop_dau = (GHEP_DAU_NUA // 2, GHEP_DAU_NUA // 2 + 110)
