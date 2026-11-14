@@ -20,7 +20,7 @@ Số liệu nền (đếm từ 2 kịch bản "fortune tellers", ~10 phút, ~120
 4. Dán **khối lô** (mục 4). Muse vẽ lần lượt **mỗi lần trả lời một ảnh**, ghi dòng `FILE: ...` trước ảnh.
 5. Sau mỗi ảnh gõ:
    - `ok` → ảnh đạt, Muse làm mục kế tiếp;
-   - `redo: <lý do ngắn>` → vẽ lại mục đó (vd. `redo: shadow under feet`, `redo: hoodie must be blue #4A81B7`);
+   - `redo: <lý do ngắn>` → vẽ lại mục đó (vd. `redo: shadow under feet`, `redo: body must be plain blue #3D73B1`);
    - `skip` → bỏ qua, ghi lại để làm sau.
 6. Tải ảnh về (bản đầy đủ), **đổi tên đúng dòng `FILE:`** (chỉ lấy phần tên, không có thư mục), lưu vào:
    - nhân vật → `kho-mau/_cho-xu-ly/nhan-vat/`
@@ -46,8 +46,8 @@ PROTOCOL
 
 STYLE BIBLE (never break)
 - Flat 2D vector cartoon, thick uniform black outlines (same weight everywhere), flat colors, NO gradients, NO shading, NO shadows (not even under feet), NO texture, NO paper grain.
-- Palette: blue #4A81B7 (reserved for Max's hoodie only), navy #1F2A44, teal #2EC4B6, orange #FF7A1A, mustard #F2B33D, coral #E8735A, off-white #F5F1E8, black #111111, plus muted accents: soft green #4CAF50, soft red #E53935, warm yellow #FFC93C, soft pink #F4A7B9, light grey #BDBDBD, charcoal #4A4A4A, beige #E8D5B5.
-- Characters: clean stick figures with a big white circle head (about 40% of height, no hair unless specified, no ears, no nose), small solid black vertical oval eyes, thin curved eyebrows, one-line mouth, white mitten hands, thin black stick legs, small white oval shoes. Always match the attached character sheet exactly.
+- Palette: blue #3D73B1 (reserved for Max's body only), navy #1F2A44, teal #2EC4B6, orange #FF7A1A, mustard #F2B33D, coral #E8735A, off-white #F5F1E8, black #111111, plus muted accents: soft green #4CAF50, soft red #E53935, warm yellow #FFC93C, soft pink #F4A7B9, light grey #BDBDBD, charcoal #4A4A4A, beige #E8D5B5.
+- Characters: very simple stick figures: a big white oval head (about 40% of height, no hair unless specified, no ears, no nose, no neck), small solid black vertical oval eyes, thin curved eyebrows, one-line mouth, one plain colored rounded egg-shaped body, thin black stick arms and legs, small white oval hands and feet. Always match the attached character sheet exactly.
 - Characters, props, charts, symbols: ONE subject per image, centered, full subject visible, generous empty margin, PURE WHITE background #FFFFFF, square 1:1.
 - Backgrounds (only when the batch says BACKGROUND): wide 16:9, off-white #F5F1E8 base, thin light grey #BDBDBD outlines, very sparse details, empty center and lower half for characters, no people.
 - NO text, letters, numbers, logos, brand names, flags, watermarks or borders anywhere. Screens, signs, papers, labels stay blank or use simple lines/shapes.
@@ -61,32 +61,32 @@ Reply "ready" and wait for the first batch.
 
 ## 2b. Ảnh mẫu nhân vật — định dạng "bảng nhân vật"
 
-Mọi nhân vật làm theo **đúng định dạng bảng dưới đây**: ảnh ngang 16:9, **bên trái một hình toàn thân đứng thẳng nhìn thẳng**, **bên phải lưới 2×2 bốn đầu biểu cảm** có cổ áo, nền trắng, không chữ. Bảng này là "giấy khai sinh" của nhân vật: làm một lần, chốt, rồi **đính kèm vào mọi lần vẽ sau** để Muse giữ đúng mặt, áo, nét vẽ.
+Mọi nhân vật làm theo **đúng định dạng bảng dưới đây**: ảnh ngang 16:9, **bên trái một hình toàn thân đứng thẳng nhìn thẳng**, **bên phải lưới 2×2 bốn đầu biểu cảm** (chỉ đầu, không thân), nền trắng, không chữ. Bảng này là "giấy khai sinh" của nhân vật: làm một lần, chốt, rồi **đính kèm vào mọi lần vẽ sau** để Muse giữ đúng mặt, thân, nét vẽ.
 
 **Max đã chốt (2026-11-14)** — `kho-mau/_mau-nhan-vat/max-sheet.png` (bản sao gửi Muse: `gui-muse/IMAGE-1-max-sheet.png`):
 
 ![Max — bảng nhân vật đã chốt](../kho-mau/_mau-nhan-vat/max-sheet.png)
 
 Đặc điểm (đã chép vào khối `CHARACTER SPEC` bên dưới):
-- **Đầu**: hình tròn trắng to, viền đen dày, khoảng 40% chiều cao, rộng hơn vai; **không tóc, không tai, không mũi**.
+- **Đầu**: bầu dục trắng to (hơi bè ngang), viền đen mảnh, khoảng 40% chiều cao, rộng hơn thân; **không tóc, không tai, không mũi, không cổ**.
 - **Mặt**: mắt là hai bầu dục đen đặc nhỏ dựng đứng; lông mày là nét cong mảnh; miệng một nét.
-- **Biểu cảm thêm**: má hồng bầu dục (ngượng), giọt mồ hôi viền đen (lo), nét rung cong hai bên đầu (sốc).
-- **Áo**: hoodie xanh `#4A81B7` (đo từ ảnh), mũ gập quanh cổ như cổ áo, **cổ chữ V trắng**, **hai dây rút**, túi kangaroo, gấu và cổ tay bo.
-- **Tay chân**: tay găng trắng có ngón cái; chân là hai nét que đen thẳng; giày bầu dục trắng viền đen.
-- **Nét vẽ**: viền đen dày, sạch, đều; màu phẳng; không bóng.
+- **Biểu cảm thêm**: má hồng bầu dục `#EDBBBC` (ngượng), giọt mồ hôi xanh nhạt `#C9E8FA` (lo), nét rung cong hai bên đầu (sốc).
+- **Thân**: một khối xanh `#3D73B1` (đo từ ảnh) bo tròn hình quả trứng / quả lê — hẹp ở chỗ nối đầu, tròn bè ở dưới; khoảng 1/3 chiều cao; **không chi tiết quần áo**.
+- **Tay chân**: đều là **nét que đen mảnh**; tay mọc từ hai bên phía trên thân; bàn tay là bầu dục trắng nhỏ dựng đứng, bàn chân là bầu dục trắng nằm ngang, viền đen.
+- **Nét vẽ**: viền đen mảnh-vừa, sạch, đều; màu phẳng; không bóng.
 
-Màu xanh `#4A81B7` dành riêng cho áo Max — nhân vật khác không mặc.
+Màu xanh `#3D73B1` dành riêng cho thân Max — nhân vật khác không dùng. Tay chân que nên code vẽ và xoay khớp dễ (`docs/10`).
 
 Khối mô tả dán kèm **mọi** lô có Max (đặt ngay dưới dòng `BATCH ...`):
 
 ```text
 CHARACTER SPEC — MAX (match the attached sheet exactly):
-clean stick figure. Head: a big perfect white circle with a thick black outline, about 40% of total height, wider than the shoulders. NO hair, NO ears, NO nose.
+very simple stick figure. Head: a big white oval (slightly wider than tall) with a clean black outline, about 40% of total height, wider than the body. NO hair, NO ears, NO nose, NO neck.
 Eyes: two small solid black vertical ovals. Eyebrows: short thin curved black strokes. Mouth: one thin black line.
-Emotion extras: soft pink oval blush (shy), a small outlined sweat drop (anxious), short curved shake lines beside the head (shocked).
-Hoodie: medium blue #4A81B7, hood folded around the neck like a collar, small white V neckline, two drawstrings, front kangaroo pocket, ribbed hem and cuffs.
-Hands: white rounded mitten hands with a small thumb. Legs: two thin straight black stick lines. Feet: small white oval shoes.
-Thick clean uniform black outlines, flat colors, no shading, no shadows. Every white area enclosed by a closed black outline.
+Emotion extras: soft pink oval blush (shy), a small light-blue sweat drop (anxious), short curved shake lines beside the head (shocked).
+Body: one plain blue #3D73B1 rounded egg / pear shape (narrow at the top, round at the bottom), about 1/3 of the height, NO clothing details.
+Arms: two thin black stick lines from the upper sides of the body; hands: small white vertical ovals. Legs: two thin black stick lines; feet: small white horizontal ovals.
+Clean uniform black outlines, flat colors, no shading, no shadows. Every white area enclosed by a closed black outline.
 ```
 
 Mô tả đầy đủ, dạng tài liệu gửi kèm ảnh: `gui-muse/CHARACTER-BRIEF.md`.
@@ -135,25 +135,25 @@ Redraw only the LEFT full-body Max from the attached sheet as a single image, id
 1. FILE: nhan-vat/max__goc__dung.png
 ```
 
-**0B — Bảng biểu cảm Max** (đính kèm `max-sheet.png`, dán khối `CHARACTER SPEC — MAX`). Mỗi bảng là lưới 2×2 đầu có cổ áo hoodie xanh, giống nửa phải của `max-sheet.png`, đủ 12 biểu cảm còn lại. Lô 1–2 dùng các bảng này làm tham chiếu biểu cảm.
+**0B — Bảng biểu cảm Max** (đính kèm `max-sheet.png`, dán khối `CHARACTER SPEC — MAX`). Mỗi bảng là lưới 2×2 chỉ có đầu, giống nửa phải của `max-sheet.png`, đủ 12 biểu cảm còn lại. Lô 1–2 dùng các bảng này làm tham chiếu biểu cảm.
 
 ```text
-BATCH 0B — EXPRESSION SHEETS (wide 16:9, pure white background, no text, no labels). Each sheet is a 2x2 grid of head close-ups of the SAME Max as the attached sheet (white circle head, blue hoodie collar visible), exactly like the right side of the attached sheet: evenly spaced, same size, same framing. Expressions clear and readable using eyebrows, eye size, mouth and small extras (sweat drops, tears, sparkles, puffs).
+BATCH 0B — EXPRESSION SHEETS (wide 16:9, pure white background, no text, no labels). Each sheet is a 2x2 grid of head close-ups of the SAME Max as the attached sheet (white oval head only, no body), exactly like the right side of the attached sheet: evenly spaced, same size, same framing. Expressions clear and readable using eyebrows, eye size, mouth and small extras (sweat drops, tears, sparkles, puffs).
 1. FILE: max-bieu-cam-1.png — top-left greedy (eyes as small sparkles, eager wide grin) · top-right panicked (bigger eyes, mouth open screaming, sweat drops flying) · bottom-left regretful (eyes looking down, sad mouth) · bottom-right confident (smirk, one eyebrow raised)
-2. FILE: max-bieu-cam-2.png — top-left confused (one eyebrow up, wavy mouth, head tilted) · top-right thinking (eyes up to the side, a white mitten hand on the chin) · bottom-left sad (droopy eyebrows, downturned mouth, one tear) · bottom-right angry (sharp slanted eyebrows, gritted-teeth line, small steam puff)
+2. FILE: max-bieu-cam-2.png — top-left confused (one eyebrow up, wavy mouth, head tilted) · top-right thinking (eyes looking up to the side, small flat mouth) · bottom-left sad (droopy eyebrows, downturned mouth, one tear) · bottom-right angry (sharp slanted eyebrows, gritted-teeth line, small steam puff)
 3. FILE: max-bieu-cam-3.png — top-left relieved (eyes closed as curves, gentle smile, small exhale puff) · top-right smug (half-closed eyes, one-sided smirk) · bottom-left excited (sparkling eyes, huge open smile) · bottom-right bored (half-closed flat eyes, flat mouth)
 ```
 
 `max-sheet.png` đã có 4 biểu cảm: vui (`vui`), lo âu với miệng lượn sóng + giọt mồ hôi (`lo-lang`), sốc (`soc`), ngượng má hồng. `so-hai` dùng mặt `lo-lang` đẩy mạnh hơn (mắt to hơn, người co lại).
 
-**0C — Bảng nhân vật phụ** (mỗi nhân vật một cuộc trò chuyện; đính kèm `max-sheet.png` làm chuẩn phong cách, tuyệt đối không mặc hoodie xanh):
+**0C — Bảng nhân vật phụ** (mỗi nhân vật một cuộc trò chuyện; đính kèm `max-sheet.png` làm chuẩn phong cách, tuyệt đối không dùng thân xanh):
 
 ```text
-BATCH 0C — CHARACTER SHEET for a NEW character, in exactly the same style and the SAME LAYOUT as the attached Max sheet (wide 16:9: LEFT full body standing facing the viewer, arms relaxed; RIGHT 2x2 head close-up grid with collar visible: happy, anxious, shocked, confused). Same stick-figure build, same big white circle head, same small black oval eyes and thin eyebrows, same white mitten hands, stick legs and white oval shoes, same line weight. Pure white background, no text, no labels. The new character must look clearly different from Max at a glance and must NOT wear the blue #4A81B7 hoodie.
+BATCH 0C — CHARACTER SHEET for a NEW character, in exactly the same style and the SAME LAYOUT as the attached Max sheet (wide 16:9: LEFT full body standing facing the viewer, arms relaxed; RIGHT 2x2 head-only close-up grid: happy, anxious, shocked, confused). Same build: big white oval head, same small black oval eyes and thin eyebrows, one plain colored rounded egg-shaped body, thin stick arms and legs, small white oval hands and feet, same line weight. Pure white background, no text, no labels. The new character must look clearly different from Max at a glance and its body must NOT be blue #3D73B1.
 ```
 Rồi chọn **một** dòng dưới (mỗi lần một nhân vật):
 ```text
-1. FILE: brainy-sheet.png — Brainy, Max's inner voice: a small soft-pink #F4A7B9 cartoon brain with a few fold lines instead of a round head, the same small oval eyes and thin eyebrows, thin black stick arms and legs with white mitten hands. Curious, slightly mischievous. Clearly a cartoon brain, not a doctor (no glasses, no lab coat).
+1. FILE: brainy-sheet.png — Brainy, Max's inner voice: a small soft-pink #F4A7B9 cartoon brain with a few fold lines instead of a round head, the same small oval eyes and thin eyebrows, thin black stick arms and legs with small white oval hands and feet. Curious, slightly mischievous. Clearly a cartoon brain, not a doctor (no glasses, no lab coat).
 2. FILE: ban-sheet.png — Sam, Max's friend: a small tuft of curly black hair on top of the round head, mustard #F2B33D crew-neck sweater with no hood.
 3. FILE: sep-sheet.png — the boss: slightly taller, neat grey hair at the sides of the round head, charcoal #4A4A4A blazer over a white shirt with a soft red #E53935 tie.
 4. FILE: nguoi-hen-sheet.png — Ava, Max's date / partner: a simple black ponytail on the round head, coral #E8735A cardigan.
@@ -165,7 +165,7 @@ Chốt từng bảng xong thì xin ảnh đơn 1:1 toàn thân: `nhan-vat/brainy
 Chia làm 4 cuộc trò chuyện theo bảng biểu cảm: mục 1, 3, 8, 14 đi với `max-sheet.png`; mục 2, 4, 5, 6 với `max-bieu-cam-1.png`; mục 7, 9, 10, 11 với `max-bieu-cam-2.png`; mục 12, 13, 15, 16 với `max-bieu-cam-3.png`. Dán khối `CHARACTER SPEC — MAX` dưới dòng `BATCH`.
 
 ```text
-BATCH 1 — Max, same character as the attached sheet; copy the matching face from the attached expression sheet (same white circle head, small oval eyes, blue #4A81B7 hoodie, mitten hands, stick legs, white oval shoes). Pose for all: standing, facing the viewer, arms relaxed (arms may move only if the expression needs it). The face is minimal, so push each emotion with body language too.
+BATCH 1 — Max, same character as the attached sheet; copy the matching face from the attached expression sheet (same white oval head, small oval eyes, plain blue #3D73B1 egg-shaped body, stick arms and legs, white oval hands and feet). Pose for all: standing, facing the viewer, arms relaxed (arms may move only if the expression needs it). The face is minimal, so push each emotion with body language too.
 1. FILE: nhan-vat/max__vui__dung.png — happy, big simple smile
 2. FILE: nhan-vat/max__tham-lam__dung.png — greedy, wide hungry grin, sparkly eyes, leaning forward
 3. FILE: nhan-vat/max__so-hai__dung.png — fearful, eyes wide, small wavy open mouth, shrinking back
@@ -265,7 +265,7 @@ BATCH 3D — Ava, same character as the attached Ava reference.
 5. FILE: nhan-vat/nguoi-hen__hao-hung__dung.png
 6. FILE: nhan-vat/nguoi-hen__vui__ngoi.png — sitting at a small café table, smiling
 
-BATCH 3E — crowds, same stick-figure style as the attached Max sheet (white circle heads, small oval eyes, stick legs). 7 simple background adults, a few with simple hair shapes, muted tops (grey, beige, olive, charcoal, mustard, teal — NO blue #4A81B7). Wide 16:9 for these five.
+BATCH 3E — crowds, same stick-figure style as the attached Max sheet (white oval heads, small oval eyes, rounded egg-shaped bodies, stick arms and legs). 7 simple background adults, a few with simple hair shapes, bodies in muted colors (grey, beige, olive, charcoal, mustard, teal — NO blue #3D73B1). Wide 16:9 for these five.
 1. FILE: nhan-vat/dam-dong__hao-hung__chay.png — excited, all running to the right
 2. FILE: nhan-vat/dam-dong__hoang-loan__bo-chay.png — panicked, running away to the left
 3. FILE: nhan-vat/dam-dong__hao-hung__nhin-len.png — excited, all looking up at the same point
@@ -583,7 +583,7 @@ Gợi ý lô theo nhóm chủ đề (`docs/05` mục danh sách 30 chủ đề) 
 
 | Kiểm | Lỗi hay gặp → câu `redo:` |
 |---|---|
-| Đúng nhân vật | `redo: hoodie must be blue #4A81B7 / head must be a big white circle, about 40% of height / no hair, no nose` |
+| Đúng nhân vật | `redo: body must be one plain blue #3D73B1 egg shape / arms must be stick lines / head must be a big white oval, about 40% of height / no hair, no nose` |
 | Nền trắng sạch, không bóng | `redo: pure white background, no shadow under feet` |
 | Không chữ / số / logo | `redo: remove all text and numbers` |
 | Nét đều, viền kín | `redo: uniform thick outlines, close all outlines` |
