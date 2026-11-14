@@ -14,13 +14,13 @@ Số liệu nền (đếm từ 2 kịch bản "fortune tellers", ~10 phút, ~120
 
 1. Mở **cuộc trò chuyện mới** trên Muse cho mỗi lô (Muse "trôi" phong cách khi chat quá dài).
 2. **Đính kèm ảnh tham chiếu** (chi tiết mục 2b):
-   - mọi lô có Max: **`kho-mau/_mau-nhan-vat/max-sheet.png`** (bảng nhân vật Max đã chốt 2026-11-14) + bảng biểu cảm có chứa biểu cảm đang vẽ;
+   - mọi lô có Max: **`kho-mau/_mau-nhan-vat/max-goc.png`** (Max đã chốt 2026-11-14) + `max-sheet.png` khi đã làm xong lô 0A + bảng biểu cảm có chứa biểu cảm đang vẽ;
    - nhân vật phụ: bảng của chính nhân vật đó + `max-sheet.png`.
 3. Dán **Bản giao việc** (mục 2) — một lần đầu mỗi cuộc trò chuyện.
 4. Dán **khối lô** (mục 4). Muse vẽ lần lượt **mỗi lần trả lời một ảnh**, ghi dòng `FILE: ...` trước ảnh.
 5. Sau mỗi ảnh gõ:
    - `ok` → ảnh đạt, Muse làm mục kế tiếp;
-   - `redo: <lý do ngắn>` → vẽ lại mục đó (vd. `redo: shadow under feet`, `redo: body must be plain blue #3D73B1`);
+   - `redo: <lý do ngắn>` → vẽ lại mục đó (vd. `redo: shadow under feet`, `redo: body must be plain blue #487EB9`);
    - `skip` → bỏ qua, ghi lại để làm sau.
 6. Tải ảnh về (bản đầy đủ), **đổi tên đúng dòng `FILE:`** (chỉ lấy phần tên, không có thư mục), lưu vào:
    - nhân vật → `kho-mau/_cho-xu-ly/nhan-vat/`
@@ -46,7 +46,7 @@ PROTOCOL
 
 STYLE BIBLE (never break)
 - Flat 2D vector cartoon, thick uniform black outlines (same weight everywhere), flat colors, NO gradients, NO shading, NO shadows (not even under feet), NO texture, NO paper grain.
-- Palette: blue #3D73B1 (reserved for Max's body only), navy #1F2A44, teal #2EC4B6, orange #FF7A1A, mustard #F2B33D, coral #E8735A, off-white #F5F1E8, black #111111, plus muted accents: soft green #4CAF50, soft red #E53935, warm yellow #FFC93C, soft pink #F4A7B9, light grey #BDBDBD, charcoal #4A4A4A, beige #E8D5B5.
+- Palette: blue #487EB9 (reserved for Max's body only), navy #1F2A44, teal #2EC4B6, orange #FF7A1A, mustard #F2B33D, coral #E8735A, off-white #F5F1E8, black #111111, plus muted accents: soft green #4CAF50, soft red #E53935, warm yellow #FFC93C, soft pink #F4A7B9, light grey #BDBDBD, charcoal #4A4A4A, beige #E8D5B5.
 - Characters: very simple stick figures: a big white oval head (about 40% of height, no hair unless specified, no ears, no nose, no neck), small solid black vertical oval eyes, thin curved eyebrows, one-line mouth, one plain colored rounded egg-shaped body, thin black stick arms and legs, small white oval hands and feet. Always match the attached character sheet exactly.
 - Characters, props, charts, symbols: ONE subject per image, centered, full subject visible, generous empty margin, PURE WHITE background #FFFFFF, square 1:1.
 - Backgrounds (only when the batch says BACKGROUND): wide 16:9, off-white #F5F1E8 base, thin light grey #BDBDBD outlines, very sparse details, empty center and lower half for characters, no people.
@@ -63,28 +63,32 @@ Reply "ready" and wait for the first batch.
 
 Mọi nhân vật làm theo **đúng định dạng bảng dưới đây**: ảnh ngang 16:9, **bên trái một hình toàn thân đứng thẳng nhìn thẳng**, **bên phải lưới 2×2 bốn đầu biểu cảm** (chỉ đầu, không thân), nền trắng, không chữ. Bảng này là "giấy khai sinh" của nhân vật: làm một lần, chốt, rồi **đính kèm vào mọi lần vẽ sau** để Muse giữ đúng mặt, thân, nét vẽ.
 
-**Max đã chốt (2026-11-14)** — `kho-mau/_mau-nhan-vat/max-sheet.png` (bản sao gửi Muse: `gui-muse/IMAGE-1-max-sheet.png`):
+**Max đã chốt (2026-11-14)** — `kho-mau/_mau-nhan-vat/max-goc.png` (bản sao gửi Muse: `gui-muse/IMAGE-1-max.png`). Kiểu biểu cảm tham khảo thêm `max-bieu-cam-mau.png` (bản thử cũ, chỉ lấy mặt — thân trong đó lỗi thời):
 
-![Max — bảng nhân vật đã chốt](../kho-mau/_mau-nhan-vat/max-sheet.png)
+![Max — bản chốt cuối](../kho-mau/_mau-nhan-vat/max-goc.png)
 
 Đặc điểm (đã chép vào khối `CHARACTER SPEC` bên dưới):
-- **Đầu**: bầu dục trắng to (hơi bè ngang), viền đen mảnh, khoảng 40% chiều cao, rộng hơn thân; **không tóc, không tai, không mũi, không cổ**.
-- **Mặt**: mắt là hai bầu dục đen đặc nhỏ dựng đứng; lông mày là nét cong mảnh; miệng một nét.
+- **Đầu**: bầu dục trắng to (hơi bè ngang), viền đen mảnh, khoảng 40% chiều cao, rộng hơn thân; **không tai, không mũi, không cổ**.
+- **Tóc**: chỉ **3–4 sợi xoăn mảnh** dựng trên đỉnh đầu.
+- **Khăn quàng** (nhận diện): sọc **navy `#1F2A44` – trắng**, quấn quanh cổ như cổ áo (sọc dọc), **một đầu thả trước ngực phía phải người xem** (sọc ngang, chóp navy), viền đen dày.
+- **Mặt**: mắt là hai bầu dục đen đặc nhỏ dựng đứng, có một chấm sáng trắng; lông mày là nét cong mảnh; miệng một nét.
 - **Biểu cảm thêm**: má hồng bầu dục `#EDBBBC` (ngượng), giọt mồ hôi xanh nhạt `#C9E8FA` (lo), nét rung cong hai bên đầu (sốc).
-- **Thân**: một khối xanh `#3D73B1` (đo từ ảnh) bo tròn hình quả trứng / quả lê — hẹp ở chỗ nối đầu, tròn bè ở dưới; khoảng 1/3 chiều cao; **không chi tiết quần áo**.
+- **Thân**: một khối xanh `#487EB9` (đo từ ảnh) bo tròn hình quả trứng / quả lê — hẹp ở chỗ nối đầu, tròn bè ở dưới; khoảng 1/3 chiều cao; **không chi tiết quần áo**.
 - **Tay chân**: đều là **nét que đen mảnh**; tay mọc từ hai bên phía trên thân; bàn tay là bầu dục trắng nhỏ dựng đứng, bàn chân là bầu dục trắng nằm ngang, viền đen.
 - **Nét vẽ**: viền đen mảnh-vừa, sạch, đều; màu phẳng; không bóng.
 
-Màu xanh `#3D73B1` dành riêng cho thân Max — nhân vật khác không dùng. Tay chân que nên code vẽ và xoay khớp dễ (`docs/10`).
+Thân xanh `#487EB9` và khăn sọc navy–trắng dành riêng cho Max — nhân vật khác không dùng. Tay chân que nên code vẽ và xoay khớp dễ (`docs/10`).
 
 Khối mô tả dán kèm **mọi** lô có Max (đặt ngay dưới dòng `BATCH ...`):
 
 ```text
 CHARACTER SPEC — MAX (match the attached sheet exactly):
-very simple stick figure. Head: a big white oval (slightly wider than tall) with a clean black outline, about 40% of total height, wider than the body. NO hair, NO ears, NO nose, NO neck.
-Eyes: two small solid black vertical ovals. Eyebrows: short thin curved black strokes. Mouth: one thin black line.
+very simple stick figure. Head: a big white oval (slightly wider than tall) with a clean black outline, about 40% of total height, wider than the body. NO ears, NO nose, NO neck.
+Hair: only 3-4 thin curly black strands sticking up from the top center.
+Scarf: navy #1F2A44 and white striped scarf wrapped around the neck like a collar, one end hanging down the front on the viewer's right with horizontal stripes and a navy tip.
+Eyes: two small solid black vertical ovals, each with one small white highlight dot. Eyebrows: short thin curved black strokes. Mouth: one thin black line.
 Emotion extras: soft pink oval blush (shy), a small light-blue sweat drop (anxious), short curved shake lines beside the head (shocked).
-Body: one plain blue #3D73B1 rounded egg / pear shape (narrow at the top, round at the bottom), about 1/3 of the height, NO clothing details.
+Body: one plain blue #487EB9 rounded egg / pear shape (narrow at the top under the scarf, round at the bottom), about 1/3 of the height, NO clothing details.
 Arms: two thin black stick lines from the upper sides of the body; hands: small white vertical ovals. Legs: two thin black stick lines; feet: small white horizontal ovals.
 Clean uniform black outlines, flat colors, no shading, no shadows. Every white area enclosed by a closed black outline.
 ```
@@ -128,17 +132,22 @@ Tên tệp theo `docs/04` mục 9: chữ thường không dấu, `nhan-vat/<ten>
 
 Bảng 16:9 **không tách nền**. Tải về rồi lưu thẳng vào `kho-mau/_mau-nhan-vat/` đúng tên `FILE:`. Mỗi bảng nên vẽ 2–4 lần và chọn bản đẹp nhất; mỗi lần vẽ lại một bảng **mở cuộc trò chuyện mới** (theo kinh nghiệm ở `_mau-nhan-vat/README.md`, vẽ lại trong cùng cuộc trò chuyện thì ra gần như y hệt).
 
-**0A — Bảng gốc Max: ĐÃ CÓ** (`max-sheet.png`, mục 2b). Chỉ còn xin ảnh đơn dùng cho video (đính kèm `max-sheet.png`, dán khối `CHARACTER SPEC — MAX`):
+**Ảnh đơn Max: ĐÃ CÓ.** `max-goc.png` vốn là ảnh 1:1 nền trắng. Chép vào `kho-mau/_cho-xu-ly/nhan-vat/max__goc__dung.png` rồi tách nền là dùng được, không cần Muse vẽ lại.
+
+**0A — Bảng gốc Max** (đính kèm `max-goc.png` + `max-bieu-cam-mau.png`, dán khối `CHARACTER SPEC — MAX`). Bảng này gom thiết kế cuối và 4 biểu cảm mẫu vào một ảnh, làm tham chiếu cho mọi lô sau:
 
 ```text
-Redraw only the LEFT full-body Max from the attached sheet as a single image, identical design: square 1:1, centered, generous margin, pure white background, no shadow, no ground line.
-1. FILE: nhan-vat/max__goc__dung.png
+BATCH 0A — CHARACTER SHEET (wide 16:9, pure white background, no text, no labels).
+LEFT: Max full body exactly as the first attached image (hair tuft, striped scarf, blue body, stick limbs). Only ONE full-body figure.
+RIGHT: a 2x2 grid of head-only close-ups, layout and expression style like the right side of the second attached image, but with Max's 3-4 curly hair strands and eye highlight dots: top-left happy · top-right anxious (worried eyebrows, wavy mouth, sweat drop) · bottom-left shocked (small open oval mouth, shake lines) · bottom-right embarrassed (pink blush, eyes looking aside, awkward smile).
+Ignore the body of the second image (it is outdated).
+1. FILE: max-sheet.png
 ```
 
 **0B — Bảng biểu cảm Max** (đính kèm `max-sheet.png`, dán khối `CHARACTER SPEC — MAX`). Mỗi bảng là lưới 2×2 chỉ có đầu, giống nửa phải của `max-sheet.png`, đủ 12 biểu cảm còn lại. Lô 1–2 dùng các bảng này làm tham chiếu biểu cảm.
 
 ```text
-BATCH 0B — EXPRESSION SHEETS (wide 16:9, pure white background, no text, no labels). Each sheet is a 2x2 grid of head close-ups of the SAME Max as the attached sheet (white oval head only, no body), exactly like the right side of the attached sheet: evenly spaced, same size, same framing. Expressions clear and readable using eyebrows, eye size, mouth and small extras (sweat drops, tears, sparkles, puffs).
+BATCH 0B — EXPRESSION SHEETS (wide 16:9, pure white background, no text, no labels). Each sheet is a 2x2 grid of head close-ups of the SAME Max as the attached sheet (white oval head with the 3-4 curly hair strands, no body), exactly like the right side of the attached sheet: evenly spaced, same size, same framing. Expressions clear and readable using eyebrows, eye size, mouth and small extras (sweat drops, tears, sparkles, puffs).
 1. FILE: max-bieu-cam-1.png — top-left greedy (eyes as small sparkles, eager wide grin) · top-right panicked (bigger eyes, mouth open screaming, sweat drops flying) · bottom-left regretful (eyes looking down, sad mouth) · bottom-right confident (smirk, one eyebrow raised)
 2. FILE: max-bieu-cam-2.png — top-left confused (one eyebrow up, wavy mouth, head tilted) · top-right thinking (eyes looking up to the side, small flat mouth) · bottom-left sad (droopy eyebrows, downturned mouth, one tear) · bottom-right angry (sharp slanted eyebrows, gritted-teeth line, small steam puff)
 3. FILE: max-bieu-cam-3.png — top-left relieved (eyes closed as curves, gentle smile, small exhale puff) · top-right smug (half-closed eyes, one-sided smirk) · bottom-left excited (sparkling eyes, huge open smile) · bottom-right bored (half-closed flat eyes, flat mouth)
@@ -146,10 +155,10 @@ BATCH 0B — EXPRESSION SHEETS (wide 16:9, pure white background, no text, no la
 
 `max-sheet.png` đã có 4 biểu cảm: vui (`vui`), lo âu với miệng lượn sóng + giọt mồ hôi (`lo-lang`), sốc (`soc`), ngượng má hồng. `so-hai` dùng mặt `lo-lang` đẩy mạnh hơn (mắt to hơn, người co lại).
 
-**0C — Bảng nhân vật phụ** (mỗi nhân vật một cuộc trò chuyện; đính kèm `max-sheet.png` làm chuẩn phong cách, tuyệt đối không dùng thân xanh):
+**0C — Bảng nhân vật phụ** (mỗi nhân vật một cuộc trò chuyện; đính kèm `max-sheet.png` (hoặc `max-goc.png` nếu chưa có bảng) làm chuẩn phong cách, tuyệt đối không dùng thân xanh và khăn sọc):
 
 ```text
-BATCH 0C — CHARACTER SHEET for a NEW character, in exactly the same style and the SAME LAYOUT as the attached Max sheet (wide 16:9: LEFT full body standing facing the viewer, arms relaxed; RIGHT 2x2 head-only close-up grid: happy, anxious, shocked, confused). Same build: big white oval head, same small black oval eyes and thin eyebrows, one plain colored rounded egg-shaped body, thin stick arms and legs, small white oval hands and feet, same line weight. Pure white background, no text, no labels. The new character must look clearly different from Max at a glance and its body must NOT be blue #3D73B1.
+BATCH 0C — CHARACTER SHEET for a NEW character, in exactly the same style and the SAME LAYOUT as the attached Max sheet (wide 16:9: LEFT full body standing facing the viewer, arms relaxed; RIGHT 2x2 head-only close-up grid: happy, anxious, shocked, confused). Same build: big white oval head, same small black oval eyes and thin eyebrows, one plain colored rounded egg-shaped body, thin stick arms and legs, small white oval hands and feet, same line weight. Pure white background, no text, no labels. The new character must look clearly different from Max at a glance and its body must NOT be blue #487EB9 and it must NOT wear a striped scarf.
 ```
 Rồi chọn **một** dòng dưới (mỗi lần một nhân vật):
 ```text
@@ -165,7 +174,7 @@ Chốt từng bảng xong thì xin ảnh đơn 1:1 toàn thân: `nhan-vat/brainy
 Chia làm 4 cuộc trò chuyện theo bảng biểu cảm: mục 1, 3, 8, 14 đi với `max-sheet.png`; mục 2, 4, 5, 6 với `max-bieu-cam-1.png`; mục 7, 9, 10, 11 với `max-bieu-cam-2.png`; mục 12, 13, 15, 16 với `max-bieu-cam-3.png`. Dán khối `CHARACTER SPEC — MAX` dưới dòng `BATCH`.
 
 ```text
-BATCH 1 — Max, same character as the attached sheet; copy the matching face from the attached expression sheet (same white oval head, small oval eyes, plain blue #3D73B1 egg-shaped body, stick arms and legs, white oval hands and feet). Pose for all: standing, facing the viewer, arms relaxed (arms may move only if the expression needs it). The face is minimal, so push each emotion with body language too.
+BATCH 1 — Max, same character as the attached sheet; copy the matching face from the attached expression sheet (same white oval head with 3-4 curly hair strands, small oval eyes with highlight dots, navy-white striped scarf, plain blue #487EB9 egg-shaped body, stick arms and legs, white oval hands and feet). Pose for all: standing, facing the viewer, arms relaxed (arms may move only if the expression needs it). The face is minimal, so push each emotion with body language too.
 1. FILE: nhan-vat/max__vui__dung.png — happy, big simple smile
 2. FILE: nhan-vat/max__tham-lam__dung.png — greedy, wide hungry grin, sparkly eyes, leaning forward
 3. FILE: nhan-vat/max__so-hai__dung.png — fearful, eyes wide, small wavy open mouth, shrinking back
@@ -265,7 +274,7 @@ BATCH 3D — Ava, same character as the attached Ava reference.
 5. FILE: nhan-vat/nguoi-hen__hao-hung__dung.png
 6. FILE: nhan-vat/nguoi-hen__vui__ngoi.png — sitting at a small café table, smiling
 
-BATCH 3E — crowds, same stick-figure style as the attached Max sheet (white oval heads, small oval eyes, rounded egg-shaped bodies, stick arms and legs). 7 simple background adults, a few with simple hair shapes, bodies in muted colors (grey, beige, olive, charcoal, mustard, teal — NO blue #3D73B1). Wide 16:9 for these five.
+BATCH 3E — crowds, same stick-figure style as the attached Max sheet (white oval heads, small oval eyes, rounded egg-shaped bodies, stick arms and legs). 7 simple background adults, a few with simple hair shapes, bodies in muted colors (grey, beige, olive, charcoal, mustard, teal — NO blue #487EB9, NO striped scarves). Wide 16:9 for these five.
 1. FILE: nhan-vat/dam-dong__hao-hung__chay.png — excited, all running to the right
 2. FILE: nhan-vat/dam-dong__hoang-loan__bo-chay.png — panicked, running away to the left
 3. FILE: nhan-vat/dam-dong__hao-hung__nhin-len.png — excited, all looking up at the same point
@@ -583,7 +592,7 @@ Gợi ý lô theo nhóm chủ đề (`docs/05` mục danh sách 30 chủ đề) 
 
 | Kiểm | Lỗi hay gặp → câu `redo:` |
 |---|---|
-| Đúng nhân vật | `redo: body must be one plain blue #3D73B1 egg shape / arms must be stick lines / head must be a big white oval, about 40% of height / no hair, no nose` |
+| Đúng nhân vật | `redo: scarf missing (navy-white stripes, one end on the front right) / body must be one plain blue #487EB9 egg shape / arms must be stick lines / head must be a big white oval, about 40% of height / only 3-4 curly hair strands, no nose` |
 | Nền trắng sạch, không bóng | `redo: pure white background, no shadow under feet` |
 | Không chữ / số / logo | `redo: remove all text and numbers` |
 | Nét đều, viền kín | `redo: uniform thick outlines, close all outlines` |

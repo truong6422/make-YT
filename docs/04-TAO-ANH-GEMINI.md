@@ -26,21 +26,22 @@ Nếu ảnh ra nền hơi xám / có bóng: gửi lại câu *"Same image, but p
 
 Max là nhân vật chính, xuất hiện ở hầu hết cảnh. Phải có **một ảnh gốc** chuẩn rồi mọi ảnh sau đều dựa vào nó.
 
-**Thiết kế đã chốt (2026-11-14, thay bản chibi hoodie cam ngày 2026-11-10)**: bảng nhân vật **`kho-mau/_mau-nhan-vat/max-sheet.png`** — người que tối giản:
-- đầu bầu dục trắng to (~40% chiều cao, rộng hơn thân), không tóc / tai / mũi / cổ;
-- mắt là hai bầu dục đen nhỏ dựng đứng, lông mày nét cong mảnh, miệng một nét;
-- **thân là một khối xanh `#3D73B1`** bo tròn hình quả trứng / quả lê (hẹp trên, tròn dưới), không chi tiết quần áo;
+**Thiết kế đã chốt (2026-11-14, thay bản chibi hoodie cam ngày 2026-11-10)**: ảnh gốc **`kho-mau/_mau-nhan-vat/max-goc.png`** — người que tối giản:
+- đầu bầu dục trắng to (~40% chiều cao, rộng hơn thân), **3–4 sợi tóc xoăn mảnh** trên đỉnh, không tai / mũi / cổ;
+- **khăn quàng sọc navy `#1F2A44` – trắng** quấn cổ, một đầu thả trước ngực phía phải người xem;
+- mắt là hai bầu dục đen nhỏ dựng đứng có chấm sáng trắng, lông mày nét cong mảnh, miệng một nét;
+- **thân là một khối xanh `#487EB9`** bo tròn hình quả trứng / quả lê (hẹp trên, tròn dưới), không chi tiết quần áo;
 - **tay và chân đều là nét que mảnh**, bàn tay và bàn chân là bầu dục trắng nhỏ viền đen;
 - biểu cảm thêm: má hồng, giọt mồ hôi xanh nhạt, nét rung khi sốc.
 
-Tay que giúp code vẽ và xoay khớp dễ (`docs/10`). Màu xanh `#3D73B1` dành riêng cho thân Max. `V1-max.png` / `V2-max.png` chỉ còn là lịch sử. Mô tả đầy đủ bằng tiếng Anh (dán được cho Gemini / Muse): `gui-muse/CHARACTER-BRIEF.md` mục 2.
+Tay que giúp code vẽ và xoay khớp dễ (`docs/10`). Thân xanh `#487EB9` và khăn sọc dành riêng cho Max. `V1-max.png` / `V2-max.png` chỉ còn là lịch sử. Mô tả đầy đủ bằng tiếng Anh (dán được cho Gemini / Muse): `gui-muse/CHARACTER-BRIEF.md` mục 2.
 
 ### Bước 2.1 — Bản gốc (đã có)
 
-Bảng `max-sheet.png` là tham chiếu gốc. Ảnh đơn toàn thân dùng trong video: mở cuộc trò chuyện mới, **đính kèm `max-sheet.png`**, gửi:
+Ảnh `max-goc.png` là tham chiếu gốc. Nó đã là ảnh đơn 1:1 nền trắng — chép vào `kho-mau/_cho-xu-ly/nhan-vat/max__goc__dung.png` rồi tách nền là dùng được. Khi cần vẽ lại: mở cuộc trò chuyện mới, **đính kèm `max-goc.png`**, gửi:
 
 ```text
-Using the attached character sheet, redraw ONLY the left full-body figure (Max) exactly as designed: big white oval head, small black vertical oval eyes, thin curved eyebrows, one plain blue #3D73B1 rounded egg-shaped body, thin black stick arms with small white oval hands, thin black stick legs with small white oval feet.
+Using the attached image of Max, redraw him exactly as designed: big white oval head with only 3-4 thin curly hair strands on top, small black vertical oval eyes with a white highlight dot, thin curved eyebrows, a navy-and-white striped scarf around the neck with one end hanging on the front right, one plain blue #487EB9 rounded egg-shaped body, thin black stick arms with small white oval hands, thin black stick legs with small white oval feet.
 Standing straight, facing the viewer, arms relaxed, friendly neutral expression. ONLY ONE figure, full body, centered, generous empty margin.
 Clean uniform black outlines, flat colors, no shading, no shadows, no ground line. Every white area enclosed by a closed black outline.
 Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark, no border. Square 1:1 image.
@@ -52,7 +53,7 @@ Chưa tải ảnh lên được (Gemini hỏi đồng ý điều khoản tải �
 
 ### Bước 2.2 — LUÔN đính kèm ảnh gốc khi tạo ảnh mới của Max
 
-Mỗi biểu cảm / tư thế mới: bấm nút đính kèm (➕ / tải ảnh lên), chọn `max-sheet.png`, rồi gửi prompt theo khuôn dưới. Không đính kèm → Gemini vẽ ra nhân vật khác (thêm tóc / mũi, mắt to tròn, đổi màu áo…).
+Mỗi biểu cảm / tư thế mới: bấm nút đính kèm (➕ / tải ảnh lên), chọn `max-goc.png` (thêm bảng biểu cảm có biểu cảm đang vẽ, nếu đã có), rồi gửi prompt theo khuôn dưới. Không đính kèm → Gemini vẽ ra nhân vật khác (thêm tóc / mũi, mắt to tròn, đổi màu áo…).
 
 Mẹo:
 - Có thể làm nhiều ảnh trong **cùng một cuộc trò chuyện**, nhưng vẫn đính kèm lại ảnh gốc mỗi lần — lâu dần Gemini "trôi" phong cách.
@@ -62,7 +63,7 @@ Mẹo:
 ### Khuôn prompt cho Max (thay 2 chỗ `{...}`)
 
 ```text
-Using the attached character sheet, draw the SAME character Max: big white oval head (about 40% of height, no hair, no ears, no nose, no neck), small solid black vertical oval eyes, thin curved eyebrows, one-line mouth, one plain blue #3D73B1 rounded egg-shaped body with no clothing details, thin black stick arms with small white oval hands, thin black stick legs with small white oval feet, same clean black outlines. Keep the exact same flat 2D style. Only one figure. Every white area enclosed by a closed black outline.
+Using the attached image of Max, draw the SAME character Max: big white oval head (about 40% of height, only 3-4 thin curly hair strands on top, no ears, no nose, no neck), small solid black vertical oval eyes with a white highlight dot, thin curved eyebrows, one-line mouth, a navy-and-white striped scarf around the neck with one end hanging on the front right, one plain blue #487EB9 rounded egg-shaped body with no clothing details, thin black stick arms with small white oval hands, thin black stick legs with small white oval feet, same clean black outlines. Keep the exact same flat 2D style. Only one figure. Every white area enclosed by a closed black outline.
 Expression: {EXPRESSION}, strong and clearly readable.
 Pose: {POSE}.
 Full body visible, centered, generous empty margin. No shading, no shadows, no gradients.
@@ -113,7 +114,7 @@ Tổ hợp đầy đủ 16 × 6 = 96 ảnh — **không cần làm hết**. Làm
 `max__lo-lang__cam-dien-thoai.png`:
 
 ```text
-Using the attached character sheet, draw the SAME character Max: big white oval head (about 40% of height, no hair, no ears, no nose, no neck), small solid black vertical oval eyes, thin curved eyebrows, one-line mouth, one plain blue #3D73B1 rounded egg-shaped body with no clothing details, thin black stick arms with small white oval hands, thin black stick legs with small white oval feet, same clean black outlines. Keep the exact same flat 2D style. Only one figure. Every white area enclosed by a closed black outline.
+Using the attached image of Max, draw the SAME character Max: big white oval head (about 40% of height, only 3-4 thin curly hair strands on top, no ears, no nose, no neck), small solid black vertical oval eyes with a white highlight dot, thin curved eyebrows, one-line mouth, a navy-and-white striped scarf around the neck with one end hanging on the front right, one plain blue #487EB9 rounded egg-shaped body with no clothing details, thin black stick arms with small white oval hands, thin black stick legs with small white oval feet, same clean black outlines. Keep the exact same flat 2D style. Only one figure. Every white area enclosed by a closed black outline.
 Expression: anxious, worried eyebrows, wobbly mouth, one sweat drop on the head, strong and clearly readable.
 Pose: standing, holding a smartphone in front of the face, the phone screen shows a simple line chart (no numbers, no text).
 Full body visible, centered, generous empty margin. No shading, no shadows, no gradients.
@@ -139,7 +140,7 @@ Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark. 
 
 **Bạn của Max** — `nhan-vat/ban__<bieu-cam>__<tu-the>.png` (dùng khi câu chuyện cần người thứ hai)
 ```text
-Using the attached reference image of Max ONLY as a style reference, create a NEW character: Max's friend Sam, the same build and flat 2D style as Max (big white oval head, small black oval eyes, thin eyebrows, one rounded egg-shaped body, stick arms and legs, small white oval hands and feet), with a mustard (#F2B33D) body and a small tuft of curly black hair on top of the head. NOT blue. Must look clearly different from Max at a glance.
+Using the attached reference image of Max ONLY as a style reference, create a NEW character: Max's friend Sam, the same build and flat 2D style as Max (big white oval head, small black oval eyes, thin eyebrows, one rounded egg-shaped body, stick arms and legs, small white oval hands and feet), with a mustard (#F2B33D) body and a small tuft of curly black hair on top of the head. NOT blue, no striped scarf. Must look clearly different from Max at a glance.
 Expression: friendly smile. Pose: standing, facing the viewer, one hand waving.
 Only one figure. Full body, centered, generous margin. No shading, no shadows.
 Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark. Square 1:1 image.
@@ -147,7 +148,7 @@ Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark. 
 
 **Đám đông** — `nhan-vat/dam-dong__<bieu-cam>__<tu-the>.png` (vd. `dam-dong__hao-hung__chay.png`)
 ```text
-In the same flat 2D stick-figure style as the attached character sheet of Max (big white oval heads, small black oval eyes, thin eyebrows, rounded egg-shaped bodies, stick arms and legs, clean black outlines, flat colors), draw a crowd of 7 simple background people with bodies in varied muted colors (grey, beige, olive, charcoal, mustard, teal — NO blue, blue #3D73B1 is reserved for Max), a few with simple hair shapes, all slightly different sizes, grouped together.
+In the same flat 2D stick-figure style as the attached character sheet of Max (big white oval heads, small black oval eyes, thin eyebrows, rounded egg-shaped bodies, stick arms and legs, clean black outlines, flat colors), draw a crowd of 7 simple background people with bodies in varied muted colors (grey, beige, olive, charcoal, mustard, teal — NO blue and NO striped scarves, both are reserved for Max), a few with simple hair shapes, all slightly different sizes, grouped together.
 They are all {excited, running to the right in the same direction | panicked, running away to the left | standing and looking up at the same point}.
 No shading, no shadows. Pure white background (#FFFFFF). No text, no letters, no numbers, no watermark.
 16:9 image.

@@ -137,7 +137,7 @@ Theo quy tắc chung `04-TAO-ANH-GEMINI.md` mục 1 (nền trắng tinh, không 
 
 Đầu (không mặt — mặt là lớp riêng):
 ```text
-Using the attached reference image of Max, draw ONLY his head: the same big white oval with the same clean black outline, completely blank face (no eyes, no mouth, no eyebrows, no blush), no hair, no ears, no nose. No neck, no body. Head centered, upright, generous empty margin around it (the head fills about half of the image width).
+Using the attached reference image of Max, draw ONLY his head: the same big white oval with the same clean black outline, completely blank face (no eyes, no mouth, no eyebrows, no blush), keep the same 3-4 thin curly hair strands on top, no ears, no nose. No neck, no body. Head centered, upright, generous empty margin around it (the head fills about half of the image width).
 Flat 2D, no shading, no shadow. Pure white background (#FFFFFF). No text. Square 1:1 image.
 ```
 Tay / chân / thân (một đoạn):
@@ -145,7 +145,7 @@ Tay / chân / thân (một đoạn):
 Using the attached reference image of Max, draw ONLY his {PART}, as a separate cut-out piece for puppet animation: perfectly vertical and straight, same colors, same thick black outline, rounded ends so it can rotate at the joint. Nothing else in the image. Centered, generous margin.
 Pure white background (#FFFFFF). No shading, no text. Tall portrait image 1:3.
 ```
-`{PART}`: `body: one plain blue #3D73B1 rounded egg / pear shape with a thin black outline, no arms, no head, no legs` (bộ phận duy nhất thật sự cần Muse vẽ). Tay / chân là nét que và bàn tay / bàn chân là bầu dục trắng — đơn giản tới mức code vẽ được trực tiếp, không cần ảnh; nếu vẫn muốn ảnh thì `{PART}` = `upper arm as a single thin black stick line` / `forearm as a single thin black stick line ending in a small white vertical oval hand` / `upper leg as a single thin black stick line` / `lower leg as a single thin black stick line ending in a small white horizontal oval foot`.
+`{PART}`: `body: one plain blue #487EB9 rounded egg / pear shape with a thin black outline, no arms, no head, no legs` và `scarf: the navy-and-white striped scarf as one piece — the ring around the neck plus the end hanging down the front right` (hai bộ phận thật sự cần Muse vẽ; tóc 3–4 sợi xoăn vẽ kèm `dau.png`). Tay / chân là nét que và bàn tay / bàn chân là bầu dục trắng — đơn giản tới mức code vẽ được trực tiếp, không cần ảnh; nếu vẫn muốn ảnh thì `{PART}` = `upper arm as a single thin black stick line` / `forearm as a single thin black stick line ending in a small white vertical oval hand` / `upper leg as a single thin black stick line` / `lower leg as a single thin black stick line ending in a small white horizontal oval foot`.
 
 Mắt theo biểu cảm (cùng khung với đầu, để chồng khít):
 ```text

@@ -1,6 +1,6 @@
 # Mẫu nhân vật
 
-**ĐÃ CHỐT LẠI (2026-11-14, người dùng chọn)**: `max-sheet.png` — Max là **người que đầu bầu dục trắng, thân một khối xanh `#3D73B1`** hình quả trứng (không chi tiết quần áo), **tay và chân đều là nét que**, bàn tay / bàn chân bầu dục trắng; mắt bầu dục đen nhỏ, lông mày nét mảnh. Cùng ngày đã thử bản hoodie xanh `#4A81B7` có tay áo, rồi bỏ vì tay áo khó làm cử động. Bảng này thay hoàn toàn bản chibi hoodie cam V1 + V2 bên dưới. Mô tả tiếng Anh dùng cho Muse / Gemini: `gui-muse/CHARACTER-BRIEF.md`.
+**ĐÃ CHỐT LẠI (2026-11-14, người dùng chọn)**: `max-goc.png` (bản cuối) — Max là **người que đầu bầu dục trắng có 3–4 sợi tóc xoăn**, **khăn quàng sọc navy–trắng** (một đầu thả trước ngực bên phải), **thân một khối xanh `#487EB9`** hình quả trứng, **tay và chân đều là nét que**, bàn tay / bàn chân bầu dục trắng; mắt bầu dục đen nhỏ có chấm sáng, lông mày nét mảnh. `max-bieu-cam-mau.png` là bản thử trước đó (chưa có tóc, khăn) — chỉ giữ làm mẫu kiểu biểu cảm. Cùng ngày đã thử bản hoodie xanh `#4A81B7` có tay áo, rồi bỏ vì tay áo khó làm cử động. Bảng này thay hoàn toàn bản chibi hoodie cam V1 + V2 bên dưới. Mô tả tiếng Anh dùng cho Muse / Gemini: `gui-muse/CHARACTER-BRIEF.md`.
 
 `V1-max.png`, `V2-max.png` và phần ghi chép dưới đây giữ lại làm lịch sử, **không dùng làm tham chiếu nữa**.
 
