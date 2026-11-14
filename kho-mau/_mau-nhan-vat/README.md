@@ -1,4 +1,12 @@
-# Mẫu nhân vật thử (Gemini) — đợt 2026-11-10
+# Mẫu nhân vật
+
+**ĐÃ CHỐT LẠI (2026-11-14, người dùng chọn)**: `max-sheet.png` — Max là **người que đầu tròn trắng, hoodie xanh `#4A81B7`** (mũ gập quanh cổ, cổ V trắng, hai dây rút, túi kangaroo), tay găng trắng, chân que, giày bầu dục trắng; mắt bầu dục đen nhỏ, lông mày nét mảnh. Bảng này thay hoàn toàn bản chibi hoodie cam V1 + V2 bên dưới. Mô tả tiếng Anh dùng cho Muse / Gemini: `gui-muse/CHARACTER-BRIEF.md`.
+
+`V1-max.png`, `V2-max.png` và phần ghi chép dưới đây giữ lại làm lịch sử, **không dùng làm tham chiếu nữa**.
+
+---
+
+## Lịch sử: đợt mẫu chibi (Gemini) 2026-11-10
 
 Định hướng: theo phần "Bài học" ở `docs/doi-thu/nhom-1-kenh-lon.md` và `docs/doi-thu/nhom-2-moi-noi.md` — một nhân vật chính cố định "Max", hoodie cam #FF7A1A + chỏm tóc vểnh đen, quần navy, bảng màu cam / navy / teal #2EC4B6 / trắng ngà.
 

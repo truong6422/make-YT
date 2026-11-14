@@ -2,7 +2,7 @@
 
 Repo tự động dựng video YouTube hoạt hình người que về **tâm lý học con người** cho người xem nước ngoài.
 
-**Định vị kênh: kênh TÂM LÝ HỌC, không phải kênh / chuyên gia tài chính.** Tiền bạc, mua sắm, đầu tư chỉ là một mảng ví dụ để giải thích thiên kiến và hành vi con người (bên cạnh quan hệ, thói quen, công việc, mạng xã hội…). Không đưa lời khuyên đầu tư, không gợi ý mua / bán mã nào, không dự đoán thị trường; người kể là người kể chuyện giáo dục; nhân vật: Max (người đi làm 25–30 tuổi, hoodie cam) và Brainy (bộ não hồng, kể nghiên cứu) — **không có nhân vật chuyên gia / bác sĩ** (chính sách YouTube, xem docs/12). Khoảng 60–70% chủ đề là tâm lý đời sống chung, 30–40% là tâm lý tiền bạc. Python 3.11, gói `nguoique/`, lệnh `nq` (Pillow vẽ khung → ffmpeg; giọng Kokoro chạy local). Đọc `README.md` để nắm quy trình.
+**Định vị kênh: kênh TÂM LÝ HỌC, không phải kênh / chuyên gia tài chính.** Tiền bạc, mua sắm, đầu tư chỉ là một mảng ví dụ để giải thích thiên kiến và hành vi con người (bên cạnh quan hệ, thói quen, công việc, mạng xã hội…). Không đưa lời khuyên đầu tư, không gợi ý mua / bán mã nào, không dự đoán thị trường; người kể là người kể chuyện giáo dục; nhân vật: Max (người đi làm 25–30 tuổi, vẽ kiểu người que đầu tròn trắng, hoodie xanh `#4A81B7`; mẫu chốt `kho-mau/_mau-nhan-vat/max-sheet.png`) và Brainy (bộ não hồng, kể nghiên cứu) — **không có nhân vật chuyên gia / bác sĩ** (chính sách YouTube, xem docs/12). Khoảng 60–70% chủ đề là tâm lý đời sống chung, 30–40% là tâm lý tiền bạc. Python 3.11, gói `nguoique/`, lệnh `nq` (Pillow vẽ khung → ffmpeg; giọng Kokoro chạy local). Đọc `README.md` để nắm quy trình.
 
 ## Ngôn ngữ
 - **Trả lời người dùng bằng tiếng Việt.** Tài liệu, thông báo CLI, tên lệnh: tiếng Việt.
@@ -14,6 +14,7 @@ Repo tự động dựng video YouTube hoạt hình người que về **tâm lý
 - `docs/02-KHUON-PHONG-CACH.md` — nhịp cảnh, bố cục, màu, hiệu ứng khi viết kịch bản.
 - `docs/05-VIET-KICH-BAN.md` — cấu trúc kịch bản, kiểm chứng nguồn, không bịa số liệu / nghiên cứu.
 - `docs/04-TAO-ANH-GEMINI.md` — tên tệp và prompt khi cần ảnh mới.
+- `docs/13-KE-HOACH-KHO-HINH.md` — kế hoạch làm kho hình bằng Muse bản web: bảng nhân vật mẫu, khối lô dán cho Muse, gói ảnh theo video. Khi `/kich-ban` liệt kê ảnh thiếu, xuất thêm dạng khối `FILE: ...` của mục 5 để người dùng dán vào Muse.
 - `docs/12-CHINH-SACH-YOUTUBE.md` — **chính sách kiếm tiền YouTube**: mỗi video một câu chuyện riêng của Max (không làm hàng loạt theo khuôn), không nhân vật AI đóng chuyên gia / bác sĩ, không kê đơn sức khoẻ / tinh thần / tài chính, chủ đề cần tránh, danh sách kiểm bắt buộc cho mọi kịch bản.
 
 ## Quy tắc cứng

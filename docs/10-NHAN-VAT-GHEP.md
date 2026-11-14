@@ -137,7 +137,7 @@ Theo quy tắc chung `04-TAO-ANH-GEMINI.md` mục 1 (nền trắng tinh, không 
 
 Đầu (không mặt — mặt là lớp riêng):
 ```text
-Using the attached reference image of Max, draw ONLY his head: the same head shape, light peach skin, short black hair with the same black cowlick tuft, same thick black outline, completely blank face (no eyes, no mouth, no eyebrows, no blush). No neck, no hoodie. Head centered, upright, generous empty margin around it (the head fills about half of the image width).
+Using the attached reference image of Max, draw ONLY his head: the same big white circle with the same thick black outline, completely blank face (no eyes, no mouth, no eyebrows, no blush), no hair, no ears, no nose. No neck, no hoodie collar. Head centered, upright, generous empty margin around it (the head fills about half of the image width).
 Flat 2D, no shading, no shadow. Pure white background (#FFFFFF). No text. Square 1:1 image.
 ```
 Tay / chân / thân (một đoạn):
@@ -145,7 +145,7 @@ Tay / chân / thân (một đoạn):
 Using the attached reference image of Max, draw ONLY his {PART}, as a separate cut-out piece for puppet animation: perfectly vertical and straight, same colors, same thick black outline, rounded ends so it can rotate at the joint. Nothing else in the image. Centered, generous margin.
 Pure white background (#FFFFFF). No shading, no text. Tall portrait image 1:3.
 ```
-`{PART}`: `upper arm in the orange hoodie sleeve` / `forearm in the orange hoodie sleeve ending in a simple peach mitten hand` / `thigh in navy pants` / `lower leg in navy pants ending in a teal shoe seen from the front` / `torso in the orange hoodie, no arms, no head, no legs`.
+`{PART}`: `upper arm in the blue #4A81B7 hoodie sleeve` / `forearm in the blue #4A81B7 hoodie sleeve with a ribbed cuff, ending in a white mitten hand with a small thumb` / `upper leg as a single thin black stick line` / `lower leg as a single thin black stick line ending in a small white oval shoe seen from the front` / `torso in the blue #4A81B7 hoodie with folded hood collar, white V neckline, two drawstrings and kangaroo pocket, no arms, no head, no legs`.
 
 Mắt theo biểu cảm (cùng khung với đầu, để chồng khít):
 ```text
